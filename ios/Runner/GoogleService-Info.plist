@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>974564752383-mc6bugb8rau3vnjo4pjm8t6f9akgc3i2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.974564752383-mc6bugb8rau3vnjo4pjm8t6f9akgc3i2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDnn-eW_AeH28be4nbDmYtg-6_WOJSSCF4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>974564752383</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.manikhweherbs.manikhwe-herbs</string>
+	<key>PROJECT_ID</key>
+	<string>manikhwe-herbs</string>
+	<key>STORAGE_BUCKET</key>
+	<string>manikhwe-herbs.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:974564752383:ios:ad6b4d62619d8db9fc45ca</string>
+</dict>
+</plist>
