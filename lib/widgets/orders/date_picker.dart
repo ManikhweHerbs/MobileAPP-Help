@@ -43,7 +43,7 @@ class _DatePickerState extends State<DatePicker>{
 
   Future pickDate(BuildContext context) async{
     
-    final initialDate = DateTime.now().add(const Duration(days: 14));
+    final initialDate = DateTime.now().add(const Duration(days: 3));
     final newDate = await showDatePicker(
       context: context,
       initialDate: initialDate,

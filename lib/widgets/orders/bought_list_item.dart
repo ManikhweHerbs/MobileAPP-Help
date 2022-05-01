@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:manikhwe_herbs/models/product_management.dart';
 
+//bool isIOS = Theme.of(context).platform == TargetPlatform.iOS;
+//bool isAndroid = Theme.of(context).platform == TargetPlatform.android;
+
 typedef OrderChangedCallback = Function(Product product);
 
 class BoughtListItem extends StatelessWidget {

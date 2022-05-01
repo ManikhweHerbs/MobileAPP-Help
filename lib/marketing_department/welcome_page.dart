@@ -30,7 +30,7 @@ class WelcomeScreen extends StatelessWidget{
                 Padding(
                   padding: EdgeInsets.symmetric(horizontal: 32),
                   child: Text(
-                    Languages.successReport1[languageIndex] + generatedRefId + Languages.successReport2[languageIndex],
+                    Languages.successReport1[languageIndex] + generatedRefId + Languages.successReport2[languageIndex]+ generatedRefId,
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 18, 
@@ -93,7 +93,7 @@ class Languages{
 
   static List<String> successReport2 = [  
     ' Umangabe Umuntu Omtholile Ekhokhela Iorder Lakhe Ebank, Umtshele Kwi Reference Afake Inumber Yakhe Kanye Ne Ref Id Yakho.'
-    'Izibonelo 0717572711ABC, 0656061459DFZ, 0711494472BMQ',
+    'Isibonelo 0717572711',
   ];
 
 }

@@ -8,6 +8,7 @@ import 'package:manikhwe_herbs/models/results/trees_results.dart';
 import 'package:manikhwe_herbs/models/trees.dart';
 
 import 'language_management.dart';
+import 'dart:io' show Platform;
 
 
 abstract class Product{
@@ -26,7 +27,7 @@ abstract class Product{
 
   Product(this.languageIndex,{
     this.name = '',
-    this.price = 100,
+    this.price = 150.0,
     this.language = 'Zulu',
     this.iyagquma = false,
     this.iyageza = false,
@@ -39,7 +40,7 @@ abstract class Product{
       case 'Zulu':languageIndex = 0;break;
 
     }
-    price = 100;
+    price = Platform.isAndroid?150:250;
   }
 
   Product.fromJson(Map<String, dynamic> json): 
@@ -610,7 +611,7 @@ class Thandeka extends Umuthi{
 
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
-    price = 180;
+    price = Platform.isAndroid?180:320;
 
     iyagquma = true;
     iyaphalaza = true;
@@ -642,7 +643,7 @@ class Thandekile extends Umuthi{
 
     Owner ganyile = Owner("Lwandile Ganyile", "Mayville Cato Crest 6257", true);
     owner = ganyile;
-    price = 180;
+    price = Platform.isAndroid?180:350;
 
     iyagquma = true;
     iyaphalaza = true;
@@ -681,7 +682,7 @@ class Mehlothando extends Umuthi{
 
     Owner makhuzwayo = Owner("Makhuzwayo", "Dalton", false);
     owner = makhuzwayo;
-    price = 180;
+    price = Platform.isAndroid?180:250;
 
     iyagquma = true;
     iyaphalaza = true;
@@ -711,7 +712,7 @@ class Thengani extends Umuthi{
 
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
-    price = 200;
+    price = Platform.isAndroid?200:350;
 
     iyachela = true;
 
@@ -742,7 +743,7 @@ class Khanyisa extends Umuthi{
 
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
-    price = 200;
+    price = Platform.isAndroid?200:400;
 
     iyaphalaza = true;
     amakhubalo.add(IphakamaLamanzi());
@@ -777,7 +778,7 @@ class Belungubami extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 300;
+    price = Platform.isAndroid?300:650;
     
     amakhubalo.add(Uskhundla());
     amakhubalo.add(Umyezane());
@@ -838,7 +839,7 @@ class Usemndenini extends Umuthi{
 
     Owner makhuzwayo = Owner("Makhuzwayo", "Dalton", false);
     owner = makhuzwayo;
-    price = 150;
+    price = Platform.isAndroid?150:300;
 
     iyagquma = true;
     iyaphalaza = true;
@@ -869,7 +870,7 @@ class Sukakimi extends Umuthi{
 
     Owner magumede = Owner("Magumede", "Dalton", false);
     owner = magumede;
-    price = 150;
+    price = Platform.isAndroid?150:300;
 
     iyagquma = true;
     iyaphalaza = true;
@@ -900,7 +901,7 @@ class Qalala extends Umuthi{
 
     Owner ganyile = Owner("Ganyile Lwandile", "Mayville Cato Crest 6257", true);
     owner = ganyile;
-    price = 150;
+    price = Platform.isAndroid?150:250;
 
     iyagquma = true;
     iyaphalaza = true;
@@ -932,7 +933,7 @@ class Safisithosami extends Umuthi{
 
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
-    price = 260;
+    price = Platform.isAndroid?360:560;
 
     iyagquma = true;
     iyaphalaza = true;
@@ -967,7 +968,7 @@ class Sikimi extends Umuthi{
 
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
-    price = 150;
+    price = Platform.isAndroid?150:250;
 
     iyagquma = true;
     iyaphalaza = true;
@@ -1011,7 +1012,7 @@ class Sisegcekeni extends Umuthi{
 
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
-    price = 180;
+    price = Platform.isAndroid?180:280;
     
     iyachela = true;
     amakhubalo.add(Sgenama(true)); // noma esinjani i'm not sure.
@@ -1045,7 +1046,7 @@ class Mzimboshisayo extends Umuthi{
 
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
-    price = 200;
+    price = Platform.isAndroid?200:450;
     
     iyachela = true;
     amakhubalo.add(Ilabatheka(true)); 
@@ -1095,7 +1096,7 @@ class Mitha extends Umuthi{
 
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
-    price = 295;
+    price = Platform.isAndroid?295:495;
     
     iyachela = true;
     amakhubalo.add(Ithombonkala()); 
@@ -1136,7 +1137,7 @@ class Nkomemnandi extends Umuthi{
 
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
-    price = 150;
+    price = Platform.isAndroid?150:300;
     
     iyachela = true;
     amakhubalo.add(Ilabatheka( false)); 
@@ -1172,7 +1173,7 @@ class Labongidlozi extends Umuthi{
 
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
-    price = 150;
+    price = Platform.isAndroid?250:450;
     
     iyachela = true;
     amakhubalo.add(Umlahleni()); 
@@ -1216,7 +1217,7 @@ class Skhundla extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
 
-    price = 550;
+    price = Platform.isAndroid?550:850;
     
     iyachela = true;
     amakhubalo.add(Unongamela()); 
@@ -1258,7 +1259,7 @@ class GezaUmsamo extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
 
-    price = 130;
+    price = Platform.isAndroid?300:550;
     
     iyachela = true;
     amakhubalo.add(Umadlozane()); 
@@ -1303,7 +1304,7 @@ class Bhemuphuphe extends Umuthi{
 
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
-    price = 180;
+    price = Platform.isAndroid?180:380;
     
     iyachela = true;
     amakhubalo.add(Umkhondweni()); 
@@ -1338,7 +1339,7 @@ class Mhlonipheni extends Umuthi{
 
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
-    price = 250;
+    price = Platform.isAndroid?250:495;
     
     iyachela = true;
     amakhubalo.add(Umnyamathi()); 
@@ -1377,7 +1378,7 @@ class Sabeka extends Umuthi{
 
     Owner ganyile = Owner("Ganyile Lwandile", "Mayville Cato Crest 6257", true);
     owner = ganyile;
-    price = 180;
+    price = Platform.isAndroid?180:380;
 
     iyagquma = true;
     iyaphalaza = true;
@@ -1411,7 +1412,7 @@ class Ngphuphe extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
 
-    price = 150;
+    price = Platform.isAndroid?150:320;
 
     iyagquma = true;
     iyaphalaza = true;
@@ -1451,7 +1452,7 @@ class Abakhokhe extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
 
-    price = 250;
+    price = Platform.isAndroid?250:550;
 
     iyagquma = true;
     iyaphalaza = true;
@@ -1487,7 +1488,7 @@ class Uyangikweleta extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
 
-    price = 280;
+    price = Platform.isAndroid?280:520;
 
     amakhubalo.add(Intwalubombo()); 
     Umnqandane umnqandane = Umnqandane();
@@ -1523,7 +1524,7 @@ class Mdayisiwecala extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
 
-    price = 1450;
+    price = Platform.isAndroid?1450:2850;
 
     iyagquma = true;
     iyaphalaza = true;
@@ -1594,7 +1595,7 @@ class Kuthole extends Umuthi{
     iyagquma = true;
     iyageza = true; 
 
-    price = 180;
+    price = Platform.isAndroid?180:395;
 
     amakhubalo.add(Umkhanyakude());
     amakhubalo.add(Iqhume());
@@ -1626,7 +1627,7 @@ class Wozanibathengi extends Umuthi{
     iyaphalaza = true;
     iyagquma = true;
     iyageza = true; 
-    price = 450;
+    price = Platform.isAndroid?450:685;
 
     // Lamakhubalo awaxutshwa nalomuthi, Kodwa uqale usebenzise wona.
     amakhubalo.add(Inhlambamanzi());
@@ -1667,7 +1668,7 @@ class Bolisa extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 180;
+    price = Platform.isAndroid?180:375;
 
     amakhubalo.add(Umbola());
 
@@ -1698,7 +1699,7 @@ class Zaqaqeka extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 200;
+    price = Platform.isAndroid?200:485;
 
     amakhubalo.add(Ubhubhubhu());
     amakhubalo.add(Umqaqi());
@@ -1730,7 +1731,7 @@ class Akabuye extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 450;
+    price = Platform.isAndroid?450:795;
 
     amakhubalo.add(Umbili());
     amakhubalo.add(Sukasambe());
@@ -1803,7 +1804,7 @@ class Isigqabosothando extends Umuthi{
     iyagquma = true;
     iyageza = true; 
 
-    price = 180;
+    price = Platform.isAndroid?180:345;
 
     amakhubalo.add(Umkhanyakude());
     amakhubalo.add(Velemoyeni());
@@ -1858,7 +1859,7 @@ class Ngthandeni extends Umuthi{
     iyagquma = true;
     iyageza = true; 
 
-    price = 180;
+    price = Platform.isAndroid?180:375;
 
     amakhubalo.add(Donsuthando());
     amakhubalo.add(Mlomomnandi());
@@ -1896,7 +1897,7 @@ class Akondle extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
      
-    price = 200;
+    price = Platform.isAndroid?350:550;
 
     amakhubalo.add(Umnyamathi());
     amakhubalo.add(Sehlulamanye());
@@ -1956,7 +1957,7 @@ class Masendamakhulu extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 380;
+    price = Platform.isAndroid?380:695;
 
     amakhubalo.add(Inkomfe());
     amakhubalo.add(Umahlokoloza());
@@ -1991,7 +1992,7 @@ class Qinanduku extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 200;
+    price = Platform.isAndroid?200:385;
 
     amakhubalo.add(Ukhovithi());
     amakhubalo.add(Uqonsi());
@@ -2022,7 +2023,7 @@ class Vikasbhamu extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 1200;
+    price = Platform.isAndroid?1200:1985;
 
     amakhubalo.add(Mbizakayivuthwa());
     amakhubalo.add(Unkungwini()); 
@@ -2063,7 +2064,7 @@ class Alingathethwa extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 1200;
+    price = Platform.isAndroid?1200:2500;
 
     amakhubalo.add(Umayisaka('obovu')); // Noma Imuphi Will Do It I Guess.
     amakhubalo.add(Ucalakalithethwa()); 
@@ -2100,7 +2101,7 @@ class Qedacala extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 1200;
+    price = Platform.isAndroid?1200:2395;
 
     amakhubalo.add(Mthunyelelwa()); 
     amakhubalo.add(Mayime());
@@ -2132,7 +2133,7 @@ class Nqobacala extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 1200;
+    price = Platform.isAndroid?1200:1895;
 
     amakhubalo.add(Ucalakalithethwa()); 
     amakhubalo.add(Umhlakaza());
@@ -2165,7 +2166,7 @@ class Mndenongaxabani extends Umuthi{
     owner = lwandile;
 
     iyaphalaza = true;
-    price = 300;
+    price = Platform.isAndroid?300:650;
 
     amakhubalo.add(Ibunda()); 
     amakhubalo.add(Mayime());
@@ -2209,7 +2210,7 @@ class Mndenozwanayo extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 275;
+    price = Platform.isAndroid?275:575;
 
     amakhubalo.add(Untulwa()); 
     amakhubalo.add(Umganu());
@@ -2244,7 +2245,7 @@ class Mpilemnandi extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 300;
+    price = Platform.isAndroid?300:575;
 
     amakhubalo.add(Imfeyenkawu()); 
     amakhubalo.add(IphakamaLogagane());
@@ -2277,7 +2278,7 @@ class Hambamthakathi extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 350;
+    price = Platform.isAndroid?350:575;
 
     amakhubalo.add(Qeduhlobo()); 
     amakhubalo.add(Mpikayihlangulwa());
@@ -2309,7 +2310,7 @@ class Hambamoyombi extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 255;
+    price = Platform.isAndroid?255:455;
 
     amakhubalo.add(Umagwazucaca()); 
     amakhubalo.add(Impila());
@@ -2347,7 +2348,7 @@ class Ubelethiswane extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 385;
+    price = Platform.isAndroid?385:585;
 
     amakhubalo.add(Umhlakaza(umbala: 'Omnyama')); 
     amakhubalo.add(Unukani( true));
@@ -2388,7 +2389,7 @@ class Donsamali extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 345;
+    price = Platform.isAndroid?345:565;
 
     amakhubalo.add(Iphuphuma()); 
     amakhubalo.add(Sondeza());
@@ -2431,7 +2432,7 @@ class Malungabaleki extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 225;
+    price = Platform.isAndroid?225:495;
 
     amakhubalo.add(Isthaphuka()); 
     amakhubalo.add(Iletha());
@@ -2463,7 +2464,7 @@ class SbambeleloXXX extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 200;
+    price = Platform.isAndroid?200:345;
 
     amakhubalo.add(Umathinta()); 
     amakhubalo.add(Umunyu());
@@ -2508,7 +2509,7 @@ class SbambeleloXYZ extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 595;
+    price = Platform.isAndroid?795:1020;
 
     amakhubalo.add(Uvutha()); 
     amakhubalo.add(Usokalakwazulu());
@@ -2602,7 +2603,7 @@ class Qaqabethakathile extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 145;
+    price = Platform.isAndroid?145:295;
 
     amakhubalo.add(Mavulakuvaliwe()); 
     amakhubalo.add(Phindemva());
@@ -2637,7 +2638,7 @@ class Gezamabhadi extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 330;
+    price = Platform.isAndroid?330:620;
 
     // Step 1 - Umuthi Wokuqala
     amakhubalo.add(Umhlakaza()); 
@@ -2689,7 +2690,7 @@ class IsibungeXXX extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 1230;
+    price = Platform.isAndroid?1230:1800;
 
 
     amakhubalo.add(Ikhokhelo()); 
@@ -2778,7 +2779,7 @@ class Ozalwembethe extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 375;
+    price = Platform.isAndroid?375:525;
 
     amakhubalo.add(Unhlanhlemhlophe()); 
       
@@ -2817,7 +2818,7 @@ class NyokaEsiswini extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 395;
+    price = Platform.isAndroid?395:535;
 
     Umqoqongo umqoqongo = Umqoqongo();
     umqoqongo.description = 'Impande';
@@ -2851,7 +2852,7 @@ class Kufogadlayo extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 595;
+    price = Platform.isAndroid?595:735;
 
     Ubhejane ubhejane = Ubhejane();
     ubhejane.part = 'Uphondo';
@@ -2903,7 +2904,7 @@ class VulidloziXXX extends Umuthi{
 
     iyaphalaza = true;
     iyagquma = true;
-    price = 160;
+    price = Platform.isAndroid?160:320;
  
     amakhubalo.add(Umalibuye());
     amakhubalo.add(Ubhubhubhu());
@@ -2933,7 +2934,7 @@ class Vulidlozi extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 360;
+    price = Platform.isAndroid?360:655;
 
     Vuka vuka = Vuka();
     vuka.part = 'Ixolo';
@@ -3004,7 +3005,7 @@ class Azwewenefonini extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 200;
+    price = Platform.isAndroid?200:450;
 
     Indabulaluvalo indabulaluvalo = Indabulaluvalo();
     indabulaluvalo.description = 'Yonke';
@@ -3046,7 +3047,7 @@ class OwenhlanhlaXXX extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 160;
+    price = Platform.isAndroid?160:385;
  
     amakhubalo.add(Uslepe());
     amakhubalo.add(Umayisaka('omhlophe'));
@@ -3078,7 +3079,7 @@ class LahlokubiXXX extends Umuthi{
     owner = ntshangase;
 
     iyaphalaza = true;
-    price = 240;
+    price = Platform.isAndroid?240:485;
  
     amakhubalo.add(Umganu());
     amakhubalo.add(Umnyamathi());
@@ -3112,7 +3113,7 @@ class Maqaqabebophile extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 185;
+    price = Platform.isAndroid?185:365;
  
     amakhubalo.add(Mavulakuvaliwe());
     amakhubalo.add(Sehlulamanye());
@@ -3144,7 +3145,7 @@ class Bohlasisu extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 585;
+    price = Platform.isAndroid?585:795;
  
     Umbunga umbunga = Umbunga();
     umbunga.part = 'Roots';
@@ -3179,7 +3180,7 @@ class Qedanduna extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 140;
+    price = Platform.isAndroid?140:350;
 
     amakhubalo.add(Umgxamu());
     amakhubalo.add(Ihluze());
@@ -3208,7 +3209,7 @@ class Vukanduku extends Umuthi{
     Owner ntshangase = Owner("Malume Thofo", "Emancwanini", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 245;
+    price = Platform.isAndroid?245:475;
 
     amakhubalo.add(Ihlunguhlungu());
     amakhubalo.add(Iqhobolozela());
@@ -3238,7 +3239,7 @@ class Webeleni extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 345;
+    price = Platform.isAndroid?345:565;
 
     amakhubalo.add(Phindemva());
     amakhubalo.add(Mthunyelelwa());
@@ -3279,7 +3280,7 @@ class Babambanokwezinja extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 285;
+    price = Platform.isAndroid?285:425;
 
     Isnama isnama = Isnama();
     isnama.description = 'Zonke Izinhlobo Zesinama';
@@ -3326,7 +3327,7 @@ class Tholamawele extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 385;
+    price = Platform.isAndroid?385:650;
 
 
     amakhubalo.add(Udlutshani());
@@ -3358,7 +3359,7 @@ class BohlasisuXXX extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 385;
+    price = Platform.isAndroid?385:545;
  
     
 
@@ -3402,7 +3403,7 @@ class OshimileXXX extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 150;
+    price = Platform.isAndroid?150:395;
  
     amakhubalo.add(Usmayedwa());
     amakhubalo.add(Ismemo());
@@ -3434,7 +3435,7 @@ class SusaschithoXXX extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 295;
+    price = Platform.isAndroid?295:495;
 
     amakhubalo.add(Inhlambamanzi());
     amakhubalo.add(Maphipha());
@@ -3480,7 +3481,7 @@ class ThandekaABC extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 145;
+    price = Platform.isAndroid?145:345;
 
     amakhubalo.add(Impathampatha());
     amakhubalo.add(Umbadlanga());
@@ -3509,7 +3510,7 @@ class Phindisa extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 195;
+    price = Platform.isAndroid?195:385;
 
     amakhubalo.add(Umathithibala(omncaneNomaOmkhulu:'Omkhulu'));
     amakhubalo.add(Umathithibala(omncaneNomaOmkhulu:'Omncane'));
@@ -3548,7 +3549,7 @@ class Amafuthebhanoyi extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     iyaphalaza = true;
-    price = 195;
+    price = Platform.isAndroid?195:385;
 
     amakhubalo.add(Umazulazayithole());
     amakhubalo.add(Ummemezi(umbala:'Obovu'));
@@ -3618,7 +3619,7 @@ class Weqiziko extends Umuthi{
     owner = ntshangase;
     iyaphalaza = true;
     iyagquma = true;
-    price = 135;
+    price = Platform.isAndroid?135:355;
 
     amakhubalo.add(Umadlozane());
     amakhubalo.add(Impila());
@@ -3648,7 +3649,7 @@ class Lumbanxeba extends Umuthi{
     owner = ntshangase;
     iyaphalaza = true;
     iyagquma = true;
-    price = 335;
+    price = Platform.isAndroid?335:565;
 
     amakhubalo.add(Uginakamagadlela());
     amakhubalo.add(Impindamshaye());
@@ -3696,7 +3697,7 @@ class Shayizitha extends Umuthi{
     owner = ntshangase;
     iyaphalaza = true;
     iyagquma = true;
-    price = 335;
+    price = Platform.isAndroid?335:595;
 
     amakhubalo.add(Udabulamafu());
     Uzililo uzililo = Uzililo();
@@ -3736,7 +3737,7 @@ class Cuphathuna extends Umuthi{
     owner = ntshangase;
     iyachela = true;
 
-    price = 485;
+    price = Platform.isAndroid?485:695;
 
     amakhubalo.add(Umathutha());
     amakhubalo.add(Uzikhungele());
@@ -3778,7 +3779,7 @@ class Cuphasdumbu extends Umuthi{
     owner = ntshangase;
     iyageza = true;
 
-    price = 385;
+    price = Platform.isAndroid?385:575;
 
     amakhubalo.add(Unhliziyonkulu());
     amakhubalo.add(Muziwawula());
@@ -3820,7 +3821,7 @@ class Nqobazitha extends Umuthi{
     owner = ntshangase;
     iyachela = true;
 
-    price = 285;
+    price = Platform.isAndroid?285:530;
 
     amakhubalo.add(Udabulamafu());
     amakhubalo.add(Umabopha());
@@ -3877,7 +3878,7 @@ class QinaXXX extends Umuthi{
     owner = ntshangase;
     iyachela = true;
 
-    price = 185;
+    price = Platform.isAndroid?185:345;
 
     
     amakhubalo.add(Ukhathibesonga());
@@ -3910,7 +3911,7 @@ class Yakhumuzi extends Umuthi{
     owner = ntshangase;
     iyachela = true;
 
-    price = 185;
+    price = Platform.isAndroid?185:430;
 
     
     amakhubalo.add(Umabopha());
@@ -3959,7 +3960,7 @@ class Ngfunumsebenzi extends Umuthi{
     owner = ntshangase;
     iyachela = true;
 
-    price = 145;
+    price = Platform.isAndroid?145:345;
 
     
     amakhubalo.add(Ingwavuma());
@@ -3995,7 +3996,7 @@ class Khulumisidlozi extends Umuthi{
   languageIndex){
     iyachela = true;
 
-    price = 345;
+    price = Platform.isAndroid?345:555;
 
     
     amakhubalo.add(Ungqangendlela());
@@ -4030,7 +4031,7 @@ class Hlola extends Umuthi{
     owner = ntshangase;
     iyachela = true;
 
-    price = 145;
+    price = Platform.isAndroid?145:345;
 
     
     amakhubalo.add(Umhlahlo());
@@ -4068,7 +4069,7 @@ class Donsabafazi extends Umuthi{
     owner = ntshangase;
     iyachela = true;
 
-    price = 160;
+    price = Platform.isAndroid?160:275;
 
     
     amakhubalo.add(Umathinta());
@@ -4110,7 +4111,7 @@ class Uhlangalwabo extends Umuthi{
     owner = ntshangase;
     iyachela = true;
 
-    price = 250;
+    price = Platform.isAndroid?250:445;
 
     
     amakhubalo.add(Ushendelomkhwekazi());
@@ -4154,7 +4155,7 @@ class IsikhafuloBMW extends Umuthi{
     owner = ntshangase;
     iyachela = true;
 
-    price = 230;
+    price = Platform.isAndroid?230:435;
 
     Uzililo uzililo = Uzililo();
     uzililo.description = 'Umkhulu';
@@ -4205,7 +4206,7 @@ class Angathinyaka extends Umuthi{
     owner = ntshangase;
     iyachela = true;
 
-    price = 295;
+    price = Platform.isAndroid?295:585;
 
     amakhubalo.add(Umabopha());
     amakhubalo.add(Ibheka());
@@ -4249,7 +4250,7 @@ class Intandoyasendlini extends Umuthi{
     owner = ntshangase;
     iyachela = true;
 
-    price = 380;
+    price = Platform.isAndroid?380:575;
 
     amakhubalo.add(Incamashela());
     amakhubalo.add(Ishobalendlela());
@@ -4283,7 +4284,7 @@ class Ngikufunala extends Umuthi{
     owner = ntshangase;
     iyachela = true;
 
-    price = 235;
+    price = Platform.isAndroid?235:455;
 
     Indabulaluvalo indabulaluvalo = Indabulaluvalo();
     indabulaluvalo.description = 'Yonke';
@@ -4332,7 +4333,7 @@ class Owemfuyo extends Umuthi{
     Owner thofo = Owner("Malume Thofo", "Emancwanini", true);
     owner = thofo;
 
-    price = 450;
+    price = Platform.isAndroid?750:1200;
 
   }
 
@@ -4356,7 +4357,7 @@ class Ukuzuqashwe extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
 
-    price = 150;
+    price = Platform.isAndroid?150:350;
 
     extras.add('Step 1 Qguma - Umnyamathi, Umzungulu, Ubhubhubhu, Umganu, Umgwenya, Mavulakuvaliwe, Isiqunga');
     amakhubalo.add(Umnyamathi());
@@ -4425,7 +4426,7 @@ class Mubuyise extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
 
-    price = 475;
+    price = Platform.isAndroid?475:695;
 
     Umbiji umbiji = Umbiji();
     umbiji.description = 'Ikhubalo';
@@ -4493,7 +4494,7 @@ class Owezilonda extends Umuthi{
     owner = ntshangase;
     iyachatha = true;
 
-    price = 225;
+    price = Platform.isAndroid?225:485;
     
     amakhubalo.add(Umvuthuza());
     Unukani unukani = Unukani(true);
@@ -4532,7 +4533,7 @@ class Mayibamanzintombi extends Umuthi{
     owner = ntshangase;
     iyachatha = true;
 
-    price = 185;
+    price = Platform.isAndroid?185:300;
     
     amakhubalo.add(Ugobho());
 
@@ -4564,7 +4565,7 @@ class Ngiseliwe extends Umuthi{
     owner = ntshangase;
     iyaphuzwa = true;
 
-    price = 185;
+    price = Platform.isAndroid?185:375;
     
     amakhubalo.add(Ixhaphosi());
     amakhubalo.add(Unwele());
@@ -4602,7 +4603,7 @@ class Mkhontowezitha extends Umuthi{
     owner = ntshangase;
     iyachela = true;
 
-    price = 145;
+    price = Platform.isAndroid?145:345;
     
     amakhubalo.add(Umgadankawu());
     amakhubalo.add(Undabungehlele());
@@ -4633,7 +4634,7 @@ class Sondezidlozi extends Umuthi{
     owner = ntshangase;
     iyagquma = true;
 
-    price = 145;
+    price = Platform.isAndroid?145:385;
     
     amakhubalo.add(Malibuye());
     amakhubalo.add(Untumbadlozi());
@@ -4663,7 +4664,7 @@ class Olalwayisilwane extends Umuthi{
     owner = ntshangase;
     iyagquma = true;
 
-    price = 150;
+    price = Platform.isAndroid?150:320;
     
     amakhubalo.add(Umthombothi());
     amakhubalo.add(Umagwazucaca());
@@ -4694,7 +4695,7 @@ class Inkingineswane extends Umuthi{
     owner = ntshangase;
     
 
-    price = 150;
+    price = Platform.isAndroid?250:475;
     
     amakhubalo.add(Umhlakaza());
     amakhubalo.add(Impila());
@@ -4751,7 +4752,7 @@ class Mfuyeningi extends Umuthi{
     owner = ntshangase;
     
 
-    price = 450;
+    price = Platform.isAndroid?450:645;
 
     extras.add('Khekhe Lezinyosi');
     extras.add('Izidleke Zikancede');
@@ -4810,7 +4811,7 @@ class Skhafulo123 extends Umuthi{
     owner = ntshangase;
     
 
-    price = 140;
+    price = Platform.isAndroid?140:235;
     
     amakhubalo.add(Ummemezi(umbala:'Obovu'));
     amakhubalo.add(Ujikanelanga());
@@ -4842,7 +4843,7 @@ class Phumaschitho extends Umuthi{
     owner = ntshangase;
     
 
-    price = 180;
+    price = Platform.isAndroid?180:300;
     
     amakhubalo.add(Umsanka());
     amakhubalo.add(Impindamshaye());
@@ -4881,7 +4882,7 @@ class Qhanyelwa extends Umuthi{
     owner = ntshangase;
     
 
-    price = 200;
+    price = Platform.isAndroid?200:350;
     
     amakhubalo.add(Uqonsi());
     amakhubalo.add(Bangalala());
@@ -4915,7 +4916,7 @@ class Umphuphutho extends Umuthi{
     owner = ntshangase;
     
 
-    price = 145;
+    price = Platform.isAndroid?145:230;
     
     amakhubalo.add(Umgadankawu());
     amakhubalo.add(Umayisaka('Omnyama'));
@@ -4945,7 +4946,7 @@ class DonsuthandoXYZ extends Umuthi{
     owner = ntshangase;
     
 
-    price = 140;
+    price = Platform.isAndroid?230:430;
     
     amakhubalo.add(Donsuthando());
     amakhubalo.add(Mlomomnandi());
@@ -4984,7 +4985,7 @@ class Chathanje extends Umuthi{
     owner = ntshangase;
     
 
-    price = 140;
+    price = Platform.isAndroid?140:230;
 
     amakhubalo.add(Udlutshani());
     amakhubalo.add(Umathunga());
@@ -5013,7 +5014,7 @@ class Liyavukala extends Umuthi{
     owner = ntshangase;
     
 
-    price = 120;
+    price = Platform.isAndroid?120:220;
 
     Ilabatheka ilabatheka = Ilabatheka(true);
     ilabatheka.description = 'Akucaciswanga';
@@ -5043,7 +5044,7 @@ class Ziphuzelenje extends Umuthi{
     owner = ntshangase;
     
 
-    price = 140;
+    price = Platform.isAndroid?140:230;
 
     
     amakhubalo.add(Unwele());
@@ -5078,7 +5079,7 @@ class Gezelesgangeni extends Umuthi{
     owner = ntshangase;
     
 
-    price = 195;
+    price = Platform.isAndroid?195:325;
 
     
     amakhubalo.add(Umzilanyoni());
@@ -5121,7 +5122,7 @@ class Sesheli extends Umuthi{
     owner = ntshangase;
     
 
-    price = 150;
+    price = Platform.isAndroid?150:290;
 
     amakhubalo.add(Umphumeleli());
     amakhubalo.add(Velemoyeni());
@@ -5167,7 +5168,7 @@ class Sokalamanyala extends Umuthi{
     owner = ntshangase;
     
 
-    price = 150;
+    price = Platform.isAndroid?150:340;
 
     amakhubalo.add(Nginakile());
     amakhubalo.add(Udelunina());
@@ -5205,7 +5206,7 @@ class Mlandengesthombesakhe extends Umuthi{
     owner = ntshangase;
     
 
-    price = 130;
+    price = Platform.isAndroid?130:240;
 
     extras.add('Amanzi Esiphethu');
     extras.add('Amanzi Olwandle');
@@ -5235,7 +5236,7 @@ class Asizwisane extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
 
-    price = 530;
+    price = Platform.isAndroid?530:740;
 
     amakhubalo.add(Umthunyelelwa());
     amakhubalo.add(Usokalakwazulu());
@@ -5295,7 +5296,7 @@ class Owezishimane extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 130;
+    price = Platform.isAndroid?130:240;
 
     amakhubalo.add(Isiqungasikatikoloshe());
     Umhlanga umhlanga = Umhlanga();
@@ -5326,7 +5327,7 @@ class Bethela extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 3000;
+    price = Platform.isAndroid?3000:5000;
 
     amakhubalo.add(Umahlabazihlangane());
     Umyezane umyezane = Umyezane();
@@ -5386,7 +5387,7 @@ class Antibiotics extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 170;
+    price = Platform.isAndroid?170:240;
 
     amakhubalo.add(Inhlaba());
     amakhubalo.add(Umathunga());
@@ -5422,7 +5423,7 @@ class Profetha extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 300;
+    price = Platform.isAndroid?300:430;
 
     extras.add('Isidleke Sejuba Noma Inkonjane Noma Zombili');
     extras.add('Udaka Lwenkalankala');
@@ -5453,7 +5454,7 @@ class Gezumndeni extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 200;
+    price = Platform.isAndroid?200:350;
     
     amakhubalo.add(Umlahlabantu());
     amakhubalo.add(Umsanka());
@@ -5481,7 +5482,7 @@ class Qedizizwe extends Umuthi{
     Owner mkhuluZikhali = Owner("mkhuluZikhali", "Mlazi H Ko4", true);
     owner = mkhuluZikhali;
     
-    price = 300;
+    price = Platform.isAndroid?300:550;
 
 
     amakhubalo.add(Umbhangabhanga());
@@ -5511,7 +5512,7 @@ class Yonezizwe extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 4800;
+    price = Platform.isAndroid?4800:7000;
     
     amakhubalo.add(Umoyawezwe());
     amakhubalo.add(Uvungulomoya());
@@ -5607,7 +5608,7 @@ class Mthondowothando extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 300;
+    price = Platform.isAndroid?300:500;
     
     amakhubalo.add(Umahogwe());
     amakhubalo.add(Unukani(false));
@@ -5652,7 +5653,7 @@ class Buyisokwebiwe extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 200;
+    price = Platform.isAndroid?200:450;
     
     amakhubalo.add(Umakhukhumesane());
     amakhubalo.add(Umathinta());
@@ -5688,7 +5689,7 @@ class Motengantshontshwa extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 1600;
+    price = Platform.isAndroid?1600:2000;
     
     amakhubalo.add(Umavumbuka());
     amakhubalo.add(Umvithi());
@@ -5756,7 +5757,7 @@ class Mfonele extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 150;
+    price = Platform.isAndroid?150:340;
     
     amakhubalo.add(Isphahluka());
     amakhubalo.add(Umayisaka('red'));
@@ -5788,7 +5789,7 @@ class Osheshachame extends Umuthi{
     Owner ntshangase = Owner("Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 220;
+    price = Platform.isAndroid?220:350;
     
     amakhubalo.add(Uqonsi());
     amakhubalo.add(Bangalala());
@@ -5827,7 +5828,7 @@ class Hlanzisinya extends Umuthi{
     Owner ebhizana = Owner("Khemesi", "Bizana", true);
     owner = ebhizana;
     
-    price = 200;
+    price = Platform.isAndroid?200:500;
 
     Imfene imfene = Imfene();
     imfene.part = 'Umchamo';
@@ -5855,7 +5856,7 @@ class Khulelwa extends Umuthi{
     Owner mkhuluZikhali = Owner("Lwandile Ganyile", "Mlazi H Ko3", true);
     owner = mkhuluZikhali;
     
-    price = 285;
+    price = Platform.isAndroid?285:430;
 
     amakhubalo.add(UhlamvuLomfana());
     amakhubalo.add(UhlamvuLomfana());
@@ -5886,7 +5887,7 @@ class OwamaUlcer extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 200;
+    price = Platform.isAndroid?200:430;
 
     amakhubalo.add(Ishlehle());
     amakhubalo.add(Umathanjana());
@@ -5918,7 +5919,7 @@ class Pholisazilonda extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 200;
+    price = Platform.isAndroid?200:430;
 
     amakhubalo.add(Unsukumbili());
     amakhubalo.add(Umlulama());
@@ -5956,7 +5957,7 @@ class Qedibhande extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 500;
+    price = Platform.isAndroid?500:750;
 
     amakhubalo.add(Untongazizibo());
     amakhubalo.add(Imvana());
@@ -6001,7 +6002,7 @@ class IsibungeSomsebenzi extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 500;
+    price = Platform.isAndroid?500:350;
 
     amakhubalo.add(Ivulandlela());
     Umphumeleli umphumeleli = Umphumeleli();
@@ -6038,7 +6039,7 @@ class Qedazintwala extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 200;
+    price = Platform.isAndroid?200:350;
 
     amakhubalo.add(Maphipha());
 
@@ -6069,7 +6070,7 @@ class Bulalalumbo extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 600;
+    price = Platform.isAndroid?900:1550;
 
     extras.add('Sbabuli');
     extras.add('Blue Stone');
@@ -6129,7 +6130,7 @@ class Mthondwehhashi extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 200;
+    price = Platform.isAndroid?200:350;
 
     extras.add('Iblue Sean Uvaselina');
 
@@ -6160,7 +6161,7 @@ class Mawuyitoho extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 350;
+    price = Platform.isAndroid?350:550;
 
     amakhubalo.add(Uzikhundla());
     amakhubalo.add(Umganu());
@@ -6189,7 +6190,7 @@ class Vulasfuba extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 300;
+    price = Platform.isAndroid?300:450;
 
     amakhubalo.add(Hlabamamponjwana());
 
@@ -6215,7 +6216,7 @@ class Uhlezekhathele extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 200;
+    price = Platform.isAndroid?200:350;
 
     amakhubalo.add(Unsukumbili());
     amakhubalo.add(Inkomfe());
@@ -6245,7 +6246,7 @@ class Ugezinkomo extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 200;
+    price = Platform.isAndroid?200:430;
 
     amakhubalo.add(Mlomomnandi());
     amakhubalo.add(Ishaqa());
@@ -6274,7 +6275,7 @@ class Yekisiwunga extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 325;
+    price = Platform.isAndroid?325:590;
 
     amakhubalo.add(Umathithibala ());
     amakhubalo.add(Umabopha());
@@ -6312,7 +6313,7 @@ class Ngavalwa extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 265;
+    price = Platform.isAndroid?265:475;
 
     amakhubalo.add(Umzaneno());
     amakhubalo.add(Untumbadlozi());
@@ -6370,7 +6371,7 @@ class Ndukengami extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 265;
+    price = Platform.isAndroid?265:455;
 
     amakhubalo.add(Udlutshani());
     amakhubalo.add(Icubudwane());
@@ -6412,7 +6413,7 @@ class Wisanduku extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 265;
+    price = Platform.isAndroid?265:595;
 
     amakhubalo.add(Umavumbuka());
     amakhubalo.add(Ibohlololo());
@@ -6455,7 +6456,7 @@ class Mthintabemanzi extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 425;
+    price = Platform.isAndroid?425:600;
   
     amakhubalo.add(Uvutha());
     amakhubalo.add(Umathinta());
@@ -6495,7 +6496,7 @@ class Xoshaskhova extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 165;
+    price = Platform.isAndroid?165:350;
 
     amakhubalo.add(Umzunywa());
     amakhubalo.add(Umhlakaza());
@@ -6523,7 +6524,7 @@ class Gadamoto extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 480;
+    price = Platform.isAndroid?480:780;
     /*ikhathaza, unkungwini, umathithibala, ilabatheka, umlahleni, sehlulamanye, impila, umgadankawu, tikoloshe oil, bhubesi oil, instr: kugaye kube  fine ukufake ebhodleleni elizolenga esibukweni semoto */
     amakhubalo.add(Ikhathaza());
     amakhubalo.add(Unkungwini());
@@ -6565,7 +6566,7 @@ class Ngiyafunwa extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 220;
+    price = Platform.isAndroid?220:450;
     /*ikhathaza, unkungwini, umathithibala, ilabatheka, umlahleni, sehlulamanye, impila, umgadankawu, tikoloshe oil, bhubesi oil, instr: kugaye kube  fine ukufake ebhodleleni elizolenga esibukweni semoto */
     amakhubalo.add(Unkungwini());
     amakhubalo.add(Umpikayiboni());
@@ -6613,7 +6614,7 @@ class GovuEladlumthakathi extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 550;
+    price = Platform.isAndroid?550:860;
 
     amakhubalo.add(Ilukuluku());
     amakhubalo.add(Isbhaha());
@@ -6666,7 +6667,7 @@ class Ungathakatheki extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 550;
+    price = Platform.isAndroid?550:780;
 
     amakhubalo.add(Indluyabaloyi());
     amakhubalo.add(Intwalubombo());
@@ -6708,7 +6709,7 @@ class Bambiswane extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 350;
+    price = Platform.isAndroid?350:560;
 
     Umathithibala umathithibala1 = Umathithibala();
     umathithibala1.description = 'Omncane';
@@ -6755,7 +6756,7 @@ class Bhekwayidlozi extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 175;
+    price = Platform.isAndroid?175:375;
 
     amakhubalo.add(Umadlozane());
     amakhubalo.add(Ubhubhubhu());
@@ -6789,7 +6790,7 @@ class Tholokufunayo extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 175;
+    price = Platform.isAndroid?175:350;
 
     Amabhimbi amabhimbi = Amabhimbi();
     amabhimbi.part = 'Roots';
@@ -6819,7 +6820,7 @@ class Qedaslumo extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 160;
+    price = Platform.isAndroid?160:320;
 
     Imfene imfene = Imfene();
     imfene.part = 'Umchamo';
@@ -6850,7 +6851,7 @@ class Zwakalekhaya extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 160;
+    price = Platform.isAndroid?160:340;
 
     amakhubalo.add(Umabusane());
     amakhubalo.add(Mlomomnandi());
@@ -6881,7 +6882,7 @@ class Zingaphakathi extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 200;
+    price = Platform.isAndroid?200:450;
 
     amakhubalo.add(Unsukumbili());
     amakhubalo.add(Maphipha());
@@ -6910,7 +6911,7 @@ class Shelenezizwe extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 200;
+    price = Platform.isAndroid?200:455;
 
     Umsilinga umsilinga = Umsilinga();
     umsilinga.part = 'Izimpande';
@@ -6937,7 +6938,7 @@ class Lahliswane extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 650;
+    price = Platform.isAndroid?650:995;
 
     amakhubalo.add(Umhlakaza()); amakhubalo.add(Phindemva()); amakhubalo.add(Umganu());
     amakhubalo.add(Ugodide()); amakhubalo.add(Impindamshaye()); amakhubalo.add(Isgqikisomkhovu());
@@ -6984,7 +6985,7 @@ class Qedisayinasi extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
     
-    price = 200;
+    price = Platform.isAndroid?200:450;
 
     amakhubalo.add(Ikhathaza());
     Isbhaha isbhaha = Isbhaha();

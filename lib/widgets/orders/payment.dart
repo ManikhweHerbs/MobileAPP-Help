@@ -2,8 +2,6 @@ import 'dart:convert';
 import 'dart:developer';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_paystack/flutter_paystack.dart';
-import 'package:manikhwe_herbs/controllers/payment_controller.dart';
 import 'package:manikhwe_herbs/models/customer_management.dart';
 
 import 'package:manikhwe_herbs/models/order_management.dart';
@@ -18,7 +16,6 @@ String backendUrl = 'https://github.com/ManikhweSchool';
 String paystackPublicKey = 'pk_live_75bfd351fbf8a576ae20d99413ba999391f65f49';
 const String appName = 'Help';
 
-final paymentController = Get.put(PaymentController());
 
 class PaymentScreen extends StatefulWidget {
   final String phoneNumber;
@@ -47,9 +44,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
   final _formKey = GlobalKey<FormState>();
   final _verticalSizeBox = const SizedBox(height: 20.0);
   final _horizontalSizeBox = const SizedBox(width: 10.0);
-  final plugin = PaystackPlugin();
 
-  CheckoutMethod _method = CheckoutMethod.card;
   bool _inProgress = false;
   String? _cardNumber;
   String? _cvv;
@@ -60,7 +55,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
 
   @override
   void initState() {
-    plugin.initialize(publicKey: paystackPublicKey);
+
     super.initState();
   }
 

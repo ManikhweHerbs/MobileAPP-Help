@@ -2,1375 +2,2269 @@ class Languages{
 
   static const amaphupho = ['Amaphupho',];
 
+  static const promotion = ['Abakhangisi',];
+
   static const iphuphoDescription = 
   [
     [
-      'Uphuphe Amaklabishi?',
+      'Amaklabishi',
     ],
 
     [
-      'Uphuphe Utamatisi?',
+      'Utamatisi',
     ],
 
     [
-      'Uphuphe Amathanga?',
+      'Amathanga',
     ],
 
     [
-      'Uphuphe Amazambane?',
+      'Amazambane',
     ],
 
     [
-      'Uphuphe Uphizi?',
+      'Uphizi',
     ],
 
     [
-      'Uphuphe U-Anyanisi?',
+      'U-Anyanisi',
     ],
 
     [
-      'Uphuphe Ugalonci?',
+      'Ugalonci',
     ],
 
     [
-      'Uphuphe Imifino?',
+      'Imifino',
     ],
 
     [
-      'Uphuphe Ummbila?',
+      'Ummbila',
     ],
 
     [
-      'Uphuphe Izaqathe?',
+      'Izaqathe',
     ],
 
     [
-      'Uphuphe Iklabishi',
+      'Iklabishi',
     ],
 
     [
-      'Uphuphe Ubhontshisi',
+      'Ubhontshisi',
     ],
 
     [
-      'Uphuphe Abasebenzi?',
+      'Abasebenzi',
     ],
 
     [
-      'Uphuphe Amasosha?',
+      'Amasosha',
     ],
 
     [
-      'Uphuphe Itilosi?',
+      'Itilosi',
     ],
 
     [
-      'Uphuphe Inkosi?',
+      'Inkosi',
     ],
 
     [
-      'Uphuphe Umshayeli Webhanoyi?',
+      'Umshayeli Webhanoyi',
     ],
 
     [
-      'Uphuphe Umapendane?',
+      'Umapendane',
     ],
 
     [
-      'Uphuphe Onesi?',
+      'Onesi',
     ],
 
     [
-      'Uphuphe Abalimi?',
+      'Abalimi',
     ],
 
     [
-      'Uphuphe Udokotela?',
+      'Udokotela',
     ],
 
     [
-      'Uphuphe Kuphekwa?',
+      'Kuphekwa',
     ],
 
     [
-      'Uphuphe Ababazi Bamaplangwe?',
+      'Ababazi Bamaplangwe',
     ],
 
     [
-      'Uphuphe Omakhi?',
+      'Omakhi',
     ],
 
     [
-      'Uphuphe Isinqibi?',
+      'Isinqibi',
     ],
 
     [
-      'Uphuphe Uhamba Ngezinyawo?',
+      'Uhamba Ngezinyawo',
     ],
 
     [
-      'Uphuphe Uhamba Ngesitimela?',
+      'Uhamba Ngesitimela',
     ],
 
     [
-      'Uphuphe Uhamba Ngetekisi?',
+      'Uhamba Ngetekisi',
     ],
 
     [
-      'Uphuphe Uhamba Ngomkhumbi?',
+      'Uhamba Ngomkhumbi',
     ],
 
     [
-      'Uphuphe Uhamba Ngesikebhe Sokugwedla?',
+      'Uhamba Ngesikebhe Sokugwedla',
     ],
 
     [
-      'Uphuphe Uhamba Ngomgwaqo?',
+      'Uhamba Ngomgwaqo',
     ],
 
     [
-      'Uphuphe Uhamba Ngendlela?',
+      'Uhamba Ngendlela',
     ],
 
     [
-      'Uphuphe Uhamba Ngemephu?',
+      'Uhamba Ngemephu',
     ],
 
     [
-      'Uphuphe Uhamba Ngemoto?',
+      'Uhamba Ngemoto',
     ],
 
     [
-      'Uphuphe Uhamba Ngebhasi?',
+      'Uhamba Ngebhasi',
     ],
 
     [
-      'Uphuphe Uhamba Ngesikebhe?',
+      'Uhamba Ngesikebhe',
     ],
 
     [
-      'Uphuphe Uhamba Ngebhayisekili?',
+      'Uhamba Ngebhayisekili',
     ],
 
     [
-      'Uphuphe Uhamba Ngebhanoyi?',
+      'Uhamba Ngebhanoyi',
     ],
 
     [
-      'Uphuphe Uhamba Ngenqola?',
+      'Uhamba Ngenqola',
     ],
 
     [
-      'Uphuphe Ugibela?',
+      'Ugibela',
     ],
 
     [
-      'Uphuphe Eyunivesithi?',
+      'Eyunivesithi',
     ],
 
     [
-      'Uphuphe Izivivinyo?',
+      'Izivivinyo',
     ],
 
     [
-      'Uphuphe Isikole?',
+      'Isikole',
     ],
 
     [
-      'Uphuphe Ipeni Likayinki?',
+      'Ipeni Likayinki',
     ],
 
     [
-      'Uphuphe Imfundo?',
+      'Imfundo',
     ],
 
     [
-      'Uphuphe Iziqu?',
+      'Iziqu',
     ],
 
     [
-      'Uphuphe Incwadi?',
+      'Incwadi',
     ],
 
     [
-      'Uphuphe Ngokukhushulwa Emsebenzini?',
+      'Ukhushulwa Emsebenzini',
     ],
 
     [
-      'Uphuphe Umsebenzi?',
+      'Umsebenzi',
     ],
 
     [
-      'Uphuphe Umqashi?',
+      'Umqashi',
     ],
 
     [
-      'Uphuphe Ufuye Izinkomo?',
+      'Ufuye Izinkomo',
     ],
 
     [
-      'Uphuphe Inkomazi?',
+      'Inkomazi',
     ],
 
     [
-      'Uphuphe Ngenkukhu?',
+      'Inkukhu',
     ],
 
     [
-      'Uphuphe Ngemvu?',
+      'Imvu',
     ],
 
     [
-      'Uphuphe Ngenqama?',
+      'Inqama',
     ],
 
     [
-      'Uphuphe Ngezinkabi?',
+      'Izinkabi',
     ],
 
     [
-      'Uphuphe Ngemvu Esencane?',
+      'Imvu Esencane',
     ],
 
     [
-      'Uphuphe Ngehansi?',
+      'Ihansi',
     ],
 
     [
-      'Uphuphe Imbuzi?',
+      'Imbuzi',
     ],
 
     [
-      'Uphuphe Amadada?',
+      'Amadada',
     ],
 
     [
-      'Uphuphe Inkomo?',
+      'Inkomo',
     ],
 
     [
-      'Uphuphe Inkunzi?',
+      'Inkunzi',
     ],
 
     [
-      'Uphuphe Amahhashi?',
+      'Amahhashi',
     ],
 
     [
-      'Uphuphe Ikati?',
+      'Ikati',
     ],
 
     [
-      'Uphuphe Imbongolo',
+      'Imbongolo',
     ],
 
     [
-      'Uphuphe Ingulube?',
+      'Ingulube',
     ],
 
     [
-      'Uphuphe Inja?',
+      'Inja',
     ],
 
     [
-      'Uphuphe Umbango?',
+      'Umbango',
     ],
 
     [
-      'Uphuphe Ivayolini?',
+      'Ivayolini',
     ],
 
     [
-      'Uphuphe Ixilongo?',
+      'Ixilongo',
     ],
 
     [
-      'Uphuphe Ipiyano?',
+      'Ipiyano',
     ],
 
     [
-      'Uphuphe Isigingci?',
+      'Isigingci',
     ],
 
     [
-      'Uphuphe Imitshingo?',
+      'Imitshingo',
     ],
 
     [
-      'Uphuphe Isigubhu?',
+      'Isigubhu',
     ],
 
     [
-      'Uphuphe Izinsimbi Ezikhencezelayo?',
+      'Izinsimbi Ezikhencezelayo',
     ],
 
     [
-      'Uphuphe Amakha?',
+      'Amakha',
     ],
 
     [
-      'Uphuphe Ngokunuka Amakha?',
+      'Ukunuka Amakha',
     ],
 
     [
-      'Uphuphe Amaphunga Amnandi?',
+      'Amaphunga Amnandi',
     ],
 
     [
-      'Uphuphe Amaphunga Amabi?',
+      'Amaphunga Amabi',
     ],
 
     [
-      'Uphuphe Uzwa Iwashi?',
+      'Uzwa Iwashi',
     ],
 
     [
-      'Uphuphe Umuntu Ebiza Igama Lakho?',
+      'Umuntu Ebiza Igama Lakho',
     ],
 
     [
-      'Uphuphe Uzwa Umsakazo?',
+      'Uzwa Umsakazo',
     ],
 
     [
-      'Uphuphe Uzwa Ucingo?',
+      'Uzwa Ucingo',
     ],
 
     [
-      'Uphuphe Uzwa Umculo?',
+      'Uzwa Umculo',
     ],
 
     [
-      'Uphuphe Uzwa Umsindo Omkhulu?',
+      'Uzwa Umsindo Omkhulu',
     ],
 
     [
-      'Uphuphe Kungqongqozwa Emnyango?',
+      'Kungqongqozwa Emnyango',
     ],
 
     [
-      'Uphuphe Inja Ihlaba Umkhulungwane?',
+      'Inja Ihlaba Umkhulungwane',
     ],
 
     [
-      'Uphuphe Uphonseka Eweni?',
+      'Uphonseka Eweni',
     ],
 
     [
-      'Uphuphe Ngoshevu?',
+      'Ushevu',
     ],
 
     [
-      'Uphuphe Ngokubulala?',
+      'Ukubulala',
     ],
 
     [
-      'Uphuphe Ngokulengiswa?',
+      'Ukulengiswa',
     ],
 
     [
-      'Uphuphe Ngokuminza?',
+      'Ukuminza',
     ],
 
     [
-      'Uphuphe Ngokugqitshwa Uphila?',
+      'Ukugqitshwa Uphila',
     ],
 
     [
-      'Uphuphe Ngokunqunywa Ikhanda?',
+      'Ukunqunywa Ikhanda',
     ],
 
     [
-      'Uphuphe Izihlobo Ezikude?',
+      'Izihlobo Ezikude',
     ],
 
     [
-      'Uphuphe Izintandane?',
+      'Izintandane',
     ],
 
     [
-      'Uphuphe Umshado?',
+      'Umshado',
     ],
 
     [
-      'Uphuphe Umamezala?',
+      'Umamezala',
     ],
 
     [
-      'Uphuphe Ngomama?',
+      'Umama',
     ],
 
     [
-      'Uphuphe Ngokhokho?',
+      'Ukhokho',
     ],
 
     [
-      'Uphuphe Ubabezala?',
+      'Ubabezala',
     ],
     
     [
-      'Uphuphe Ngokuhlangana Komndeni?',
+      'Ukuhlangana Komndeni',
     ],
 
     [
-      'Uphuphe Abantwana?',
+      'Abantwana',
     ],
 
     [
-      'Uphuphe Umfowenu Noma Udadewenu?',
-    ],
-    
-    [
-      'Uphuphe Izingane Ezincane?',
-    ],
-
-    [
-      'Uphuphe Ngonkosikazi Noma Umyeni?',
+      'Umfowenu Noma Udadewenu',
     ],
     
     [
-      'Uphuphe Intshumayelo?',
+      'Izingane Ezincane',
     ],
 
     [
-      'Uphuphe Uphenduka?',
-    ],
-
-    [
-      'Uphuphe Umfundisi?',
+      'Unkosikazi Noma Umyeni',
     ],
     
     [
-      'Uphuphe Umthandazo?',
+      'Intshumayelo',
     ],
 
     [
-      'Uphuphe NgoMariya?',
+      'Uphenduka',
     ],
 
     [
-      'Uphuphe Ngomfelukholo?',
-    ],
-
-    [
-      'Uphuphe Isihogo?',
+      'Umfundisi',
     ],
     
     [
-      'Uphuphe Izulu?',
+      'Umthandazo',
     ],
 
     [
-      'Uphuphe Isidlo?',
+      'UMariya',
     ],
 
     [
-      'Uphuphe Ngokubhabhadiswa?',
+      'Umfelukholo',
     ],
 
     [
-      'Uphuphe Ngokugcotshwa?',
-    ],
-    
-    [
-      'Uphuphe Izingelosi?',
-    ],
-
-    [
-      'Uphuphe Inkonto/Isonto?',
-    ],
-
-    [
-      'Uphuphe Ngokukhuluma Umbhedo?',
-    ],
-
-    [
-      'Uphuphe Ngokuthuka Inhlamba?',
+      'Isihogo',
     ],
     
     [
-      'Uphuphe Ngokucula?',
+      'Izulu',
     ],
 
     [
-      'Uphuphe Ngenkondlo?',
+      'Isidlo',
     ],
 
     [
-      'Uphuphe Ngezeluleko?',
+      'Ukubhabhadiswa',
     ],
 
     [
-      'Uphuphe Ngokuphendula Imibuzo?',
-    ],
-    
-    [
-      'Uphuphe Ngendawo Yokusebenza?',
-    ],
-
-    [
-      'Uphuphe Ngezitebele?',
+      'Ukugcotshwa',
     ],
     
     [
-      'Uphuphe Ipaki?',
+      'Izingelosi',
     ],
 
     [
-      'Uphuphe Ubhayisikobho?',
-    ],
-    
-    [
-      'Uphuphe Imakethe Noma Isitolo?',
+      'Inkont\zo/Isonto',
     ],
 
     [
-      'Uphuphe Isibhendlela?',
-    ],
-    
-    [
-      'Uphuphe Indlu Yotshani?',
+      'Ukukhuluma Umbhedo',
     ],
 
     [
-      'Uphuphe Ipulazi?',
+      'Ukuthuka Inhlamba',
     ],
     
     [
-      'Uphuphe Indayo Yobisi?',
+      'Ukucula',
     ],
 
     [
-      'Uphuphe Imayini Yamalahle?',
-    ],
-    
-    [
-      'Uphuphe Ngocansi?',
+      'Inkondlo',
     ],
 
     [
-      'Uphuphe Ngenkantini?',
-    ],
-    
-    [
-      'Uphuphe Ngezinkambi Namathende?',
+      'Izeluleko',
     ],
 
     [
-      'Uphuphe Ngesilaha?',
+      'Ukuphendula Imibuzo',
     ],
     
     [
-      'Uphuphe Ibhuloho?',
+      'Indawo Yokusebenza',
     ],
 
     [
-      'Uphuphe Indawo Engconile?',
-    ],
-    
-    [
-      'Uphuphe Impi?',
-    ],
-
-    [
-      'Uphuphe Ngokuntshontsha?',
+      'Izitebele',
     ],
     
     [
-      'Uphuphe Ngokuhamba Unyelela?',
+      'Ipaki',
     ],
 
     [
-      'Uphuphe Ngokubangisana?',
-    ],
-    
-    [
-      'Uphuphe Ngokushaya Ngengqindi?',
-    ],
-
-    [
-      'Uphuphe Ngokukhuthuzwa?',
+      'Ubhayisikobho',
     ],
     
     [
-      'Uphuphe Ngokuboshwa?',
+      'Imakethe Noma Isitolo',
     ],
 
     [
-      'Uphuphe Ngokulwa?',
-    ],
-    
-    [
-      'Uphuphe Ngezitha?',
-    ],
-
-    [
-      'Uphuphe Ngokuphikisana?',
+      'Isibhendlela',
     ],
     
     [
-      'Uphuphe Ngamabutho?',
+      'Indlu Yotshani',
     ],
 
     [
-      'Uphuphe Ngokusongelwa Noma Ngokuphonswa?',
-    ],
-    
-    [
-      'Uphuphe Ngokusongelwa?',
-    ],
-
-    [
-      'Uphuphe Ngocansi?',
+      'Ipulazi',
     ],
     
     [
-      'Uphuphe Intombazane Yaso Lwandle?',
+      'Indayo Yobisi',
     ],
 
     [
-      'Uphuphe Umlilo?',
-    ],
-    
-    [
-      'Uphuphe Inyoni Yombani?',
-    ],
-
-    [
-      'Uphuphe Indawo Engcwele?',
+      'Imayini Yamalahle',
     ],
     
     [
-      'Uphuphe Umcimbi Ongcwele?',
+      'Ucansi',
     ],
 
     [
-      'Uphuphe Izinganekwane?',
-    ],
-    
-    [
-      'Uphuphe Udeveli/Usathane?',
-    ],
-
-    [
-      'Uphuphe Isiqalekiso?',
+      'Inkantini',
     ],
     
     [
-      'Uphuphe Idlozi?',
+      'Izinkambi Namathende',
     ],
 
     [
-      'Uphuphe Ithoshi?',
-    ],
-    
-    [
-      'Uphuphe Inthuthu?',
-    ],
-
-    [
-      'Uphuphe Umentshisi?',
+      'Isilaha',
     ],
     
     [
-      'Uphuphe ?',
+      'Ibhuloho',
     ],
 
     [
-      'Uphuphe Ukukhanya?',
-    ],
-    
-    [
-      'Uphuphe Umlilo?',
-    ],
-
-    [
-      'Uphuphe Ubumnyama?',
+      'Indawo Engconile',
     ],
     
     [
-      'Uphuphe Ikhandlela?',
+      'Impi',
     ],
 
     [
-      'Uphuphe Ngokuzishisa?',
-    ],
-    
-    [
-      'Uphuphe Umlotha?',
-    ],
-
-    [
-      'Uphuphe Amasoseji?',
+      'Ukuntshontsha',
     ],
     
     [
-      'Uphuphe Inyama Engaphekiwe?',
+      'Ukuhamba Unyelela',
     ],
 
     [
-      'Uphuphe Inyama Yengulube?',
-    ],
-    
-    [
-      'Uphuphe Isibindi?',
-    ],
-
-    [
-      'Uphuphe Inyama Yemvu?',
+      'Ukubangisana',
     ],
     
     [
-      'Uphuphe Izoso?',
+      'Ukushaya Ngengqindi',
     ],
 
     [
-      'Uphuphe Umqwayiba?',
-    ],
-    
-    [
-      'Uphuphe Inyama Yenkomo?',
-    ],
-
-    [
-      'Uphuphe UKhisimusi?',
+      'Ukukhuthuzwa',
     ],
     
     [
-      'Uphuphe Iphikhinikhi?',
-    ],
-    [
-      'Uphuphe Iphathi?',
-    ],
-    
-    [
-      'Uphuphe Kuhlukaniswa Unyaka?',
+      'Ukuboshwa',
     ],
 
     [
-      'Uphuphe Ngokuhleka?',
+      'Ukulwa',
     ],
     
     [
-      'Uphuphe Uya Ephathini?',
+      'Izitha',
     ],
 
     [
-      'Uphuphe Ngokuthola Isipho?',
-    ],
-    
-    [
-      'Uphuphe Ngokuphuza?',
-    ],
-
-    [
-      'Uphuphe Ukudansa?',
+      'Ukuphikisana',
     ],
     
     [
-      'Uphuphe Ngezixuku?',
+      'Ngamabutho',
     ],
 
     [
-      'Uphuphe Ngokugubha Umkhosi?',
-    ],
-    
-    [
-      'Uphuphe Ngokunqoba?',
-    ],
-
-    [
-      'Uphuphe Induku Yamakhosi?',
+      'Ukusongelwa Noma Ngokuphonswa',
     ],
     
     [
-      'Uphuphe Isiswebhu?',
+      'Ukusongelwa',
     ],
 
     [
-      'Uphuphe Inkemba?',
-    ],
-    
-    [
-      'Uphuphe Amatshe?',
-    ],
-
-    [
-      'Uphuphe Umkhonto?',
+      'Ucansi',
     ],
     
     [
-      'Uphuphe Ummese?',
+      'Intombazane Yaso Lwandle',
     ],
 
     [
-      'Uphuphe Isbhamu?',
-    ],
-    
-    [
-      'Uphuphe Inhlamvu?',
-    ],
-
-    [
-      'Uphuphe Amabhomu Nokuqhuma?',
-    ],
-
-    [
-      'Uphuphe Ululwane?',
-    ],
-
-    [
-      'Uphuphe Izinkonjane?',
+      'Umlingo',
     ],
     
     [
-      'Uphuphe Inyoka Emnyama Enebala Elimhlophe?',
+      'Inyoni Yombani',
     ],
 
     [
-      'Uphuphe Inyoka?',
-    ],
-    
-    [
-      'Uphuphe Inhlwathi?',
-    ],
-
-    [
-      'Uphuphe Isilwane Esihuquzela Ngesisu?',
-    ],
-
-    [
-      'Uphuphe Imamba?',
+      'Indawo Engcwele',
     ],
     
     [
-      'Uphuphe Isibankwa?',
+      'Umcimbi Ongcwele',
+    ],
+
+    /*[
+      'Izinganekwane',
+    ],*/
+    
+    [
+      'Udeveli/Usathane',
     ],
 
     [
-      'Uphuphe Inyoka Elihlaza?',
+      'Isiqalekiso', 
+    ],
+     
+    [
+      'Idlozi',
+    ],
+
+    [
+      'Ithoshi',
     ],
     
     [
-      'Uphuphe Ixoxo?',
+      'Inthuthu',
     ],
 
     [
-      'Uphuphe Inyoka Ensundu?',
+      'Umentshisi',
     ],
 
     [
-      'Uphuphe Umuvi?',
-    ],
-    
-    [
-      'Uphuphe Umuhlwa?',
-    ],
-
-    [
-      'Uphuphe Isicabucabu?',
+      'Ukukhanya',
     ],
     
     [
-      'Uphuphe Umneke?',
+      'Umlilo',
+    ],
+
+    [
+      'Ubumnyama',
     ],
     
     [
-      'Uphuphe Iqhwagi?',
+      'Ikhandlela',
     ],
 
     [
-      'Uphuphe Izintwala?',
-    ],
-    
-    [
-      'Uphuphe Izimpukane?',
-    ],
-
-    [
-      'Uphuphe Amazeze?',
+      'Ukuzishisa',
     ],
     
     [
-      'Uphuphe Amabhodwe Namapani?',
+      'Umlotha',
     ],
 
     [
-      'Uphuphe Ngojeke?',
-    ],
-    
-    [
-      'Uphuphe Inkomishi?',
-    ],
-
-    [
-      'Uphuphe Ibhodlela?',
+      'Amasoseji',
     ],
     
     [
-      'Uphuphe Iphinifa?',
+      'Inyama Engaphekiwe',
     ],
 
     [
-      'Uphuphe Ingubo Yokulala Encane?',
+      'Inyama Yengulube',
     ],
+    
+    [
+      'Isibindi',
+    ],
+
+    [
+      'Inyama Yemvu',
+    ],
+    
+    [
+      'Izoso',
+    ],
+
+    [
+      'Umqwayiba',
+    ],
+    
+    [
+      'Inyama Yenkomo',
+    ],
+
+    [
+      'UKhisimusi',
+    ],
+    
+    [
+      'Iphikhinikhi',
+    ],
+    [
+      'Iphathi',
+    ],
+    
+    [
+      'Kuhlukaniswa Unyaka',
+    ],
+
+    [
+      'Ukuhleka',
+    ],
+    
+    [
+      'Uya Ephathini',
+    ],
+
+    [
+      'Ukuthola Isipho',
+    ],
+    
+    [
+      'Ukuphuza',
+    ],
+
+    [
+      'Ukudansa',
+    ],
+    
+    [
+      'Izixuku',
+    ],
+
+    [
+      'Ukugubha Umkhosi',
+    ],
+    
+    [
+      'Ukunqoba',
+    ],
+
+    [
+      'Induku Yamakhosi',
+    ],
+    
+    [
+      'Isiswebhu',
+    ],
+
+    [
+      'Inkemba',
+    ],
+    
+    [
+      'Amatshe',
+    ],
+
+    [
+      'Umkhonto',
+    ],
+    
+    [
+      'Ummese',
+    ],
+
+    [
+      'Isbhamu',
+    ],
+    
+    [
+      'Inhlamvu',
+    ],
+
+    [
+      'Amabhomu Nokuqhuma',
+    ],
+
+    [
+      'Ululwane',
+    ],
+
+    [
+      'Izinkonjane',
+    ],
+    
+    [
+      'Inyoka Emnyama Enebala Elimhlophe',
+    ],
+
+    [
+      'Inyoka',
+    ],
+    
+    [
+      'Inhlwathi',
+    ],
+
+    [
+      'Isilwane Esihuquzela Ngesisu',
+    ],
+
+    [
+      'Imamba',
+    ],
+    
+    [
+      'Isibankwa',
+    ],
+
+    [
+      'Inyoka Elihlaza',
+    ],
+    
+    [
+      'Ixoxo',
+    ],
+
+    [
+      'Inyoka Ensundu',
+    ],
+
+    [
+      'Umuvi',
+    ],
+    
+    [
+      'Umuhlwa',
+    ],
+
+    [
+      'Isicabucabu',
+    ],
+    
+    [
+      'Umneke',
+    ],
+    
+    [
+      'Iqhwagi',
+    ],
+
+    [
+      'Izintwala',
+    ],
+    
+    [
+      'Izimpukane',
+    ],
+
+    [
+      'Amazeze',
+    ],
+    
+    [
+      'Amabhodwe Namapani',
+    ],
+
+    [
+      'Ujeke',
+    ],
+    
+    [
+      'Inkomishi',
+    ],
+
+    [
+      'Ibhodlela',
+    ],
+    
+    [
+      'Iphinifa',
+    ],
+
+    [
+      'Ingubo Yokulala Encane',
+    ],
+
+    [
+      'Umqamelo',
+    ],
+
+    [
+      'Umatilasi',
+    ],
+
+    [
+      'Izingubo Zokulala',
+    ],
+
+    /*[
+      'Ukuthola Umntwana',
+    ],*/
+
+    [
+      'Ukubeletha',
+    ],
+
+    [
+      'Ukukhulelwa',
+    ],
+
+    [
+      'Ukuphuphuma Kwesisu',
+    ],
+
+    [
+      'Ukuzala',
+    ],
+
+    [
+      'Izicathulo',
+    ],
+
+    [
+      'Uthenga Izingubo Ezintsha',
+    ],
+
+    [
+      'Ugqoke Umfaniswano',
+    ],
+
+    [
+      'Iveyili',
+    ],
+
+    [
+      'Izingubo Zangaphansi',
+    ],
+
+    [
+      'Ibhulukwe',
+    ],
+
+    [
+      'Usilika',
+    ],
+
+    [
+      'Itshali',
+    ],
+
+    [
+      'Izidwedwe',
+    ],
+
+    [
+      'Izingubo Ezingcolile Noma Ezindala',
+    ],
+
+    [
+      'Ukubanqunu',
+    ],
+
+    [
+      'Ukulahlekelwa Izingubo',
+    ],
+
+    [
+      'Isigqoko',
+    ],
+
+    [
+      'Iduku Lasekhukhwini',
+    ],
+
+    [
+      'Ingubo Yokugqoka Yabesifazane',
+    ],
+
+    [
+      'Ukotini',
+    ],
+
+    [
+      'Ijazi',
+    ],
+
+    [
+      'Izinkinobho',
+    ],
+
+    [
+      'Ukushisa Izingubo',
+    ],
+
+    [
+      'Indlu Yokudlela',
+    ],
+
+    [
+      'Ukudla',
+    ],
+
+    [
+      'Imbiliso',
+    ],
+
+    [
+      'Ukolo',
+    ],
+
+    [
+      'Amaswidi',
+    ],
+
+    [
+      'Ushukela',
+    ],
+
+    [
+      'Isobho',
+    ],
+
+    [
+      'Usawoti',
+    ],
+
+    [
+      'Irayisi',
+    ],
+
+    [
+      'Amakinati',
+    ],
+
+    [
+      'Amasi',
+    ],
+
+    [
+      'Ujeli',
+    ],
+
+    [
+      'Ujamu',
+    ],
+
+    [
+      'Uju',
+    ],
+
+    [
+      'Ufulawa',
+    ],
+
+    [
+      'Amaqanda',
+    ],
+
+    [
+      'Ushizi',
+    ],
+
+    [
+      'Ikhekhe',
+    ],
+
+    [
+      'Isinkwa',
+    ],
+
+    [
+      'Ukuphica',
+    ],
+
+    [
+      'Ukushanela',
+    ],
+
+    [
+      'Ukufaka Isitashi Ezingutsheni',
+    ],
+
+    [
+      'Ukuthunga',
+    ],
+
+    [
+      'Uwasha Izingubo',
+    ],
+
+    [
+      'Ukuhlakula',
+    ],
+
+    [
+      'Ukuvuna',
+    ],
+
+    [
+      'Ukugaya Izimbewu',
+    ],
+
+    [
+      'Ukumba',
+    ],
+
+    [
+      'Ukuhlanza',
+    ],
+
+    [
+      'Ukuphehla Ibhotela',
+    ],
+
+    [
+      'Isichitho Noma Isinyama',
+    ],
+
+    [
+      'Ngamathambo',
+    ],
+
+    [
+      'Inxeba',
+    ],
+
+    [
+      'Umphimbo Obuhlungu',
+    ],
+
+    [
+      'Ingxibongo',
+    ],
+
+    [
+      'Ubuhlungu',
+    ],
+
+    [
+      'Umuthi',
+    ],
+
+    [
+      'Isimungumungwana',
+    ],
+
+    [
+      'Ukulahlekelwa Umqondo',
+    ],
+
+    [
+      'Ukuqhuga',
+    ],
+
+    [
+      'Uchoko',
+    ],
+
+    [
+      'Ukuphathwa Yikhanda',
+    ],
+
+    [
+      'Izimilela',
+    ],
+
+    [
+      'Ubuhlungu Endlebeni',
+    ],
+
+    [
+      'Inzululwane',
+    ],
+
+    [
+      'Ukukhubazeka',
+    ],
+
+    [
+      'Ukukhwehlela',
+    ],
+
+    [
+      'Umkhuhlane',
+    ],
+
+    [
+      'Ukukhathala',
+    ],
+
+    [
+      'Ukoma',
+    ],
+
+    [
+      'Uzwelo',
+    ],
+
+    [
+      'Uzizwa Ungajabulile',
+    ],
+
+    [
+      'Uthando',
+    ],
+
+    [
+      'Isizungu',
+    ],
+
+    [
+      'Isikhwele',
+    ],
+
+    [
+      'Ukulamba',
+    ],
+
+    [
+      'Ukugodola',
+    ],
+
+    [
+      'Uvalo',
+    ],
+
+    [
+      'Injabulo',
+    ],
+
+    [
+      'Ukuthukuthela',
+    ],
+
+    [
+      'Ukufunda',
+    ],
+
+    [
+      'Ukunitha',
+    ],
+
+    [
+      'Udumo',
+    ],
+
+    [
+      'Ukuhlobisa',
+    ],
+
+    [
+      'Ikhonsathi',
+    ],
+
+    [
+      'Ukubaza',
+    ],
+
+    [
+      'Ubuciko',
+    ],
+
+    [
+      'Ukulingisa',
+    ],
+
+    [
+      'Ukubhala',
+    ],
+
+    [
+      'ngamakhadi Okukweleta',
+    ],
+
+    [
+      'Imali',
+    ],
+
+    [
+      'Isiliva',
+    ],
+
+    [
+      'Imali Ewuhlweza',
+    ],
+
+    [
+      'Igolide Kuwe',
+    ],
+
+    [
+      'Mayelana Namabhange',
+    ],
+
+    [
+      'Imali',
+    ],
+
+    [
+      'Iwalethi',
+    ],
+
+    [
+      'Igugu',
+    ],
+
+    [
+      'Isiliva',
+    ],
+
+    [
+      'Ukuthenga',
+    ],
+
+    [
+      'Inhlanhla',
+    ],
+
+    [
+      'Igolide',
+    ],
+
+    [
+      'Ukuhola Imali',
+    ],
+
+    [
+      'Isikweletu',
+    ],
+
+    [
+      'Ukugqoka Umqhele',
+    ],
+
+    [
+      'Isheke',
+    ],
+
+    [
+      'Ithusi',
+    ],
+
+    [
+      'Izithelo Ezibolile',
+    ],
+
+    [
+      'Ikhabe',
+    ],
+
+    [
+      'Amastrobheri',
+    ],
+
+    [
+      'Okwipili',
+    ],
+
+    [
+      'Amaplamu',
+    ],
+
+    [
+      'Uphayinaphu',
+    ],
+
+    [
+      'Ipentshisi',
+    ],
+
+    [
+      'Amaworintshi',
+    ],
+
+    [
+      'Ulamula',
+    ],
+
+    [
+      'Amagrebhisi',
+    ],
+
+    [
+      'Ubhanana',
+    ],
+
+    [
+      'Ibhilikosi',
+    ],
+
+    [
+      'Ama-Aphula',
+    ],
+
+    [
+      'Umgogodla',
+    ],
+
+    [
+      'Usesikhathini Noma Uya Esikhathini',
+    ],
+
+    [
+      'Ikhanda',
+    ],
+
+    [
+      'Ngamehlo',
+    ],
+
+    [
+      'Isisindo',
+    ],
+
+    [
+      'Umchamo Nendle',
+    ],
+
+    [
+      'Ukulala',
+    ],
+
+    [
+      'Ukushefa',
+    ],
+
+    [
+      'Ngmadevu',
+    ],
+
+    [
+      'Inhliziyo',
+    ],
+
+    [
+      'Izinqe',
+    ],
+
+    [
+      'Izingalo',
+    ],
+
+    [
+
+      'Iminyaka Yobudala',
+    ],
+
+    [
+      'Isikhumba',
+    ],
+
+    [
+      'Imilenze',
+    ],
+
+    [
+      'Imilomo',
+    ],
+
+    [
+      'Ubuso',
+    ],
+
+    [
+      'Izinzipho',
+    ],
+
+    [
+      'Iminwe Nezandla',
+    ],
+
+
+    [
+      'Uzibuka',
+    ],
+
+    [
+      'Uzikama',
+    ],
+
+    [
+      'Sekukhule Kakhulu Izinywele Zizinde',
+    ],
+
+    [
+      'Zikhula Izinywele',
+    ],
+
+    [
+      'Unempandla',
+    ],
+
+    [
+      'Uzigunda',
+    ],
+
+    [
+      'Ngamakhala',
+    ],
+
+    [
+      'Ukuwina',
+    ],
+
+    [
+      'Umjaho',
+    ],
+
+    [
+      'Ukwehlulwa',
+    ],
+
+    [
+      'Ukugxuma',
+    ],
+
+    [
+      'Ukujaha Ngehhashi',
+    ],
+
+    [
+      'Igalofu',
+    ],
+
+    [
+      'Ibhola',
+    ],
+
+    [
+      'Ukubhukuda',
+    ],
+
+    [
+      'Umqhele',
+    ],
+
+    [
+      'Umshado',
+    ],
+
+    [
+      'Ingubo Yomshado',
+    ],
+
+    [
+      'Indandatho Yomshado',
+    ],
+
+    [
+      'Izimbali Zasemshadweni',
+    ],
+
+    [
+      'Ukwaliwa',
+    ],
+
+    [
+      'Isithembu',
+    ],
+
+    [
+      'Ukucela Umshado',
+    ],
+
+    [
+      'Ukuthembisa Umshado',
+    ],
+
+    [
+      'Idivosi',
+    ],
+
+    [
+      'Ukushaya',
+    ],
+
+    [
+      'Umakoti, Umkhwenyana Noma Impelesi',
+    ],
+
+    [
+      'Ngamadoda Angaganiwe',
+    ],
+
+    [
+      'Ukuthandana Nomuntu Ngaphandle Komshado Wakho',
+    ],
+
+    [
+      'Umcimbi Womshado',
+    ],
+
+    [
+      'Ukuqabula',
+    ],
+
+    [
+      'Inglube Yasendle',
+    ],
+
+    [
+      'Ufudu',
+    ],
+
+    [
+      'Ingonyama',
+    ],
+
+    [
+      'Izimpisi',
+    ],
+
+    [
+      'Izingwenya',
+    ],
+
+    [
+      'Inhlanzi',
+    ],
+
+    [
+      'Umbokwane',
+    ],
+
+    [
+      'Inkalankala',
+    ],
+
+    [
+      'Idube',
+    ],
+
+    [
+      'Unogwaja',
+    ],
+
+    [
+      'Igundane',
+    ],
+
+    [
+      'Inkawu',
+    ],
+
+    [
+      'Uchakide',
+    ],
+
+    [
+      'Imvukuzane',
+    ],
+
+    [
+      'Amabhubesi',
+    ],
+
+    [
+      'Izingwe',
+    ],
+
+    [
+      'Impungushe',
+    ],
+
+    [
+      'Izimpondo',
+    ],
+
+    [
+      'Imvubu',
+    ],
+
+    [
+      'Indlovu',
+    ],
+
+    [
+      'Imbila',
+    ],
+
+    [
+      'Ingwenya',
+    ],
+
+    [
+      'Ikameli',
+    ],
+
+    [
+      'Inyamazane',
+    ],
+
+
+    [
+      'Imfene',
+    ],
+
+    [
+      'Isilwane Esidla Izintuthwane Nomuhlwa',
+    ],
+
+    [
+      'Indlu Yangasese',
+    ],
+
+    [
+      'Udoti',
+    ],
+
+    [
+      'Izindawo Ezingcolile',
+    ],
+
+
+    [
+      'Ukugeza',
+    ],
+
+    [
+      'Ukungcola Nokuhlanzeka',
+    ],
+
+    [
+      'Isitebhisi',
+    ],
+
+    [
+      'Umlalazi',
+    ],
+
+    [
+      'Isaha',
+    ],
+
+
+    [
+      'Igeja',
+    ],
+
+    [
+      'Insimbi',
+    ],
+
+    [
+      'Amaketango Nezintambo',
+    ],
+
+    [
+      'Amawindi',
+    ],
+
+    [
+      'Izindonga',
+    ],
+
+    [
+      'Ingadi',
+    ],
 
     [
-      'Uphuphe Umqamelo?',
+      'Amakhabethe',
     ],
 
     [
-      'Uphuphe Umatilasi?',
+      'Amakamelo Okulala',
     ],
 
     [
-      'Uphuphe Izingubo Zokulala?',
+      'Amakhaya',
     ],
 
     [
-      'Uphuphe Ngokuthola Umntwana?',
+      'Isigodi',
     ],
 
     [
-      'Uphuphe Ngokubeletha?',
+      'Umgodi',
     ],
 
     [
-      'Uphuphe Ngokukhulelwa?',
+      'Imbewu',
     ],
 
     [
-      'Uphuphe Ngokuphuphuma Kwesisu?',
+      'Ukutheza',
     ],
 
     [
-      'Uphuphe Ngokuzala?',
+      'Amasumi',
     ],
 
     [
-      'Uphuphe Izicathulo?',
+      'Isiwa',
     ],
 
     [
-      'Uphuphe Uthenga Izingubo Ezintsha?',
+      'Ulwandle',
     ],
 
     [
-      'Uphuphe Ugqoke Umfaniswano?',
+      'Ihlane',
     ],
 
     [
-      'Uphuphe Ngeveyili?',
+      'Ubhuku',
     ],
 
     [
-      'Uphuphe Izingubo Zangaphansi?',
+      'Isihlabathi',
     ],
 
     [
-      'Uphuphe Ngebhulukwe?',
+      'Umfula',
     ],
 
     [
-      'Uphuphe Usilika?',
+      'Udaka',
     ],
 
     [
-      'Uphuphe Itshali?',
+      'Intaba',
     ],
 
     [
-      'Uphuphe Izidwedwe?',
+      'Ichibi',
     ],
 
     [
-      'Uphuphe Izingubo Ezingcolile Noma Ezindala?',
+      'Igquma',
     ],
 
     [
-      'Uphuphe Ngokubanqunu?',
+      'Ukuzamazam Komhlaba',
     ],
 
     [
-      'Uphuphe Ukulahlekelwa Izingubo?',
+      'Umgede'
     ],
 
     [
-      'Uphuphe Isigqoko?',
+      'Umnqumo Wasendle'
     ],
 
     [
-      'Uphuphe Iduku Lasekhukhwini?',
+      'Ukhula'
     ],
 
     [
-      'Uphuphe Ingubo Yokugqoka Yabesifazane?',
+      'Izimpande'
     ],
 
     [
-      'Uphuphe Ukotini?',
+      'Izitshalo'
     ],
 
     [
-      'Uphuphe Ijazi?',
+      'Imbabazane'
     ],
 
     [
-      'Uphuphe Izinkinobho?',
+      'Ikhowe'
     ],
 
     [
-      'Uphuphe Ngokushisa Izingubo?',
+      'Amaqabunga'
     ],
 
     [
-      'Uphuphe Indlu Yokudlela?',
+      'Utshani'
     ],
 
     [
-      'Uphuphe Ukudla?',
+      'Ihlathi'
     ],
 
     [
-      'Uphuphe Imbiliso?',
+      'Izimbali'
     ],
 
     [
-      'Uphuphe Ukolo?',
+      'Umhlonhlo'
     ],
 
     [
-      'Uphuphe Amaswidi?',
+      'Insangu'
     ],
 
     [
-      'Uphuphe Ushukela?',
+      'Amajikijolo'
     ],
 
     [
-      'Uphuphe Isobho?',
+      'Isihlahla'
     ],
 
     [
-      'Uphuphe Usawoti?',
+      'Ukutheza'
     ],
 
     [
-      'Uphuphe Irayisi?',
+      ' Isikelo/Isikero'
     ],
 
     [
-      'Uphuphe Amakinati?',
+      'Ipensela'
     ],
 
     [
-      'Uphuphe Amasi?',
+      'Isinamathelisi'
     ],
 
     [
-      'Uphuphe Ujeli?',
+      'Ucwebecwebe'
     ],
 
     [
-      'Uphuphe Ujamu?',
+      'Imvilophu'
     ],
 
     [
-      'Uphuphe Uju?',
+      'Umuntu Ongasekho'
     ],
 
     [
-      'Uphuphe Ufulawa?',
+      'Umoya Omubi/Isipoki'
     ],
 
     [
-      'Uphuphe Amaqanda?',
+      'Ukuzila'
     ],
 
     [
-      'Uphuphe Ushizi?',
+      'Imoto Ethwala Izidumbu'
     ],
 
     [
-      'Uphuphe Ikhekhe?',
+      'Amathuna'
     ],
 
     [
-      'Uphuphe Isinkwa?',
+      'Umngcwabo'
     ],
 
     [
-      'Uphuphe Ngokuphica?',
+      'Ukufa'
     ],
 
     [
-      'Uphuphe Ngokushanela?',
+      'Abantu Abangasekho Emhlabeni'
     ],
 
     [
-      'Uphuphe Ngokufaka Isitashi Ezingutsheni?',
+      'Izidumbu'
     ],
 
     [
-      'Uphuphe Ngokuthunga?',
+      'Amabhokisi Okungcwaba'
     ],
 
     [
-      'Uphuphe Uwasha Izingubo?',
+      'Amakphupho Ebhadi'
     ],
 
     [
-      'Uphuphe Ngokuhlakula?',
+      'Amphupho Okufa'
     ],
 
     [
-      'Uphuphe Ngokuvuna?',
+      'Isambulela'
     ],
 
     [
-      'Uphuphe Ngokugaya Izimbewu?',
+      'Ithawula'
     ],
 
     [
-      'Uphuphe Ngokumba?',
+      'Ithin'
     ],
 
     [
-      'Uphuphe Ngokuhlanza?',
+      'Ipayipi'
     ],
 
     [
-      'Uphuphe Ngokuphehla Ibhotela?',
+      'Iphephandaba'
     ],
 
     [
-      'Uphuphe Ngesichitho Noma Isinyama?',
+      'Izinaniti Nophini'
     ],
 
     [
-      'Uphuphe Ngamathambo?',
+      'Ukhiye'
     ],
 
     [
-      'Uphuphe Inxeba?',
+      'Amakhethini'
     ],
 
     [
-      'Uphuphe Umphimbo Obuhlungu?',
+      'Amakhadi Namadayisi'
     ],
 
     [
-      'Uphuphe Ngengxibongo?',
+      'Izikhwama Nobhasikidi'
     ],
 
     [
-      'Uphuphe Ngobuhlungu?',
+      'Izincwadi'
     ],
 
     [
-      'Uphuphe Umuthi?',
+      'Izinto Zokwakha'
     ],
 
     [
-      'Uphuphe Isimungumungwana?',
+      'Ikisti'
     ],
 
     [
-      'Uphuphe Ngokulahlekelwa Umqondo?',
+      'Itafula'
     ],
 
     [
-      'Uphuphe Ngokuqhuga?',
+      'Isitofu'
     ],
 
     [
-      'Uphuphe Ngochoko?',
+      'Ifenisha Endala'
     ],
 
     [
-      'Uphuphe Ngokuphathwa Yikhanda?',
+      'Isibuko'
     ],
 
     [
-      'Uphuphe Ngezimilela?',
+      'Ilambu'
     ],
 
     [
-      'Uphuphe Ngobuhlungu Endlebeni?',
+      'Iketela'
     ],
 
     [
-      'Uphuphe Ngenzululwane?',
+      'Isihlalo'
     ],
 
     [
-      'Uphuphe Ngokukhubazeka?',
+      'Umbhede'
     ],
 
     [
-      'Uphuphe Ngokukhwehlela?',
+      'Izulu Lihloma'
     ],
 
     [
-      'Uphuphe Umkhuhlane?',
+      'Isikhishikizane'
     ],
 
     [
-      'Uphuphe Ngokukhathala?',
+      'Isangqumba'
     ],
 
     [
-      'Uphuphe Ngokoma?',
+      'Ilanga'
     ],
 
     [
-      'Uphuphe Ngozwelo?',
+      'Izinkanyezi'
     ],
 
     [
-      'Uphuphe Uzizwa Ungajabulile?',
+      'Isibhakabhaka'
     ],
 
     [
-      'Uphuphe Ngothando?',
+      'Ukukhanya Kwelanga'
     ],
 
     [
-      'Uphuphe Ngesizungu?',
+      'Isikhathi Sonyaka'
     ],
 
     [
-      'Uphuphe Ngesikhwele?',
+      'Uthingo Lwenkosazane'
     ],
 
     [
-      'Uphuphe Ngokulamba?',
+      'Inkungu'
     ],
 
     [
-      'Uphuphe Ngokugodola?',
+      'Iqhwa'
     ],
 
     [
-      'Uphuphe Ngovalo?',
+      'Isichotho'
     ],
 
     [
-      'Uphuphe Ngenjabulo?',
+      'Isithwathwa'
     ],
 
     [
-      'Uphuphe Ngokuthukuthela?',
+      'Izikhukhula'
     ],
 
     [
-      'Uphuphe Ngokufunda?',
+      'Amafu'
     ],
 
     [
-      'Uphuphe Ngokunitha?',
+      'Umoya'
     ],
 
     [
-      'Uphuphe Ngodumo?',
+      'Inyanga'
     ],
 
     [
-      'Uphuphe Ngokuhlobisa?',
+      'Isivunguvungu'
     ],
 
     [
-      'Uphuphe Ikhonsathi?',
+      'Imvula'
     ],
 
     [
-      'Uphuphe Ukubaza?',
+      'Ifa'
     ],
 
     [
-      'Uphuphe Ubuciko?',
+      'Isamanisi'
     ],
 
     [
-      'Uphuphe Ukulingisa?',
+      'Isijeziso'
     ],
 
     [
-      'Uphuphe Ukubhala?',
+      'Amaphoyisa'
     ],
 
     [
-      'Uphuphe ngamakhadi Okukweleta?',
+      'Isifungo'
     ],
 
     [
-      'Uphuphe Imali?',
+      'Icala'
     ],
 
     [
-      'Uphuphe Isiliva?',
+      'Ummeli'
     ],
 
     [
-      'Uphuphe Imali Ewuhlweza?',
+      'Ijaji'
     ],
 
     [
-      'Uphuphe Igolide Kuwe?',
+      'Uzankosi'
     ],
 
     [
-      'Uphuphe Mayelana Namabhange?',
+      'Umseshi'
     ],
 
     [
-      'Uphuphe Ngemali?',
+      'Inkantolo'
     ],
 
     [
-      'Uphuphe Ngewalethi?',
+      'Ijele'
     ],
 
     [
-      'Uphuphe Ngegugu?',
+      'Indlovukazi'
     ],
 
     [
-      'Uphuphe Ngesiliva?',
+      'Amawele'
     ],
 
     [
-      'Uphuphe Ngokuthenga?',
+      'Ibhungu Noma Intombi'
     ],
 
     [
-      'Uphuphe Ngenhlanhla?',
+      'Umfelokazi'
     ],
 
     [
-      'Uphuphe Ngegolide?',
+      'Umuntu Omubi'
     ],
 
     [
-      'Uphuphe Ngokuhola Imali?',
+      'Ikhehla Noma Isalukazi'
     ],
 
     [
-      'Uphuphe Ngesikweletu?',
+      'Umakhelwane'
     ],
 
     [
-      'Uphuphe Ngokugqoka Umqhele?',
+      'Abangane'
     ],
 
     [
-      'Uphuphe Ngesheke?',
+      'Isilima'
     ],
 
     [
-      'Uphuphe Ngethusi?',
+      'Isgilamkhuba'
     ],
 
+    [
+      'Isithulu'
+    ],
+
+    [
+      'Itiye'
+    ],
+
+    [
+      'Ubusi'
+    ],
+
+    [
+      'Ikhofi'
+    ],
+
+    [
+      'Utshwala'
+    ],
+
+    [
+      'Ukuthenga Ukudla'
+    ],
 
   ];
 
@@ -1525,15 +2419,17 @@ class Languages{
     ],
 
     [
-      'Uma uphupha uhamba ngebhanoyi kusho ukuthi uzoya kude empilweni, kodwa uma lishayisa lokho kusho ukuthi uzobhekana nobunzima obuningi nosizi. Uma uphupha uphakathi  ebhanoyini lihamba kahle nje, lokho kusho impumelelo. Uma uphupha uphakathi ebhanoyini kodwa bese liwa, lokho kusho izinkinga ozohlangabezana nazo empilweni Uma uphupha ubona ibhanoyi liwa, wena ungekho phakathi, lokho kusho ukuphoxeka okuzoba khona.',
+      'Uma uphupha uhamba ngebhanoyi kusho ukuthi uzoya kude empilweni, kodwa uma lishayisa lokho kusho ukuthi uzobhekana nobunzima obuningi nosizi. Uma '
+      'uphupha uphakathi  ebhanoyini lihamba kahle nje, lokho kusho impumelelo. Uma uphupha uphakathi ebhanoyini kodwa bese liwa, lokho kusho izinkinga '
+      'ozohlangabezana nazo empilweni Uma uphupha ubona ibhanoyi liwa, wena ungekho phakathi, lokho kusho ukuphoxeka okuzoba khona empilweni.',
     ],
 
     [
-      'Uma uphupha ukuthi ugibele inqola (ikalishi, ingqukumbane) kusho ukuthi kunebhadi elizayo. Kusho ukuthi uzolahlekelwa yizinto ozithandayo futhi uzobhekana nokukloloda namahloni futhi kubi kakhulu uma uphupha uyidonsa inqola. Uma uphuphe uyigibela inqola lokho kubika ukushona phansi empilweni, okuba ukwehla ezingeni obukulo. Kungaba ukwehla esikhundleni esiphezulu obukuso ngokomsebenzi, ukuphatha noma ngokwendima oyidlalayo kulokho okwenzayo futhi onothando lwakho.',
+      'Uma uphupha ukuthi ugibele inqola (ikalishi, ingqukumbane) kusho ukuthi kunebhadi elizayo. Kusho ukuthi uzolahlekelwa yizinto ozithandayo futhi uzobhekana nokukloloda namahloni futhi kubi kakhulu uma uphupha uyidonsa inqola. Uma uphuphe uyigibela inqola lokho kubika ukushona phansi empilweni, okuba ukwehla ezingeni obukulo. Kungaba ukwehla esikhundleni esiphezulu obukuso ngokomsebenzi, ukuphatha noma ngokwendima oyidlalayo kulokho okwenzayo futhi onothando lwakho. Kepha uma uphupha ukuthi udonswa ngabantu abaningi kungaba yiphupho elihle elingasho ukuthi uzokhushulwa emsebenzini uphathe izisebenzi eziningi. Uma uphupha uyishayela inqola, lokho kubika ubumpofu obuzayo obuzofika nobunzima obukhulu.',
     ],
 
     [
-      'Uma uphupha ukuthi kunento oyigibelayo, kusho ukuthi uzophumelela kangakanani empilweni. Uma ufika phezulu, uzofinyelela izinhloso zakho empilweni, othandweni nasemsebenzini. Uma ungafiki, noma uwa phansi, kusho ukuthi uzodumala. Uma usugibelile wafika phezulu emaphusheni akho futhi usuyehla, kusho ukuthi kuzoba noshintsho oluhle empilweni yakho maduzane. Uma uphupha ukuthi ugibele ihhashi kusho ukuthi uzobhekana nosizi nokudumala empilweni yakho.',
+      'Uma uphupha ukuthi kunento oyigibelayo, kusho ukuthi uzophumelela kangakanani empilweni. Uma ufika phezulu, uzofinyelela izinhloso zakho empilweni, othandweni nasemsebenzini. Uma ungafiki, noma uwa phansi, kusho ukuthi uzodumala. Uma usugibelile wafika phezulu emaphusheni akho futhi usuyehla, kusho ukuthi kuzoba noshintsho oluhle empilweni yakho maduzane. Uma uphupha ukuthi ugibele ihhashi kusho ukuthi uzobhekana nosizi nokudumala empilweni yakho ikakhulukazi uma ungasebenzisi isihlalo sehhashi.',
     ],
 
     [
@@ -1577,11 +2473,11 @@ class Languages{
     ],
 
     [
-      'Ukuphupha ufuye izinkomo kunezincazelo ezahlukahlukene: Kubantu abacebile empilweni kusho ukwenzeka kwento ezoba yihlazo noma ukulahlekelwa okukhulu. Kubantu abampofu lisho ukuzuza okuthile. Ubunjalo kanye nesimo sezinkomo ophupha uzifuyile nakho kunezincazelo zakho: Uma uphuphe ufuye izinkomo ezikhuluphele, lokho kusho inala. Kanti uma uphuphe ufuye izinkomo ezondile, lokho kusho ukuza kwendlala.',
+      'Ukuphupha ufuye izinkomo kunezincazelo ezahlukahlukene: Kubantu abacebile empilweni kusho ukwenzeka kwento ezoba yihlazo noma ukulahlekelwa okukhulu. Kubantu abampofu lisho ukuzuza okuthile. Ubunjalo kanye nesimo sezinkomo ophupha uzifuyile nakho kunezincazelo zakho: Uma ufuye izinkomo ezikhuluphele, lokho kusho inala. Kanti uma ufuye izinkomo ezondile, lokho kusho ukuza kwendlala.',
     ],
 
     [ // Incomplete
-      'Zihlukene izinto ezichazwa ukuphupha inkomazi, incazelo itholakala ngokuthi inkomazi ibiyenzani ephusheni. Uma uphuphe ikujaha lokho kuyibika lokubakhona kwesitha. Uma ikuficile futhi yakulimaza, lokho kuchaza ukuthi sizogcina sikunqobile isitha sakho. Kanti uma iphupho liphetha ngokuthi ingakufici lokho kuhle, kusho ukuthi uyosinqoba isitha sakho. Uma uphuphe uyisenga lokho kuhle, kuyisibonakaliso senzalo ozoyithola ekuhambeni kwesikhathi.',
+      'Zihlukene izinto ezichazwa ukuphupha inkomazi, incazelo itholakala ngokuthi inkomazi ibiyenzani ephusheni. Uma ikujaha lokho kuyibika lokubakhona kwesitha. Uma ikuficile futhi yakulimaza, lokho kuchaza ukuthi sizogcina sikunqobile isitha sakho. Kanti uma iphupho liphetha ngokuthi ingakufici lokho kuhle, kusho ukuthi uyosinqoba isitha sakho. Uma uyisenga lokho kuhle, kuyisibonakaliso senzalo ozoyithola ekuhambeni kwesikhathi.',
     ],
 
     [
@@ -1637,18 +2533,18 @@ class Languages{
     ],
 
     [
-      // Incomplete
-      'Uma uphupha ubona ingulube kungaba kuhle noma kube kubi. Uma yeqa endleleni yakho bese ibaleka kusho ukuthi wena uzophunyukwa yithuba elikhulu. Uma ikubona kodwa ingenandaba nawe, lokho kusho ukuthi uzophumelela futhi ucebe. Uma uphupha ngengulube yesilisa ngokukhethekile, kusho ukuthi umkakho uzoba yinkinga. Uma uphupha ingulube efile uzothola izindaba ezinhle ezivela kude. ',
+      
+      'Uma uphupha ubona ingulube kungaba kuhle noma kube kubi. Uma yeqa endleleni yakho bese ibaleka kusho ukuthi wena uzophunyukwa yithuba elikhulu. Uma ikubona kodwa ingenandaba nawe, lokho kusho ukuthi uzophumelela futhi ucebe. Uma uphupha ngengulube yesilisa ngokukhethekile, kusho ukuthi umkakho uzoba yinkinga. Uma uphupha ingulube efile uzothola izindaba ezinhle ezivela kude. Ukuphupha ingulube futhi kungabika ukuvela kwemfihlo enokungcola phakathi. Uma uphuphe ingulube kubalulekile ukuthi uqaphele indawo ekuyona leyongulube kulelophupho lakho, ngoba kukuleyo ndawo lapho imfihlo esuke izovela khona. Uma uphupha izingulube zilumana, lokho kubika ukuthi ukuvela kwaleyo mfihlo kusuke kuzoletha ingxabano, inzondo noma ukungazwani kulabo abathintekayo kuyona. Uma izingulube zingalumani, lokho kusho ukuthi leyo mfihlo izoletha ukudumala nje kuphela.',
     ],
 
     [
-      // Incomplete
-      'Uma uphupha ubona inja kuwuphawu oluhle uma iziphethe kahle futhi ikulalela ikakhulukazi uma kuwumdlwane. Uma inja ingaziphethe kahle ilwa noma iphula izinto kusho ukuthi uzoba nenkinga empilweni yakho kungekudala, ikakhulukazi leyonkinga ivela kubantu abangathembekile. Uma inja ikuluma, kusho ukuthi kukhona umuntu okuzingelayo okungenzeka ukuthi ukukhunkula ngisho nangomoya omubi. ',
+      
+      'Uma uphupha ubona inja kuwuphawu oluhle uma iziphethe kahle futhi ikulalela ikakhulukazi uma kuwumdlwane. Uma inja ingaziphethe kahle ilwa noma iphula izinto kusho ukuthi uzoba nenkinga empilweni yakho kungekudala, ikakhulukazi leyonkinga ivela kubantu abangathembekile. Uma inja ikuluma, kusho ukuthi kukhona umuntu okuzingelayo okungenzeka ukuthi ukukhunkula ngisho nangomoya omubi. Uma uphupha inja ikhonkotha noma iklewula lokho kungenzeka ukuthi kubikezela izikhathi zezinkinga emndenini wakho. Uma uphupha umakoti omusha osandakufika emzini izinja zinobungane kuye esikhundleni sokuzama ukumluma, lokho kusho ukuthi wamukelwe kahle ngamadlozi. Kanti ke futhi ukuphupha izinja kungabikezela ukugadlwa noma ukulalelwa unyendle yizitha zakho. Lapho uphupha ulunywa inja noma izinja, ngenxa yokuthi izinja yizilwane zasekhaya uma zivela emaphusheni lokho kusuke kuletha umyalezo othinta umndeni. Uma uphupha inja noma izinja zikuluma, ukuthi zingaki lezozinja kubalulekile ekuchazeni iphupho. Uma uphupha inja ekulumayo iyodwa lokho kusuke kusho ukuthi kukhona umoya omubi okhona phakathi kwamalunga omndeni. Lowomoya omubi kungaba ukungaboni ngaso linye entweni ethile noma kube ingxabano engase ivele kungekudala ezokhanda inzondo phakathi kwakho wena ophuphile kanye nelinye ilunga lomndeni. Uma uphupha izinja ezikulumayo zingaphezu kweyodwa ngenani, lapho kusuke kukhona umyalezo idlozi lasekhaya elihlose ukuwethula kuwena, ngakho-ke kubalulekile ukuthi ukubheke konke okwenzeka kulelo nalelo phupho ukuze uzowuqonda kahle umyalezo walo uma usulihlaziya. Lezizincazelo zokuphupha ulunywa inja noma izinja zifakazelwa wukuthi ngokuvamile uma uwaphupha lamaphupho okulunywa yizinja, avamiswe ukuphushwa eveza usekhaya noma useduze nakhona ekhaya.',
     ],
 
     [
-      // Incomplete
-      'Kunabantu abanesiphiwo ngendlela eyisimanga abanye abayi ngisho ukuyohlola komunye umuntu ngoba konke okwenzekayo kubona bayakuphupha. Kwesinye isikhathi athi uyohlola ngoba efuna ukuba nesiqiniseko avele umuntu ohlolayo amtsheleukuthi useyayazi nje into ayizele kuyena. Kuvamise ukuthi umbango kube yinto embi futhi egcina ingakhipha ngisho isidumbu. ',
+      
+      'Kunabantu abanesiphiwo ngendlela eyisimanga abanye abayi ngisho ukuyohlola komunye umuntu ngoba konke okwenzekayo kubona bayakuphupha. Kwesinye isikhathi athi uyohlola ngoba efuna ukuba nesiqiniseko avele umuntu ohlolayo amtsheleukuthi useyayazi nje into ayizele kuyena. Kuvamise ukuthi umbango kube yinto embi futhi egcina ingakhipha ngisho isidumbu. Kuqala umbango kwakujwayeleke ukuthi kube yilapho abantu begane umuntu oyedwa babange bagcine bengasazwani. Kanti manje sekuyabangwa ngisho namabhizinisi, izikhundla njalonjalo. Kulabo abanenhlanhla yokuziphuphela, lamaphupho uma bekwazi ukuwalandela bagcina sebekwazi ukuwahlaziya. Kuhle kakhulu ukuthi umuntu alinake iphupha lakhe ikakhulukazi uma ekholelwa kakhulu emadlozini ngoba asuke emtshela okuthize.',
     ],
 
     [
@@ -1728,7 +2624,7 @@ class Languages{
     ],
 
     [
-      'Ngokujwayelekile uma uphupha uphonseka eweni uyaye uphaphame uma usuzofika phansi. Leliphupho liyibika elisho ukuthi usuke ukhula ngokomzimba okuyinto ongasoze wakwazi ukuyibona ngamehlo enyama kepha ihlale yenzeka ngokuhamba kwesikhathi.',
+      'Ukujwayelekile uma uphupha uphonseka eweni uyaye uphaphame uma usuzofika phansi. Leliphupho liyibika elisho ukuthi usuke ukhula ngokomzimba okuyinto ongasoze wakwazi ukuyibona ngamehlo enyama kepha ihlale yenzeka ngokuhamba kwesikhathi.',
     ],
 
     [
@@ -1783,9 +2679,10 @@ class Languages{
       'Uma uphupha ukuthi ubabezala ushonile kusho ukuthi uzoba nebhadi maduzane. Kubi kakhulu uma ekusongela noma ekuphatha kabi. ',
     ],
 
+    /*
     [
       'Uma uphupha ukuthi ukhuluma nobaba wakho kusho ukuthi uzoba nenjabulo. Uma engakhulumi futhi engakuphenduli kusho ukuthi uzohlangabezana nezinkinga maduzane.',
-    ],
+    ],*/
 
     [
       'Uma uphupha ukuthi umndeni wakho uhlangene kusho ukuthi kufanele uziphathe kahle kungenjalo uzozithola usenkingeni.',
@@ -2027,10 +2924,6 @@ class Languages{
     ],
 
     [
-      'Uma uphupha ukuthi kunomuntu okuxoxela inganekwane kusho ukuthi izinto ebezikuhlupha zizophela maduzane.'
-    ],
-
-    [
       'Uma uphupha ukuthi ubona udeveli kunengozi ezayo kuwe. Kungenzeka ube senkingeni nomthetho maduzane.'
     ],
 
@@ -2042,16 +2935,8 @@ class Languages{
       'Uma uphupha ukuthi ubona amadlozi uzobhekana nenkathazo empilweni wakho maduzane.'
     ],
 
-    [
+    /*[
       'Leli yiphupho elingelihle, likhomba ukuba khona kwemimoya emibi ekuzungezile empilweni yakho noma kuleyo ndawo olala kuyona. Lokhu kungaba wumphumela wokusetshenziswa kwemithi yobumnyama kuwena noma imimoya emibi eyasala kuleyo ndawo okuyo. Ngakho-ke ukulwisana naleliphupho elivamise ukuba ngeliphindaphindayo kumele usebenzise isisekelo okholelwa kuso. Leso sisekelo singaba wusizo olutholakala kubelaphi besintu noma kungaba ukuthandaza uma ukholelwa kuNkulunkulu.'
-    ],
-
-    [
-      'Uma uphupha ukuthi ubizwa yintombi yasolwandle kusho ukuthi amadlozi azokunikeza umyalezo maduzane futhi uzoba nenhlanhla.'
-    ],
-
-    [
-      'Uma uphupha ukuthi umuntu wenza umlingo kusho ukuthi kuzoba noshintsho empilweni yakho maduzane. Uma abantu kade bekukhohlisa uzokwazi maduzane futhi ngeke besakwazi ukucasha.'
     ],
 
     [
@@ -2059,28 +2944,8 @@ class Languages{
     ],
 
     [
-      'Uma uphupha ukuthi usendaweni engcwele kusho ukuthi uzoba nenjanbulo esikhathini esizayo. Kungasho nokuthi uzoshada usemusha uma ungowesifazane.'
-    ],
-
-    [
-      'Uma uphupha ukuthi uyingxenye yomcimbi ongcwele kusho ukuthi maduzane isihlobo sakho sizodinga usizo lwakho.'
-    ],
-
-    [
       'Uma uphupha ukuthi kunomuntu okuxoxela inganekwane kusho ukuthi izinto ebezikuhlupha zizophela maduzane.'
-    ],
-
-    [
-      'Uma uphupha ukuthi ubona udeveli kunengozi ezayo kuwe. Kungenzeka ube senkingeni nomthetho maduzane.'
-    ],
-
-    [
-      'Uma uphupha ukuthi uqalekisiwe kusho ukuthi uzolahlekelwa yinto ebalulekile kuwe.'
-    ],
-
-    [
-      'Uma uphupha ukuthi ubona amadlozi uzobhekana nenkathazo empilweni wakho maduzane.'
-    ],
+    ],*/
 
     [
       'Uma uphupha usebenzisa ithoshi kusho ukuthi kuyoba nobuhlungu kanye nosizi ekusaseni lakho.'
@@ -2195,8 +3060,12 @@ class Languages{
     ],
 
     [
-      // Incomplete
-      'Kubalulekile ukuthi uma uphupha iphupho izikhathi eziningi ukwazi ukulandele ukuthi lichaza ukuthini. Lelophupho lisuke likhuluma into ezokwenzeka, futhi kubalulekile ukuthi ukwenze okushiwo kulo. Ukuphupha izinto ezimbi njalo akuyona into enhle ngoba kusuke kunobungozi phakathi. Isikhathi esiningi amaphupho ayamaniswa namadlozi ukuthi yiwona asuke ekhuluma nawe.'
+  
+      'Kubalulekile ukuthi uma uphupha iphupho izikhathi eziningi ukwazi ukulandele ukuthi lichaza ukuthini. Lelophupho lisuke likhuluma into ezokwenzeka, futhi kubalulekile ukuthi ukwenze okushiwo kulo. Ukuphupha izinto ezimbi njalo akuyona into enhle ngoba kusuke kunobungozi phakathi. Isikhathi esiningi amaphupho ayamaniswa namadlozi ukuthi yiwona asuke ekhuluma nawe. Kunenkolelo yokuthi uma ukwenza lokho akutshela khona uba nezinhlanhla futhi ayafika njalo kuwena akuvikele uma ubhekene nezingqinamba. Uma usukwenzile lokho okudingekayo namaphupho owaphupha ngalesosikhathi akhombisa ukunqoba kwakho. '
+      'Uma uphupha ulwa nomnakwenu noma ekudunusela: Lokhu kuchaza ukuthi usuke ekade ekufaka isichitho futhi ekudlula endodeni ngaso usichitho. Kodwa uma usuphupha umshaya uze umhlule usuke usumhlulile kuyona yonke imikhuba yakhe emibi. Naleyonto akade ekusebenzisela yona isuke ingeke isasebenza. Uma uphupha ulwa nomuntu akuhlule, uma ungowesilisa uhlulwa ngumuntu wesifazane noma owesifazane uhlulwa ngumuntu wesilisa: Usuke ulwa nesilwane, isilwane asifani ubulili baso nesalowomuntu esithunywe kuye. Kodwa uma usuphupha umhlula lowomuntu usuke usumnqobile. Abanye abantu babanenhlanhla yokubona ukuthi '
+      'isilwane esithunyiwe ngoba siyazishintsha njengokuthi uma usishaya ephusheni kungumuntu ongamazi uma umhlula uyashintsha azenze ingane yakho noma umuntu wakini uma uqhubeka usishaya sigcina sesiyisilwane. Uma usishaye size sife usuke usunqobile ngeke siphinde sikuhluphe. Lamaphupho uyakwazi ukuwaqeda ngokusebenza imithi yesintu noma umkhuleko uma ungumuntu okholelwa emthandazweni. Uma uphupha kwakhiwa indlu ngokushesha ubone isiphelile bese uthatha ithuluzi ekade kwakhiwa ngalo uyibhidlize leyondlu: Usuke unqobe isifo noma into embi ebizovela emndenini wakho noma kuwena uqobo. Indlu uma uyiphupha '
+      'iphelile noma yakhiwa ngokushesha kusuke kukhona umuntu ozoshona. Kodwa uma uyibhidlizile ngeke kusenzeka. Uma uphupha kukhona izinto zakho ezilahlekayo uthi uyazibheka awuzitholi. Noma uphucwe into osuke uyiphethe ngesandla. Kwesinye isikhathi uphuphe uthi uphethe amacici amabili lilahleke elilodwa okunye izinkinobho zengubo oyigqokile zilahleke ungazitholi. Kuthi ekugcineni uphuphe uzithola noma kukhona izwi elithi nazi izinto noma izimpahla zakho lokho kusho ukuthi usukunqobile okubi noma lowo obefuna ukuthatha izinhlanhla zakho. Uma uphupha umuntu okwenza izinto ezimbi noma ekushalazela angahlangani '
+      'amehlo akho nawakhe futhi esendaweni emnyama. Kokunye akhulume akutshele okubi abefuna ukukwenza nesizathu salokho. Lomuntu aze akutshele ukuthi amandla ayamphelela ngoba izinto zakhe azisebenzi. Usuke engeke esakwenza lutho namandla akhe asuke esephelile. Ngesinye isikhathi usuke lowomuntu eqinile futhi izangoma ziyamtshela ukuthi idlozi lakubo limvikele.'
     ],
 
     [
@@ -2357,7 +3226,7 @@ class Languages{
 
     [
       // Incomplete
-      'Athini amaphupho okubika isisu noma ukukhulelwa? Ungathola izincazelo ngaphansi. Amaphupho okubika isisu noma ukukhulelwa Uma uphupha izithelo eziningi ezahlukene. Kuyenzeka uphuphela umuntu wakini noma umngane wakho okhulelwe. Uma uphupha udla izithelo kusuke kunguwena ozokhulelwa noma kanti vele usukhulelwe. Uma uphupha ubhukuda emanzini angcolile noma udaka olunamanzi ubisha kulona kusuke kunguwena okhulelwe.'
+      'Amaphupho okubika isisu noma ukukhulelwa Uma uphupha izithelo eziningi ezahlukene. Kuyenzeka uphuphela umuntu wakini noma umngane wakho okhulelwe. Uma uphupha udla izithelo kusuke kunguwena ozokhulelwa noma kanti vele usukhulelwe. Uma uphupha ubhukuda emanzini angcolile noma udaka olunamanzi ubisha kulona kusuke kunguwena okhulelwe.'
     ],
 
     [
@@ -2378,7 +3247,7 @@ class Languages{
     ],
 
     [
-      'Uma uphuphe ugqoka umfaniswano wesonto, womsebenzi, wesiko noma okunye okwenzayo empilweni; lokho kuyinto enhle. Leli phupho liyibika lokuthi kulokho ogqoka umfaniswano wakho usuke wenza kahle kakhulu kukhona futhi abantu ohlanganyela nabo kulokho basuke bekukhonzile kakhulu bekuthakasela ukuba nawe. Isibonelo: Uma ugqoka umfaniswano womsebenzi, kusho ukuthi abaphathi bayayithanda indlela owenza ngayo umsebenzi.'
+      'Uma ugqoka umfaniswano wesonto, womsebenzi, wesiko noma okunye okwenzayo empilweni; lokho kuyinto enhle. Leli phupho liyibika lokuthi kulokho ogqoka umfaniswano wakho usuke wenza kahle kakhulu kukhona futhi abantu ohlanganyela nabo kulokho basuke bekukhonzile kakhulu bekuthakasela ukuba nawe. Isibonelo: Uma ugqoka umfaniswano womsebenzi, kusho ukuthi abaphathi bayayithanda indlela owenza ngayo umsebenzi.'
     ],
 
     [
@@ -2450,8 +3319,7 @@ class Languages{
     ],
 
     [
-      // Incomplete
-      'Ukuphupha udla kungasho into enhle kanye nengeyinhle ngempilo yakho. Uma uphupha ukuthi udla ukudla okumnandi uzothola injabulo nempumelelo empilweni. Uma udla ulele phansi kusho ukuthi kukhona okuzokulahlekela. Uma ungowesifazane ongashadile kusho ukuthi kuzoba nezinkinga nelobolo lakho. Uma udla ekamelweni lokudla kusho ukuthi uzokwenza umngani omusha maduzane.'
+      'Ukuphupha udla kungasho into enhle kanye nengeyinhle ngempilo yakho. Uma uphupha ukuthi udla ukudla okumnandi uzothola injabulo nempumelelo empilweni. Uma udla ulele phansi kusho ukuthi kukhona okuzokulahlekela. Uma ungowesifazane ongashadile kusho ukuthi kuzoba nezinkinga nelobolo lakho. Uma udla ekamelweni lokudla kusho ukuthi uzokwenza umngani omusha maduzane. Uma uphupha ukuthi udla kangangokuthi uzizwa ungaphilile kusho ukuthi uzohlupheka ngokwezemali. Eye incazelo ngokuphupha udla Uma uphupha udla usuke udliswa ngephupho. Uma ukudlile ukudla ephusheni lokho kusho khona ukuthi idliso lingenile ngaphakathi, kanti uma uphaphame ngaphambi kokuthi udle lokho kudla kuba ngcono , lokho kusho ukuthi alingenanga idliso'
     ],
 
     [
@@ -2463,8 +3331,8 @@ class Languages{
     ],
 
     [
-      // Incomplete
-      'Uma uphupha ukuthi udla amaswidi kusho ukuthi uzothola izindaba ezimnandi noma isipho. Uma uphupha unikezwa amaswidi lokho kukhomba inhlanhla. Imvamisa lowo muntu okunikeza uswidi kusuke kungumuntu omaziyo futhi osondelene noma obesondelene nawe uma engasekho emhlabeni. Inhlanhla oyithola kulokho obuvele ukufisa usuke uyinikwa nguyena njengedlozi lakho. Kepha kwesinye isikhathi leyonhlanhla isuke ingabhekene '
+
+      'Uma uphupha ukuthi udla amaswidi kusho ukuthi uzothola izindaba ezimnandi noma isipho. Uma uphupha unikezwa amaswidi lokho kukhomba inhlanhla. Imvamisa lowo muntu okunikeza uswidi kusuke kungumuntu omaziyo futhi osondelene noma obesondelene nawe uma engasekho emhlabeni. Inhlanhla oyithola kulokho obuvele ukufisa usuke uyinikwa nguyena njengedlozi lakho. Kepha kwesinye isikhathi leyonhlanhla isuke ingabhekene nawe kodwa isuke izoya kwelinye ilunga lomndeni wakho noma omunye wabangane bakho. Izibonelo zohlobo lwezinhlanhla kungaba ukuthola umsebenzi, ukuklonyelwa ngokuthile, noma ukukhushulwa'
     ],
 
     [
@@ -2508,8 +3376,7 @@ class Languages{
     ],
 
     [
-      // Incomplete
-      'Uma uphupha ukuthi udla amaqanda kusho ukuthi uzoba nempumelelo emsebenzini noma esikoleni. Kodwa uma amaqanda ebolile kusho ukuthi kuzoba nenkathazo empilweni yakho. Leli iphupho incazelo yalo engahlukaneseka kabili,okuya ngesimo sawo amaqanda osuke uwaphuphile, kodwa isisekelo salo sikwimpumelelo. Ukuphupha amaqanda afile - Kusho ukungaphumeleli kulokho okwenzayo noma obuhlose ukuqala ukukwenza, kungaba ngokwemfundo, umsebnzi, ibhizinisi, uthando njalo njalo'
+      'Uma uphupha ukuthi udla amaqanda kusho ukuthi uzoba nempumelelo emsebenzini noma esikoleni. Kodwa uma amaqanda ebolile kusho ukuthi kuzoba nenkathazo empilweni yakho.Leli iphupho incazelo yalo engahlukaneseka kabili,okuya ngesimo sawo amaqanda osuke uwaphuphile, kodwa isisekelo salo sikwimpumelelo.Ukuphupha amaqanda afile – Kusho ukungaphumeleli kulokho okwenzayo noma obuhlose ukuqala ukukwenza, kungaba ngokwemfundo, umsebnzi, ibhizinisi, uthando njalo njalo. Ukuphupha amaqanda angafile noma asechamiselile – kusho ukuphumelela kulokho okwenzayo noma osezinhlelweni zokukufeza. Kanti uma engafile efukanyelwe isikhukhukazi kuchaza ukuthi izinhlelo zakho zivikelekile, abukho obungozi obungase bulimaze ozama ukukwenza.'
     ],
 
     [
@@ -2538,10 +3405,6 @@ class Languages{
 
     [
       'Uma uphupha ukuthi uthunga izingubo kuwuphawu oluhle kakhulu uma uqeda into oyiqalile. Uma uvuka ngaphambi kokuqeda kusho ukuthi izinto ezimbi ziyeza.'
-    ],
-
-    [
-      'Uma uphupha ukuthi usenga inkomo kusho ukuthi uzophumelela ngokweqile futhi ube yisigwili ngenxa yamathalente akho. Futhi uzoba nomshado onenjabulo.'
     ],
 
     [
@@ -2707,6 +3570,7 @@ class Languages{
     ],
 
     [
+      // Advertised
       'Uma uphupha ukuthi uhlobisa ikhaya yizindaba ezimbi. Kusho ukuthi uzolahlekelwa yimali eningi maduzane.'
     ],
     
@@ -2816,6 +3680,970 @@ class Languages{
 
     [
       'Uma uphupha ukuthi ubona ithusi umuntu omthandayo uthandana nomunye umuntu noma uqamba amanga kuwe.'
+    ],
+
+    [
+      'Leli iphupho elingelihle neze, libika ukuba neshwa lokungabatholi abantwana nama ukuphuphuma kwesisu, kukhona okusuke kungahambi kahle ngenzalo yakho noma isibeletho sakho uma ungumuntu wesifazane.',
+    ],
+
+    [
+      'Uma uphupha udla ikhabe kusho ukuthi noma ikuphi ukugula okukuphethe kuzoba ngcono.',
+    ],
+
+    [
+      'Uma uphupha ukuthi udla amastrobheri kusho ukuthi uzophumelela emsebenzini nasebudlelwaneni bakho nabanye.',
+    ],
+
+    [
+      'Uma uphupha ukuthi udla okwipili kusho ukuthi ibhadi obunalo luzoshintsha lube yinhlanhla maduzane.',
+    ],
+
+    [
+      'Uma uphupha ukuthi udla amaplamu incazelo iya ngokuthi anoshukela noma amuncu. Amaplamu anoshukela asho ukuthi uzoba nenhlanhla kodwa amaplamu amuncu asho ukuthi kukhona umuntu ozolwa naye.',
+    ],
+
+    [
+      'Uma uphupha ukuthi udla ophayinaphu kusho ukuthi uzoba isimenywa esibalulekile emcimbini.',
+    ],
+
+    [
+      'Uma uphupha ukuthi udla amapentshisi kusho ukuthi uzoba nenjabulo empilweni yakho.',
+    ],
+
+    [
+      'Uma uphupha ukuthi udla amaworintshi uzobhekana nokulahlekelwa maduzane – emsebenzini noma ebudlelwaneni bakho noma ezimalini zakho.',
+    ],
+
+    [
+      'Uma uphupha ukuthi udla olamula kuwuphawu lokungajabuli uma ushadile kodwa yinhlanhla uma ushadile.',
+    ],
+
+    [
+      'Uma uphupha ukuthi udla amagrebhisi kusho ukuthi umuntu ozoshada naye noma oshade naye uzokujabulisa. ',
+    ],
+
+    [
+      'Uma uphupha ukuthi udla obhanana kusho ukuthi uzoba nenjabulo ekusaseni lakho.',
+    ],
+
+    [
+      'Uma uphupha ukuthi udla amabhilikosi kusho ukuthi uzothola imali ube nenhlanhla.',
+    ],
+
+    [
+      'Uma uphupha ukuthi udla ama-aphula kusho ukuthi kunezinto ezinhle ezizayo kuwe ngaphandle uma uwanambitha uthole ukuthi amuncu. Lokho kusho ibhadi ekusaseni lakho.',
+    ],
+
+    [
+      'Uma uphupha ukuthi uphuke umgogodla, kusho ukuthi uzohlulwa ngomunye umuntu emncintiswaneni noma emsebenzini. Kepha, uma umgogodla wakho unamandla futhi uqondile, kusho ukuthi ikusasa lakho linenjabulo.',
+    ],
+
+    [
+      'Leli yiphupho elibhekene nabantu besifazane kuphela ngoba umuntu wesilisa akayi esikhathini. Lihle kakhulu kumuntu osuke ebhekene nenkinga noma izinkinga, libikezela ukudlula kulobo bunzima noma izingqinamba asuke ebhekene nazo. Imvamisa umuntu usuke engasiboni isixazululo futhi eselahle nethemba, kepha esikhathini esingeside isixazululo sisuke sizozifikela futhi aphume kuleyo nkinga kalula. Usizo lokuphuma kuleyo nkinga lusuke luzoqhamuka kumuntu obelungalindelwe kuyena nangesikhathi ebesingalindelwe.',
+    ],
+
+    [
+      'Uma uphupha ukuthi unekhanda elikhulu uzoba nenhla',
+    ],
+
+    [
+      'Uma uphupha ukuthi ulahlekelwe elinye lamehlo akho kusho ukuthi kunengozi emzini wakho futhi kufanele uqaphele. Uma ukhala ungakhathazeki kusho ukuthi kunenjabulo ezayo kuwe maduzane nje. Kepha uma udinga izibuko ephusheni lakho kusho ukuthi kukhona ozokujikela obucabanga ukuthi ungamethemba.',
+    ],
+
+    [
+      'Uma uphupha ukuthi uzacile noma siyehla isisindo sakho kusho ukuthi kunenkathazo ezayo. Kusho nokuthi ungalahlekelwa yimali ekusaseni lakho – ngakho-ke qaphela ukuthi uyisebenzisa kanjani nokuthi uyiboleka bani. Kodwa uma uphupha ukuthi uyisidudla kusho ukuthi uzolwa nophathina wakho.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ubona noma unuka umchamo noma indle kusho ukuthi kukhona okuthakathile. Uma kunuka kabi kakhulu kusho ukuthi ukuthakatheka kuyasebenza ngempela. Udinga ukubona umelaphi ukuze uthole usizo.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ulele yishwa ngempela. Kodwa uma uvuka kusho ukuthi kukhona ozokutshela ukuthi uyakuthanda uphelelwe wusizi.',
+    ],
+
+    [
+      'Uma uphupha ukuthi uyashefa kusho ukuthi udinga ukuqaphela abangani bakho ngoba kungenzeka ukuthi bakwenza isilima – ikakhulukazi mayelana nomuntu othandana naye. Uma uphupha ukuthi ushefa indawo ethize emzimbeni kusho ukuthi uzoba nenkinga lapho.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ukhule udevu kuzoba nokulwa ekusaseni lakho kodwa uzokwazi ukukulungisa konke uma nje wenza into elungile.',
+    ],
+
+    [
+      // Advertised
+      'Uma uphupha ukuthi inhliziyo yakho ibuhlungu ubudlelwane bakho nomthandayo buzophela maduzane usale uphuke inhliziyo.',
+    ],
+
+    [
+      'Uma uphupha ukuthi umuntu ukukhombisa izinqe zakhe ezinqunu kusho ukuthi kunamashwa azayo kuwe. Kungenzeka ukuthi kunomuntu ozama ukukuthakatha.',
+    ],
+
+    [
+      'Uma uphupha ukuthi izingalo zakho ziphelelwe amandla kusho ukuthi kungenzeka uzizwe ungaphilile ezinsukwini ezizayo. Kodwa ke uma uphupha ukuthi izingalo zakho zinamandla uzozithola uthuthuka ungalindele.',
+    ],
+
+    [
+      'Uma uphupha ukuthi usemusha kodwa ungasemusha kusho ukuthi uzogula maduzane. Uma usemusha uphupha ukuthi usugugile uzohlangabezana nobunzima empilweni yakho maduze nje.',
+    ],
+
+    [
+      'Uma uphupha ukuthi isikhumba sakho sinezinduna kusho izinto ezinhle ngobudlelwane bakho nothandana naye. Uzohlangana nomuntu maduzane noma uzoba nenhlanhla nophathina wakho wamanje. Kodwa uma uphupha isikhumba sakho sisikwa kufanele uqaphele. Kusho ukuthi umuntu omethembayo kungenzeka abe yisitha.',
+    ],
+
+    [
+      'Uma uphupha ukuthi imilenze yakho noma amadolo akho aphelelwa amandla uzoba namashwa ikakhulukazi uma uwa phansi ngenxa yalokho. Kodwa uma inamandla nawe uzoba namandla nempilo – ikakhulukazi uma ungowesilisa. Uma ungowesifazane ngenjwayelo kusho ukuthi umyeni wakho uzokunakekela futhi akuphathe kahle.',
+    ],
+
+    [
+      'Ukuphupha ngomlomo kungasho izinto eziningi ezithinta impilo yakho kanye nabantu ophila nabo. Umlomo onukayo– lokho kusho ukuthi abantu sebephonsa ithawula ngawe ngenxa yezinto ozenzayo. Amazinyo – lokho kusho ukuthi uzomenywa endaweni ejabulisayo maduzane kodwa uma likhishwa izinyo kusho ukuthi uzolahlekelwa umngani. Umlomo  ugxaza amathe – lokhu  kusho ukuthi uzolahlekelwa yimali maduzane.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ubuso bakho bukhulu futhi buvuvukele uzozithola ucebile futhi uthole udumo ekusaseni lakho kodwa uma buphaphathekile noma bunciphile ungaba senkingeni maduzane nje. Uma ubugeza udinga ukuphenduka ulungise into oyenzile. Uma ubona ubuso bakho kubukeka njengomunye umuntu kungenzeka ukuthi uzothuthela emzini omusha noma emsebenzini omusha maduzane.',
+    ],
+
+    [
+      'Uma uphupha ukuthi izinzipho zakho sezikhulile zaba zinde kusho ukuthi inhlanhla nengcebo kusendleleni. Kungcono kakhulu uma umyeni noma unkosikazi onezinzipho ezinde ngoba lokhu kusho ukuthi bazosebenza kanzima futhi bakusekele. Kepha uma uphupha ngezinzipho ezimfushane kusho ukuthi kukhona okuzokulahlekela maduzane. Kodwa ke uma zimfushane ngoba uzigunda noma uzidla ephusheni lakho kusho ukuthi uzoxabana nelungu lomndeni wakho.',
+    ],
+
+    [
+      'Uma uphupha ukuthi izandla zakho zingcolile kusho ukuthi ubhekene nokulingeka ukwenza into embi. Uma zingagcolile nje kuphela kodwa zinamfuka futhi kusho ukuthi uzohlupheka ngokwezimali ubempofu ngenxa yalento olingekayo ukuyenza. Uma isandla sakho noma iminwe yakho ilimele uzolahlekelwa umsebenzi maduzane futhi uma umuntu enqume umunwe wakho noma isandla sakho kusho ukuthi maduzane uzolahlekelwa yinto oyisebenzele kanzima. Uma uboshwe izandla ephusheni kufanele uqaphele – kusho ukuthi kunenkathazo ezayo kuwe.',
+    ],
+
+    [
+      ' kusho ukuthi uzothola uthando maduzane kodwa lowo muntu kungenzeka ukuthi uthanda omunye umuntu.',
+    ],
+
+    [
+      'kusho ukuthi uzolahlekelwa yinto ebalulekile kanti ukushintsha umbala wezinwele zakho kusho ukuthi kunenkathazo ezayo.',
+    ],
+
+    [
+      'kusho ukuthi usungumqambimanga futhi uma sezibomvu kufanele uqaphele izitha empilweni yakho. Uma ziphuma izinwele zakho kusho ukuthi ukhathazekile ngenxa yabanye abantu.',
+    ],
+
+    [
+      'Lokhu kusho okukhula kwamandla onawo, kungaba ngokwesikhundla kumsebenzi owenzayo, ukudlondlobala ngokwebhizinisi onalo, ukunyuka ngokwezinga lwempilo oyiphilayo njalo njalo.',
+    ],
+
+    [
+      'kusho ingcebo nempilo kwabesilisa nokuhlupheka ngokwezemali kwabesifazane. Uma owesilisa ozwana naye enempandla ephusheni lakho akufanele ngabe nindawonye futhi nizoba senkingeni maduzane.',
+    ],
+
+    [
+      'Lokhu kusho ukulahlekelwa Amandla onawo noma ukuncipha kwawo. Kubalulekile ukuba uqaphele lowo osuke ekugunda izinwele Kanye nendawo osuke ukuyo, ngoba lawo mandla usuke uzowalahlekelwa ngenxa yakhe nakuyo leyondawo osuke ukuyo.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ikhala lakho alikho kuwuphawu lebhadi (ikakhulukazi uma ugula). Uma uphupha ukuthi likhulu kakhulu uzoba yisigwili kodwa ube nobunzima ekutholeni uthando futhi uzojwayela ukuxabana nabanye. Uma lilihle lolu uphawu lenhlanhla futhi kusho ukuthi uzothandwa emsebenzini. Uma ubona ikhala lakho nje kuphela futhi ungazi ukuthi kungani kungenzeka ukuthi kusho ukuthi ukusebenza kwakho kanzima akuzukuba namvumzo. Okokugcina uma kuphuma igazi emakhaleni ephusheni lakho kungenzeka uhlangabezane nezinkinga maduzane.',
+    ],
+
+    [
+      'Uma uphupha ukuthi uwine umklomelo kusho ukuthi uzoba nodumo empilweni yakho.',
+    ],
+
+    [
+      'Uma uphupha ukuthi usemjahweni kuwuphawu oluhle uma nje ungawi phansi. Uma wina uzophumelela maduzane kodwa uma wehlulwa kuyibhadi.',
+    ],
+
+    [
+      'Uma uphupha ukuthi uhluliwe emncintiswaneni kusho ukuthi kuzoba nezinto ezinhle ezizayo kuwe – ikakhulukazi imali. Akuyona indlela oyilindele kodwa ngakho ke qinisekisa ukuthi uyilungiselele noma yikuphi lapho ezoqhamuka khona.',
+    ],
+
+    [
+      'Uma uphupha ukuthi uyagxuma kusho ukuthi kuzoba nenjabulo ekusaseni lakho.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ungujokhi ojaha ngamahhashi kusho ukuthi sekuyisikhathi sokuthi uqhubeke nezinto okade uzihlela – zizoba yimpumelelo.',
+    ],
+
+    [
+      'Uma uphupha udlala igalofu kusho ukuthi uzobhekana nezinkinga emsebenzini okuzofanele ube namandla ukuzinqoba.',
+    ],
+
+    [
+      'Uma phupha ukuthi ukhahlela ibhola emdlalweni kusho ukuthi uzophumelela ngenxa yokusebenza kwakho kanzima.',
+    ],
+
+    [
+      'Uma uphupha ukuthi uyabhukuda kuwuphawu oluhle uma ikhanda lakho lingaphezulu kwamanzi – ikakhulukazi emsebenzini nasebudlelwaneni bakho nabanye. Uma amanzi ehlanzekile ecwebile kuhle kakhulu. Uma ubhukuda phansi kwamanzi kusho ukuthi kunezinkinga ezizayo kuwe ikakhulukazi uma amanzi efiphele. Amaphupho ngolwandle.    ',
+    ],
+
+    [
+      'Ukuphupha ugqoke umqhele, unikezwa umqhele, noma omunye oyilunga lomndeni wakho okanye umuntu othandana naye egqoke umqhele; lokho kuyinto engeyinhle. Imvamisa leli kuba iphupho elijwayelekile kubantu asebeshadile. Lisuke libika ukuthi kumalungiselelo omshado okungaba amalobolo, umembeso, izibizo noma okunye, kusuke kukhona okungahambanga ngendlela ebifanelekile okwenze umshado wabo wangamukeleka ngokuphelele emadlozini. Ngakho-ke kubalulekile ukuthi umuntu ophuphe ngomqhele ahlaziye konke ngendlela okwenzeke ngayo noma uthole usizo kubantu ababona ngeso labaphansi ukuze bamndlalele iphutha noma inkinga bese futhi benikeza nendlela izinto ezingalungiseka ngayo.',
+    ],
+
+    [
+      'Uma uphupha ushada noma usemshadweni, lokho kuchaza ukuthi emndenini kukhona ozoshona noma ozovelelwa yinkinga embi. Kodwa uma umuntu ephupha akuvamisile ukuthi aziphuphele yena, iphupho lisuke limayelana nomunye umuntu.',
+    ],
+
+    [
+      'Iphupho ngengubo yomshado lisho isifo esiwumkhokha omubi ekhaya noma ukushona komuntu aye kwelokhokho. Leliphupho lisondelene nabantu abaseduze nawe noma abayizihlobo zegazi kuwe. Amaphupho ngomshado.  ',
+    ],
+
+    [
+      'Uma uphupha ukuthi ulahlekelwe indandatho yakho yomshado kusho ukuthi awusamthandi umyeni noma unkosikazi wakho. Amaphupho ngokucela umshado. Amaphupho ngobucwebe obuqgokwayo.',
+    ],
+
+    [
+      'Uma uphupha ukuthi uphethe izimbali zikamakoti kusho ukuthi uzoshada maduzane. Uma uzitshinga noma uzilahla kusho ukuthi ngelinye ilanga uzoba nedivosi.',
+    ],
+
+    [
+      'Uma uphupha ukuthi othandana naye ukushiyile kusho ukuthi umuntu onaye uzoba ngothembekile kuwe.',
+    ],
+
+    [
+      'Uma uphupha ukuthi unabayeni abaningi noma amakhosikazi amaningi kusho ukuthi ikhaya lakho lizoba nenjabulo libe yindawo efudumele futhi umndeni wakho uzothuthuka.',
+    ],
+
+    [
+      'Uma uphupha ukuthi kukhona okucele umshado kusho ukuthi abantu bayakuqonda futhi bazokuphatha kahle.',
+    ],
+
+    [
+      'Uma uphupha ukuthi wena noma abangani bakho nithembisa umshado akukuhle futhi akukubi. Kusho nje ukuthi awuzukuba nenhlanhla enhle noma ibhadi maduzane.',
+    ],
+
+    [
+      'Uma uphupha ukuthi omthandayo ufuna idivosi kuwuphawu oluhle. Kusho ukuthi bakhuluma iqiniso nawe.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ushaya umyeni noma unkosikazi wakho kusho ukuthi uzoba nomshado omuhle nekhaya elinenjabulo. Uma kuwumuntu ozwana naye kuyibhadi.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ungumakoti ungumkhwenyana noma uyimpelesi kuyibhadi futhi uzobhekana nosizi ukhale izinyembezi maduzane. Uzolwa nophathina wakho futhi ubudlelwane benu buzophela.',
+    ],
+
+    [
+      'Uma uphupha ukuthi uyindoda eseyintsha engaganiwe kusho ukuthi uzohlangana nomngani omdala noma isihlobo maduzane. Ukuphupha ukuthi uyindoda esikhulile engaganiwe kusho ukuthi awuzushada noma ukuthi umshado wakho uzoba nezinkinga.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ube nobudlelwane nomuntu ngaphandle komshado wakho kusho ukuthi uzophulwa inhliziyo futhi uzoba nebhadi othandweni.',
+    ],
+
+    [
+      'Uma uphupha ukuthi uyashada kuyibhadi ikakhulukazi kwabesilisa. Kusho ukuthi kuzoba nezikhathi ezinzima empilweni yakho maduzane. Uma omunye wabantu ephusheni lakho begula noma bekhubazekile kusho ukuthi uzoba nomshado ongenayo injabulo. Kuyinhlanhla kuphela uma umuntu wesifazane eziphupha eshada nekhehla. ',
+    ],
+
+    [
+      'Uma uphupha ukuthi uqabula uphathina wakho, kuyibhadi ngoba ubudlelwane benu buzophela maduzane. Uma kungumyeni noma unkosikazi wakho, kungenzeka bathandane nomunye umuntu. Uma nje kungumuntu omuhle, kuyinhlanhla futhi kusho ukuthi kukhona ozokusiza uphume enkingeni maduzane.',
+    ],
+
+    [
+      'Ukuphupha ingulube yasendle kuyefana nokuphupha izimpisi kumbe izinyoka ngoba wonke la maphupho axwayisa ngokuba khona kwesitha empilweni yakho. Ukuphupha ingulube yasendle kuhluke kulawa amanye amaphupho ngokuthi ukuphupha ingulube yasendle kusho ukuba khona kwesitha esesabekayo futhi esiyingozi kakhulu ngenxa yonya leso sitha esinalo.',
+    ],
+
+    [
+      'Ufudu yisilwane esaziwa ngokuba yisinokwe uma sihamba futhi siphila isikhathi eside kakhulu kunezinye izilwane eziningi. Kanjalo nasemaphusheni siyibika lobunjalo baso kulokho umuntu asuke ekuzama. Ukuphupha ufudu kuchaza ukuthi lokho ophokophelele ukukufeza ngemizamo yakho, imvamisa okuba yibhizinisi, izithelo zokuzikhandla kwakhko zizoza kancane, kodwa-ke kuyogcina kucacile ngemuva kwesikhathi eside ukuthokozele ukuzikhandla kwakho. Abanye bathi uma uphupha ubona ufudu kuyishwa ebhizinisini lakho ngaphandle uma ulubambile waludla; lokho okuwuphawu lokuthi uzophumelela ngenxa yokuzikhandla kwakho.',
+    ],
+
+    [
+      'Leli yiphupho elingajabulisi neze. Ukuphupha ingonyama kuyibika lokuthi esikhathini esingeside uzozithola ulinyazwa ngumuntu onamandla kakhulu ngokwesikhundla akusona empilweni yakhe; isibonelo – lowomuntu kungaba yinkosi, yinduna, umongameli. Lezi yizibonelo nje, esimweni somuntu ngomuntu, kuya ngokuthi ngubani onesikhundla esinamandla owenza impilo yalowo ophupha ingonyama ibe engajabulile.',
+    ],
+
+    [
+      'Njengokuphupha inyoka, ukuphupha impisi kubika ukuba khona kwesitha esiyingozi kuwena. Lesisitha kusuke kungumuntu omkhonzile kakhulu, wena ozitshela ukuthi ubudlelwano benu naye buhle kakhulu. Kungaba yilunga lomndeni wakho, kungaba ngomunye wabangani bakho, kungaba ngumakhelwane wakho, noma futhi kube ngumuntu osebenza naye – lezi yizibonelo nje ezimbalwa. Uma izimpisi ezingaphezu kweyodwa, lokho kuchaza ukuthi kuneqembu labantu abayizitha kuwena futhi ukuzwana kwabo kuhlanganiswe wukuba yizitha kuwena.',
+    ],
+
+    [
+      'Uma uphupha ingwenya kusuke kuzokwenzeka into embi, kokunye ukuphupha ingwenya kusho isifo, umshophi noma umonakalo ozokwenzeka. Kubangcono uma kuwukuthi ekuyiphupheni kwakho ayikulumanga, ngoba lokho kusho ukuthi noma ungavelelwa umshophi kodwa umonakalo ngeke ube mkhulu ngaleyondlela noma wona uzoba khona.',
+    ],
+
+    [
+      'Uma uphupha ubona inhlanzi kusho ukuthi uzoba nempumelelo emsebenzini nasempilweni. Ukuphupha udoba inhlanzi wayibamba uyoba nenhlanhla. Uma iphunyuka uyolahlekelwa yizo zonke izinto ezisemqoka kuwe.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ubamba umbokwane kusho ukuthi uzoba nomshado omuhle. Uma uwuphunyula umbokwane ngemva kokuba ubusuwubambile kodwa kusho ukuthi uzobhekana nokwehlulwa kungekudala.',
+    ],
+
+    [
+      'Uma uphupha ubona inkalankala kusho ukuthi ishwa lisendleleni liza kuwena ikakhulukazi uma kungekudala unohambo ngaphezu kwamanzi.',
+    ],
+
+    [
+      'Uma uphupha ubona idube kusho ukuthi kufanele uzinakekele kungenjalo uzogula.',
+    ],
+
+    [
+      'Uma uphupha ubona unogwaja kuyishwa uma umnyama futhi kuyishwa kakhulu uma ungena ekhaya lakho. Uma kuwunogwaja omhlophe kodwa uyokwehlelelwa izinto ezinhle.',
+    ],
+
+    [
+      'Uma uphupha ubona amagundane kusho ukuthi kunenkinga eza ngakuwena. Abanye abantu baphokophelele ukukuchitha nazozonke izinto ozisebenzele kanzima. Uma uphupha ubona amagundane kuyinhlanhla kuphela uma emhlophe. Ngale kwalokho kusho ukuthi abantu bazokukhaphela.',
+    ],
+
+    [
+      'Uma uphupha ubona inkawu kusho ukuthi kunabantu abazama ukukuphamba ngakho kufanele ulindele nanoma yini uma ufuna ukuphumelela.',
+    ],
+
+    [
+      'Uma uphupha ubona uchakide kusho ukuthi umshado wakho uzoba sengxakini. Uma uchakide ephakamisa umsila wayo uma idlula ngakuwe uzoba neshwa.',
+    ],
+
+    [
+      'Uma uphupha ubona imvukuzane ukusebenza ngokuzikhandla kwakho ngeke kukuse ndawo okwamanje kodwa uma uphikelela uyoyibona imiphumela.',
+    ],
+
+    [
+      'Uma uphupha ubona ibhubesi kusho ukuthi kunengozi eza kuwe. Uma ulehlula ibhubesi ephusheni lakho kusho ukuthi uyovuzwa ngokuzikhandla kwakho okungaba ngodumo noma impumelelo emsebenzini. Uma ucabanga umshado kusho ukuthi umlingani wakho uyoba nomusa nobuhle.',
+    ],
+
+    [
+      'Uma uphupha ubona izingwe kusho ukuthi kunezikhathi ezinzima ekusaseni lakho futhi kuyofanele ubekezelele izikhathi ezinzima nokulahlekelwa.',
+    ],
+
+    [
+      'Uma uphupha ubona impungushe kusho ukuthi kufanele uqaphele ingozi. Uma uyibulalaimpungushe kodwa uyonqoba ezimpikiswaneni nasemibangweni yakho nabanye.',
+    ],
+
+    [
+      'Uma uphupha ubona izimpondo zesilwane kuwuphawu oluhle futhi kusho ukuthi uzoduma.',
+    ],
+
+    [
+      'Uma uphupha ubona imvubu kufanele uqaphele esikhashaneni esilandelayo.',
+    ],
+
+    [
+      'Uma uphupha ubona indlovu kusho ukuthi uzothuthuka empilweni futhi ube nempilo enomdlandla. Kuphakathi kokuthi uzothola imali obungayilindele noma uzothola umvuzo ngokusebenza kwakho kanzima.',
+    ],
+
+    [
+      'Uma uphupha imbila yeqa endleleni yakho kusho ukuthi uzoba nenhlanhla.',
+    ],
+
+    [
+      'Uma uphupha ubona ingwenya kuwuphawu olubi. Kusho ukuthi uyakhohliswa – kungaba abathandiweyo bakho noma abangani bakho – futhi uzoba sempini kungekudala.',
+    ],
+
+    [
+      'Uma uphupha ubona ikameli kuyinhlanhla enhle ekusaseni lakho.',
+    ],
+
+    [
+      'Uma uphupha ubona inyamazane ngokujwayelekile kuwuphawu olubi. Ukuyibulala noma ukuyizingela kusho ukuthi uzolahlekelwa okusemqoka maduze – okungaba ngisho umsebenzi wakho. Isikhathi esiningi kusho ukuthi uzohlangabezana nempikiswano enkulu nomunye umuntu khona maduze.',
+    ],
+
+    [
+      'Uma uphupha ubona izimfene kufanele uqaphele ngoba kunabantu abafuna ukukudla izithende.',
+    ],
+
+    [
+      'Uma uphupha ubona isilwane esidla izintuthwane nomuhlwa uzobhekana neshwa ikakhulukazi izinkinga obungazilindele lapho osebenza khona.',
+    ],
+
+    [
+      'Ukuphupha indle noma indlu yangasese kuchaza ukuthi kusuke kukhona umuntu okusebenzisela umuthi ongalungile obizwa ngesichitho owenza ukuthi ungathandeki noma ungalungelwa yilutho othi uzama ukulenza.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ulahla udoti noma izibi kuwuphawu olubi. Kusho ukuthi ulahla amathuba akho futhi uzolahlekelwa ebhizinisini maduzane nje. ',
+    ],
+
+    [
+      'Uma uphupha ukuthi usebenza nomanyolo engadini wuphawu oluhle ngoba maduzane uzoba yisigwili. Uma uphupha ukuthi usendaweni lapho okulahlwa khona izibi kufanele uqaphele imiphumela yezenzo zakho. Izindlela zakho ezingcolile zingakudalela inkinga maduzane.',
+    ],
+
+    [
+      'Uma uphupha ukuthi uyageza kungasho izinto ezinhle noma ezimbi. Uma amanzi emile noma esendlini yokugeza kusho ukuthi uzoba nenhlanhla maduzane noma uzoya endaweni ezokulethela injabulo. '
+      'Uma uphupha ugeza ngaphandle kwendlu noma emanzini agelezayo kusho ukuthi uzoba nebhadi futhi uzodumala. '
+      'Ukuphupha ugeza umuntu wesilisa uma ungowesimame lokho kusho ukuthi loyomuntu osuke umphupha usuke enesilwane athweswe sona okwenza izinto zakhe zingamhambeli kahle. '
+      'Ukuphupha ugeza emfuleni uwedwa noma nibabili kusho ukuthi kumele uhlambuluke noma nihlambulukelane nalowomuntu ovele ephusheni lakho obugeza kanye naye. Leli phupho limele inhlambuluko.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ungcolile, kuwuphawu lwesikhathi esinzima ekusaseni lakho. Kusho kakhulu ukuthi kungenzeka ube namahloni ngenxa yento oyenzayo. Uma ungcolile ngoba omunye umuntu ekujikijela ngezinto, kusho ukuthi uzokwenza izitha, ngakho qaphela izinto ozitshela abantu. Kodwa uma ungcole ngoba uwile phansi, kusho ukuthi uzokhuthuzwa noma ulahlekelwe yimali maduzane.',
+    ],
+
+    [
+      'Amaphupho ngeladi (isitebhisi) ahlukena kabili, kanjalo futhi nezincazelo ezifihlakele kuwona zahlukene kabili. Ukuphupha ugibela iladi uze ufike phezulu lokho kuhle futhi kuchaza impumelelo kulokho okwenzayo empilweni yakho. Ngakolunye uhlangothi uma ugibela iladi kodwa ugcine ngokuwa kulona, lokho kubi, kungase kubike ukuza kwesifo (ukufa) komunye oyilunga lomndeni wakho.',
+    ],
+
+    [
+      'Uma uphupha ukuthi usebenzisa umlalazi kusho ukuthi uzoba nempumelelo empilweni yakho.',
+    ],
+
+    [
+      'Uma uphupha ukuthi usebenzisa isaha kusho ukuthi inkathazo isizokuthola kodwa ungayihlula uma usebenza kanzima.',
+    ],
+
+    [
+      'Uma uphupha ukuthi usebenzisa igeja incazelo incike ngokuthi uyaphumelela noma cha. Uma ukwazi ukulima insimu uzoba nenhlanhla ebudlelwaneni bakoh nabanye kodwa uma uzabalaza kusho ukuthi uzoba nebhadi futhi uzoba nenkathakazo emsebenzini.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ubona insimbi kujwayele ukusho ukuthi ingozi iseduze ngaphandle uma ukwazi ukuphula insimbi. Lokhu kusho ukuthi uzokwazi ukunqoba izinkinga zakho.',
+    ],
+
+    [
+      'Uma uphupha ukuthi usebensiza amaketango noma izintambo, izinto ezikuhluphayo zizokushiya. Uzoba nempumelelo kodwa mhlawumbe kuzodingeka ukuthi usebenze khona izinto ezinhle zizokwenzeka. Uma kukhona amafindo kwiketango noma intambo, inhlanhla enhle uma ungakhipha ifindo kodwa uma ungakwazi yinhlanhla embi. Uma ungumuntu olibophayo ifindo, kusho ukuthi ubudlelwane bakho kuzoba namandla.',
+    ],
+
+    [
+      'Uma uphupha ukuthi ubuka ngaphandle ewindini uzoxazulula inkinga maduzane. Uma iwindi lifile uzoba nenkathazo maduzane. Qaphela ukuphephisa indlu yakho ezigebengwini.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ubona izindonga zomuzi wakho kusho okubi ekusaseni lakho. Uma zinopende omanzi kusho ukuthi uzontshontshelwa izinto zakho. Uma uhlukaniswe kumuntu omthandayo yizindonga kusho ukuthi uzoba nobunzima ikakhulukazi uma uzama ukuzigibela izindonga kodwa uhluleka.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usengadini kusho izinto ezinhle empilweni yakho. Kusho ukuthi uzoba nomshado omude nezingane eziphumelelayo ikakhulukazi uma okutshaliwe kuluhluza kukhula kahle.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ubona ikhabethe kungaba kuhle noma kube kubi. Uma uligcwalisa kusho ukuthi ngisho kube khona izimbuyiselamuva uzothuthuka maduzane. Uma lingenalutho uma ulivula kusho ibhadi maduzane ikakhulukazi emsebenzini.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usekamelweni lakho lokulala kusho ukuthi yonke into oyifunayo izofezeka.'
+    ],
+
+    [
+      'Kusho okuhle ukuphupha ikhaya owazalelwa kulona futhi waphinda wakhulela kulona, futhi uphupha ulibona lelokhaya wenza nezinto owawuzenza khona; ngokwesibonelo, uma uphupha usekhaya elidala kukhona nezingane okhule nazo nidlala ndawonye. Uma uphupha ikhaya ube ungumuntu osemathandweni kukhona ohlekisana naye, lokho kusho ukuthi uthole umuntu oqotho, buzoba buhle ubudlelwane benu futhi bungaphetha ngomshado ozoba nenjabulo. Uma indoda eganiwe  iphupha ikhaya, lokho kungaba yibika lokuthi leyo ndoda izoba nabantwana abaningi futhi bayophila kahle bonke. Uma uphupha ukuthi usekhaya lakho, kanti ungumuntu osemusha, lokho kusho ukuthi impilo yakho izoba mnandi. Uma ephusheni ikhaya libukeka ithuthukile, lokho kungachaza ukuthi uzoba nezimali kodwa uma ephusheni lakho ikhaya libukeke linganakeleliwe, lokho kungachaza ukuthi uzohlupheka ngokwezimali, ikakhulukazi uma abantu abakulelokhaya bengakuphathi kahle. Uma uphupha uzakhela umuzi, kusho ukuthi uzothuthuka empilweni, futhi uzothola umsebenzi omuhle nogculisayo.'
+    ],
+
+    [
+      'Isigodi yindawo eyakheleke phansi maphakathi nezindawo eziphakeme, bese iba yinhle ngokuhloba kwemvelo. Uma uphuphe uhamba kuyona leyo ndawo, lokho kusho okubi. Lolu hlobo lwephupho lubika ukugula, okungaba ngokuqondene nawe noma kuqondene nomunye wabantu abasondelene nawe kakhulu.'
+    ],
+
+    [
+      'Ukuphupha umgodi kunezincazelo ezihlukahlukene kambalwa. Izincazelo ziba sekutheni ngubani owuphuphile ngokobulili futhi uwuphuphe unjani noma kwenzakalani kulow mgodi. '
+      'Owesilisa osemncane: Uma ephuphe umgodi ewubona ugcwele amanzi acwebile lokho kuhle, kusuke kusho ukuthi uyosheshe aganwe bese ethola abantwana abazomhlonipha kakhulu. '
+      'Owesilisa osekhulile futhi oganiwe: Uma ephuphe umgodi ugcwele amanzi ephuphuma lokho kubi ngokwencazelo yakho, kusuke kusho ukuthi kungenzeka uzolahlekelwa yimpahla '
+      'yakhe noma kubikezela ukudlula kukankosikazi wakhe kumbe abantwana abazalayo. Owesifazane: Uma ephuphe umgodi uchichima lokho kwesinye isikhathi kungaba yibika lokudlula '
+      'kwakhe emhlabeni noma ukulahlekelwa yimpahla yakhe. Kuwona wonke umuntu: Uma uphupha ubona umuntu omaziyo noma osondelene naye eyongena noma engena emgodini lokho kungachaza '
+      'ukuthi usuku lokuba adlule emhlabeni lusuke selusondele kakhulu ukuba lufike, okungabangwa yingozi, wukugula noma okunye okungaba yimbangela yaleso sehlakalo. Kuwona wonke '
+      'umuntu: Uma uphupha usemgodini phansi, kuyinhlanhla uma ungenalutho umgodi futhi kusho ukuthi uzoba nomndeni ojabule nohloniphekile. Uma umgodi ugcwele amanzi, lokho kusho '
+      'ukuthi izinto ezimbi ziyeza kuwena.'
+    ],
+
+    [
+      'Uma uphuphe unikezwa imbewu yokutshala lelo iphupho lingelihle kakhulu, lichaza ukuthi kulokho okwenzayo ngokuzama impumelelo, kukhona umphumela wakhona ozoba muhle kakhulu kepha usazoqala udlule ebunzimeni obukhulu, ngakho kufanele ubekezele. Ukufinyelela kwakho lapho ofisa khona kusuke kuzoza ngosizo lomuntu osondelene nawe, ukusondelana kwenu kube kuhlanginiswe yilokho osuke ukwenza.'
+    ],
+
+    [
+      'Ukuphupha utheza umyaba wezinkuni kusho isifo, kusuke kuzodlula emhlabeni umuntu omaziyo, ngokujwayelekile kuba wumuntu ongumakhelwane. Akusikho kodwa ukuphupha ngokutheza okusho isifo, maningi amanye amaphupho okufa angabikezela lapho kungase kudlule khona othile emhlabeni. '
+    ],
+
+    [
+      'Ukuphupha insimu yokulima izitshalo kusho ulaka lwabaphansi, lolulaka lungachaza ukunganeliseki kwabo ngokuthile okwenzeka ekhaya noma okumele engabe kuyenzeka noma kwenziwe kodwa akwenziwa.'
+    ],
+
+    [
+      'Uma uphupha usonqenqemeni lwesiwa kusho ukuthi kukhona okusemqoka okuzokwenzeka ebudlelelwaneni bakho maduze. Uma ushadile kusho ukuthi kungenzeka ube nomntwana. Uma kodwa ulenga kwisiwa kukhona okubambile kusho ukuthi othile uzama ukukuqalekisa futhi kufanele uthole usizo kumelaphi.'
+    ],
+
+    [
+      'Uma uphupha ubona ulwandle kuyinhlanhla uma amagagasi ezolile kanti ishwa uma egubha ngokhahlo. Uma amagagasi emakhulu futhi ekushaya ekuwisa kusho ukuthi kofanele usebenze kanzima ukuze uphumelele. Uma uhamba phezu kwamanzi kusho ukuthi uyoba nempumelelo kokwenzayo ikakhulukazi uma ushada. Izizathu eziningi zokuthi uphuphe ngamanzi.'
+    ],
+
+    [
+      'Uma uphupha usehlane kusho ukuthi izifiso zakho ziyofezeka.'
+    ],
+
+    [
+      'Uma uphupha usobhukwini kuyishwa ngaphandle uma ungumlimi. Kwabanye abantu kusho ukuthi uzohlangabezana nezinkinga ngomsebenzi wakho noma osebenza nabo.'
+    ],
+
+    [
+      'Uma uphupha usesihlabathini kusho ishwa. Uzolwa nothile omaziyo noma ubenamahloni ngenxa yalokho okwenzayo.'
+    ],
+
+    [
+      'Uma uphupha useduze nomfula kusho inhlanhla kanye nokuchuma uma amanzi ecwebile futhi ezolile kanti ishwa uma amanzi ewudaka futhi eza ngokhahlo. Amanzi eza ngokhahlo angasho futhi ukuthi uzoba nengozi embi kungekudala.'
+    ],
+
+    [
+      'Uma uphupha usodakeni kusho izinto ezimbi. Uma lukungcolisa abantu bakhuluma ngawe ngemva kwakho. Uma ubambeka kulo kusho ukuthi izikweletu zakho ezimbi zizokubangela inkathazo.'
+    ],
+
+    [
+      'Uma uphupha usentabeni ngokujwayelekile yishwa. Uma uyibona ekudeni kusho ukuthi uyoba nempilo engeyinhle ngenxa kokucindezeleka empilweni. Uma uyikhwela intaba kusho ukuthi uyoba nezinkinga empilweni yakho kodwa kungenzeka uzinqobe ikakhulukazi uma ufika esicongcweni.'
+    ],
+
+    [
+      'Uma uphupha usechibini kusho ukuthi kungekudala uzobona othile obumcabanga.'
+    ],
+
+    [
+      'Uma uphupha usegqumeni eliwumqansa futhi elinzima ukulikhwela kusho ukuthi uyozabalaza kodwa ekugcineni uyophumelela empilweni.'
+    ],
+
+    [
+      'Uma uphupha uzwa ukuzamazama komhlaba kusho ukuthi uyolahlekelwa izinto ezisemqoka kuwena.'
+    ],
+
+    /*[
+      'Uma uphupha usogwadule kusho ukuthi kuneshwa ekusaseni lakho.'
+    ],*/
+
+    [
+      'Uma uphupha usemgedeni noma emhhumeni kusho ukuthi kunokungaqiniseki empilweni yakho. Uzokhathazwa ngokuthile noma uthole izindaba ezimbi maduze.'
+    ],
+
+    [
+      'Uma uphupha ubona isihlahla somnqumo wasendle futhi sinezithelo emagatsheni kusho ukuthi uyoba nempilo enoxolo nenjabulo futhi izifiso zakho ziyofezeka.'
+    ],
+
+    [
+      'Uma uphupha ubona ukhula uyolahlekelwa izinto ezisemqoka kuwe.'
+    ],
+
+    [
+      'Uma uphupha ubona izimpande zesihlahla kusho ukuthi kuyoba neshwa ekusaseni lakho. Uma zinephunga elixakayo uma uzimba kusho ukuthi uzokhohliswa ngothile omethembayo.'
+    ],
+
+    /*[
+      'Uma uphupha ubona umhlanga kusho ukuthi othile uyakukhohlisa.'
+    ],*/
+
+    [
+      'Uma uphupha ubona izitshalo incazelo iya ngokuthi zikhula kanjani. Uma zikhula ngokushesha kusho ukuthi izinto ezinhle zizokwenzeka futhi zizokwenzeka ngokushesha. Uma izitshalo zikhula kancane kusho ukuthi kuzokuthatha isikhathi ukuphumelela. Uma izitshalo zimila emzimbeni wakho kusho ukuthi uzobhekana nezikhathi ezikhathazayo kungekudala.'
+    ],
+
+    [
+      'Uma uphupha ubona izitshalo zembabazane kuyinhlanhla ikakhulukazi uma zikuncinza. Kusho ukuthi uzophumelela ngenxa yokusebenza kanzima kwakho.'
+    ],
+
+    [
+      'Uma uphupha ubona amakhowe kuyinhlanhla ukuwakha kodwa kuyishwa ukuwadla - ikakhulukazi uma ugula ephusheni lakho.'
+    ],
+
+    [
+      'Uma uphupha ubona amaqabunga kusho izinto ezinhle uma eluhlaza futhi esesesihlahleni. Uyophumelela futhi uchume ezintweni ozenzayo. Uma amaqabunga ewele phansi futhi ebukeka engcolile uyozwa ubuhlungu ngenxa yezenzo zothile.'
+    ],
+
+    [
+      'Uma uphupha ubona utshani kusho ukuthi uyothola injabulo kanye nempumelelo ekusaseni lakho ikakhulukazi uma buluhlaza. Uma utshani bufile noma uyabunquma kodwa kusho ukuthi uyoba neshwa kanye nosizi.'
+    ],
+
+    [
+      'Uma uphupha ubona ihlathi elincane eduze kwendlu yakho kusho ukuthi umshado wakho uyoba nenjabulo futhi uyoba nezingane eziningi. '
+      'Uma uphupha uhamba ehlathini kusho ukuthi kuzoba noshitsho empilweni, kungaba ukuthi kukhona lapho uzoyohlala khona kwenye indawo ehlukile. '
+      'Uma uphupha uhamba phakathi ehlathini uze uyophumela ngaphandle kwalo, lokho kusho ukuthi kuzoba khona ushintsho empilweni kodwa loloshintsho '
+      'luzohamba kahle.ENYE INCAZELO YOKUPHUPHA USEHLATHINI. Uma uphupha usehlathini lokho kungaba yisexwayiso sokuthi kumele uqaphele ubungozi noma '
+      'izinkinga ezizokuvelela ngenxa yesinqumo osanda kusithatha noma obuhlose ukusithatha esikhathini esingeside. Leso sinqumo kusuke kungesiso '
+      'obekumele noma okumele usithathe. Uma uphetha ngokuphuma kulelo hlathi lokho kusho ukuthi uzokhona ukubhekana nokumelana nemiphumela yaleso '
+      'sinqumo yize kuzoba nzima. Kanti uma ugcina udunguza ehlathini uze uphaphame, leso sinqumo sisuke sizoletha umonakalo omkhulu, izinkinga noma ubungozi.'
+    ],
+
+    [
+      'Uma uphupha ubona izimbali kusho injabulo ekusaseni lakho ngaphandle uma uzibulala noma uzitshinga izimbali. '
+    ],
+
+    [
+      'Uma uphupha ubona umhlonhlo kusho ukuthi uyoba nenhlanhla ikakhulukazi ebudlelwaneni bakho. Uma ungowesifazane ongashadile kusho ukuthi kungenzeka ushade maduze.'
+    ],
+
+    [
+      'Uma uphupha ubona isitshalo sensangu kusho ukuthi udinga ukuthatha isikhathi ucabanga ngempilo yakho kunokuba usheshele ezintweni.'
+    ],
+
+    [
+      'Uma uphupha ubona isihlahla samajikijolo kusho ukuthi izingane zakho ziyophumelela futhi zichume.'
+    ],
+
+    [
+      'Ukuphuha isihlahla noma izihhlahla (ihlathi) kungasho izinto eziningi. Uma isihlahla sisikhulu namagatsha amaningi- '
+      'kusho ukuthi uyoba nempilo enokujabula nekhaya elikhulu. Uma isihlahla siluhlaza noma ubona izihlahla eziningi- kusho '
+      'ukuthi uyojabula futhi ubenenhlanhla. Uma ugibela isihlahla- kusho ukuthi uyothola umsebenzi omusha futhi ongcono. Uma '
+      'uwa esihlahleni-kodwa uzobhekana nenkinga emsebenzini. Uma isihlahla sigawuliwe- uzobhekana nokulahlekelwa okukhulu '
+      'maduze. Uma uphupha uhamba unqamula ihlathi- kusho ukuthi kuzoba noguquko empilweni yakho futhi uzoshintsha ikhaya '
+      'noma umsebenzi kungekudala.'
+    ],
+
+    [
+      'Ukuphupha utheza umyaba wezinkuni kusho isifo, kusuke kuzodlula emhlabeni umuntu omaziyo, ngokujwayelekile kuba wumuntu ongumakhelwane. Akusikho kodwa ukuphupha ngokutheza okusho isifo, maningi amanye amaphupho okufa angabikezela lapho kungase kudlule khona othile emhlabeni.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usebensiza isikelo kusho ukuthi abantu obathembayo bangase bezame ukukuthola.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usebensiza ipensela kusho ukuthi kufanele uqaphele abantu abafuna ukukunikeza izinto.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usebensiza isinamathelisi kusho ukuthi uzokwenza abangani kodwa ngeke ubudlelwane buqhube isikhathi eside.'
+    ],
+
+    [
+      'Uma uphupha ukhuthi usebensiza ucwebecwebe uphawu oluhle lekusasa lakho ikakhulukazi ebudlelwaneni bakho nabanye.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usebenzisa imvilophu kusho ukuthi uzohlangana nabantu abasha maduzane. Kuyibikezela elikwazisa ukuthi uzothola umngani omusha empilweni yakho. Kanti uma uphupha umuntu ekunikeza imvilophu, lokho kungachaza ukuthi wena nalomngani omusha ozomthola nisuke nizohlanganiswa nguye lowomuntu okunika imvilophu ephusheni.'
+    ],
+
+    [
+      'Amaphupho ngomuntu ongasekho awanayo incazelo ewahlanganisa wonke, asho izinto eziningi ezihlukene. Incazelo iba kulokho asuke ekwenza lowo muntu ongasekho ephusheni lakho. '
+      'Ukumuphupha ekucela umgeze - Kusho ukuthi wayeganga esaphila, manje akamukelekile lapho ekhona ungcolile ngenxa yemisebenzi yakhe. Lokhu kukhomba ukuba usuke ecela nimenzele '
+      'umsebenzi wokumuhlambulula bese niyamushwelezela Ukumuphupha ekhala - Kusho ukungathokozi kwabaphansi ngezenzo zakho noma ngendlela ophila ngayo eyakho impilo, ngakho kusuke '
+      'kufanele ushintshe indlela ophila , oziphethe ngayo okanye owenza ngayo izinto. Kungenjalo lokho kungalulethela amabhadi amakhulu. Ukumuphupha ekupha izithelo - Loku kusho '
+      'ukuphiwa umntwana (inzalo). Kungekudala usuke uzothola umntwana oyisipho esivela ngesandla sakhe sisuka kumdali. Kuyefana nokuphupha amanzi angcolile.'
+    ],
+
+    [
+      'Ukuphupha ngomungcwi (umoya omubi/isipoki) kusho ukuza kwento engaba nobungozi obukhulu kuwena, lobo bungozi busuke buzoba wumphumela wokuluthwa nokukhohliswa ngomunye umuntu '
+      'ukuze uzokwazi ukwenza leyo nto asuke ekwenzisa yona engalungile. Kafushane nje, singasho sithi leli phupho liyibika lesilingo sokona. Kepha uma usuke ulwa nawo umungcwi kumbe '
+      'isipoki ephusheni, lokho kuchaza ukuthi kusuke kuzoba nzima kakhulu ukuthi lowo muntu aphumelele ukukulingela esonweni ngamanga asuke ezowasebenzisa, futhi kungenzeka ugcine '
+      'uwabonile lawo manga bese imizamo yakhe ingaphumeleli. Kafushane, uma uphupha ukuthi ubona izipoki kuwuphawu olubi ngekusasa lakho. Kusho ukuthi wenza izitha ngenxa yento oyenzayo '
+      'futhi uzoheheka ukwenza into eyisono.'
+    ],
+
+    [
+      'Uma uphupha ukuthi uzilela umuntu kuwuphawu oluhle ngawe njengomuntu. Kusho ukuthi maduzane uzomenywa lapho bonke bazokuthanda bakuhloniphe khona.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ubone imoto ethwala isidumbu kusho ukuthi umuntu omaziyo uzodinga usizo lwakho.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ubona amathuna noma amatshe ethuna kusho ukuthi uzophinda uthintane nesihlobo esidala noma umngani omdala maduzane. Bazokunikeza izindaba ezimnandi noma bakunikeze iseluleko esihle ngakho ke balalele kahle ukuthi bathini.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usemngcwabeni wesihlobo kusho ukuthi kungenzeka ukuthi kukhona umuntu emndenini wakho odinga usizo. Kodwa wena uzoba nempilo ende.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ufile ngemvamisa kusho ukuthi uzoba nenhlanhla enhle maduzane. Kungenzeka ushade nomuntu oyisigwili noma ube nempumelelo ebudlelwaneni uma uwedwa.'
+    ],
+
+    [
+      'Ukuphupha abantu esebafa imvamisa kusho izinto ezimbi. Uma bevuka bephila futhi kusho ukuthi kungenzeka ukuthi kunenkathazo ezayo kuwe. Uma behlobene nawe kusho ukuthi kufanele uyeke ukwenza izinto ezimbi kungenjalo uzoyithola usenkingeni. '
+      'Uma uphupha omunye wabantu bakini abangasekho emhlabeni, lokho kusho ukuthi basuke benomyalezo abafuna ukuwudlulisa kulabo abasaphilayo. Kuyenzeka bakhale ngokuthi balambile, lapho-ke kusuke kumelwe kwenziwe umsebenzi kuhlatshwe imbuzi, inkomo noma izinkukhu ukuze badle.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ubone isidumbu noma umuntu osewafa kusho ukuthi uzothola izindaba ezimbi maduzane kodwa ngeke kube yinkinga enkulu kakhulu kuwe.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ubone ibhokisi lokungcwaba kusho ukuthi umuntu omaziyo uzodinga usizo lwakho.'
+    ],
+
+    [
+      'Amaphupho ebhadi isikhathi esiningi awadingi ukuthi ahunyushwe noma achazwe ngoba okwenzeka kulona kusuke kuyilokho okuphuphayo. '
+      'Uma uphupha usendaweni emnyama ungakwazi ukuphuma kuyona. Kusuke kuyibhadi ongeke uphume kulona. Uma ujwayele ukuphupha leliphupho '
+      'kubalulekile ukuthi uma ungumuntu okholelwa ezintweni zesintu uhambe uye kulabo ababonayo noma izangoma. Usuke utshengiswa ukuthi '
+      'izinto zakho zimnyama azilungile. Ibhadi liyenziwa ngumuntu owumthakathi enza ukuthi ungalungelwa yilutho empilweni. Kuthi noma '
+      'uzama izinto ezikuyisa empumelelweni kungalungi lutho. Kumuntu okholwayo uyathandaza aze aphumelele. Uma uphupha umuntu ekudunusela '
+      'engagqokile okungabe uyamazi noma awumazi: Lokhu kuchaza ibhadi elihambisana nesichitho eliza kuwena. Kokunye kuyenzeka kuvele umuntu '
+      'omaziyo kwenzeke kube uyena okuphosa ngesichitho. Leliphupho lijwayeleke kubantu besifazane ababanga isoka. Uma uphupha uphucwa imali '
+      'umuntu noma uphuphe uphiwa into bese kuba khona umuntu okuphucayo: Kusuke kuyibhadi lokuthi uzophucwa isipho sakho ositholile noma osazosithola. Noma kusuke kukhona umuntu owathatha izinhlanhla zakho wazenza ezakhe. Esikhathini esiningi kuvamise ukuthi kube ngumuntu womndeni. Ngoba noma umuntu wangaphandle angakwenza kodwa akawazi amadlozi akini. Uthi noma ekwenza owangaphandle kungalungi kahle. Ngoba amadlozi akini ayakwazi ukuvulela inhlanhla. Kodwa uma kumuntu wakini kuba nenkinga ngoba ukhuluma nalo idlozi leli nawe okhuluma nalo. Ungakulungisa lokhu kodwa ngoba ungumuntu oseduze nawe angakwazi ukukubona uma wenza izinto eziqondene nalokhu bese yena egadla kakhulu kunakuqala. Ugcina ubona ukuthi zonke izinto oziphuphayo zenzeka kumuntu wakini. Uma uphupha umuntu ekupha izingubo ezindala noma ekuwashisa izimpahla zakhe ezindala. Amanzi owasha ngawo engcolile nezingubo ezichilizela ngakuwena: Kusuke kuyibhadi kukhona umuntu okulethela ubumnyama emzini wakho. Kokunye uke uphuphe uphiwa imali emnyama noma uwathole endleleni. Imali emnyama ichaza ibhadi. Kusuke izinto zakho zingeke zikuhambele kahle empilweni. Noma kwesinye isikhathi usuke utshengiswa ukuthi kukhona izinto ezingahambi kahle. Umuntu ongumthakathi uyakwazi ukuthi akulethele ibhadi lokufa emzini wakho. Lokho ukubona ephusheni ngokuthi akulethele ingubo emnyama. Uma lengubo uyinqabile ephusheni lowo obekunika yona uzovelelwa okubi. Kodwa ngedlozi lakini ube usuyaboniswa ebusuku ukuthi kunezinto ezimbi ezizokwenzeka nezisa zokwenzeka. Amaphupho abalulekile ukuthi ungawakhohlwa uma usuvukile ukwazi ngisho ukuwachaza. Uma ungakwazi buza kubantu abadala ngoba kuyenzeka ukuthi kunento otshelwa yona. Ukuphupha ibhokisi lomgcwabo – Isifo sasekhaya'
+    ],
+
+    [
+      'Uma kuzohamba umuntu emhlabeni kubakhona izimpawu ezishoyo ukuthi kukhona okuzokwenzeka. Kunamaphupho akuvezayo ukuthi kunomuntu ozohamba emhlabeni. '
+      'Omunye abe nenhlanhla ngisho nokumbona umuntu lowo ozohamba emhlabeni. Ukufa yinto engeke siyivimbele ukuthi ingenzeki. Kweminye imindeni bakhishwa '
+      'yizisu bonke ngesikhathi esifanayo. Abanye abantu bona bashaywa uvalo kodwa bungekho ubungozi. Uma uphupha udwendwe noma ngesinye isikhathi uphuphe '
+      'kushada umuntu noma umbone ukuthi ngubani oshadayo kuyenzeka ukuthi kushone lowo osuke umbonile. uphupha kunesivunguvungu somoya omnyama kube sengathi '
+      'kuyabophana esiswini. Noma kanjani kukhona ozohamba, umuntu wakini ozalwa naye esiswini esisodwa. Uma uphupha ukhokhela umuntu wemoto imali kodwa imoto '
+      'ihambe njalo ingami uze uphaphame. Usuke uphuphela umuntu wakini kungaba yingane yakho oyizalayo. Uma uphupha umuntu omaziyo ehamba ngemoto engehliki '
+      'kuyona, lowomuntu uyahamba emhlabeni. Uma uphupha kunabantu abaningi behlanganyela umuzi bewakha ngokushesha. Kuba ngumakhelwane wakho, umngani wakho '
+      'omkhulu noma umuntu omjwayele nje. Uma uphupha ibhokisi lomngcwabo nemoto yasemakhazeni. Kungashona umuntu wakini noma umakhelwane. Uma uphupha izimpahla '
+      'eziningi zokugqoka nempahla yasendlini endala. Kukhona ozohamba emhlabeni. Uma uphupha amanzi amaningi ekungaba ahlanzekile noma angcolile kuchaza isifo. '
+      'Amanzi angcolile ayasibika isisu noma umuntu okhulelwe.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usebenzisa isambulela kuyibhadi ikakhulukazi makungesona esakho. Kusho ukuthi kuzoba nokuhlupheka nosizi empilweni yakho. Uma ulahlekelwe yisambulela uzolahlekelwa yinto ebalulekile maduzane.'
+    ],
+
+    [
+      'Uma uphupha ukuthi uzomisa ngethawula izinkinga noma ukugula okukuhluphayo kuzohamba.'
+    ],
+
+    [
+      'Uma uphupha ukuthi unoketshezi oluncane lwethini kusho ukuthi kufanele uqaphele abantu ongabazi ngoba bangakudalela izinkinga.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ubhema ngepayipi kusho ukuthi izinkinga ezikuhluphayo zizophela maduzane nje.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ufunda iphephandaba kuzoba noshintsho empilweni yakho maduzane nje kakhulu.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usebenzisa izinalithi ophini noma izipeletu uzoba namashwa ebudlelwaneni bakho nabanye abantu futhi udumale kwezothando.'
+    ],
+
+    [
+      'Uma uphupha ubona okhiye kuyibhadi. Kuzoba nezinkinga ebhizinisini lakho maduzane noma uzolwa nomuntu ngakho ke bheka ulaka lwakho.'
+    ],
+
+    [
+      'Uma uphupha ukuthi uyawavala noma uyawavula amakhethini kusho ukuthi umuntu engadlala ngawe maduzane ngakho ke qaphela.'
+    ],
+
+    [
+      'Uma uphupha uzibona udlala amakhadi noma amadayisi kusho ukuthi uzoba nenhlanhla nezimali ikakhulukazi uma udlala umdlalo ngazo.'
+    ],
+
+    [
+      'Uma uphupha ukuthi unesaka isikhwama noma ubhasikidi kuyibhadi ikakhulukazi uma kungenalutho phakathi. Kusho ukuthi awukwazi ukuthemba abantu osebenza nabo noma kungenzeka ube nenkinga emsebenzini.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ufunda izincwadi kusho ukuthi kungenzeka uhlangabezane nokulahlekelwa maduzane nje ngenxa yabangani bakho abangathembekile. Uma uphupha ukuthi ufunda izincwadi zesikole kusho ukuthi uzojabula maduzane ngenxa yokusebenza kwakho kanzima. '
+    ],
+
+    [
+      'Uma uphupha ukuthi ubone izinto zokwakha njengosimende nezitini kuyibhadi. Kuzoba nokulwa empilweni yakho maduzane nje noma uzodumala mayelana nezinto ozitholile empilweni. Uma uphupha izinto zamapulangwe njengezinduku noma amapulangwe kusho ukuthi kuzoba nezinkinga empilweni yakho maduzane nje uma ungathathi ikhefu.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usebenzisa ikisti noma ibhokisi lokubeka izinto kusho ukuthi kukhona emndenini wakho ozodinga usizo lwakho maduzane.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usebenzisa itafula kuyinhlanhla uma abantu behlezi kulo futhi yibhadi uma kunguwena wedwa khona.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usebenzisa isitofu kusho ukuthi uzoba nenhlanhla uthuthuke ikakhulukazi uma sishisa noma kukhona okubhakayo.'
+    ],
+
+    [
+      'Uma uphupha ukuthi unefenisha endala engasafunakali endlini yakho kusho ukuthi kukhona ozodinga usizo lwakho.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usebenzisa isibuko kusho ukuthi abantu obethembayo bangakujikela maduzane futhi kufanele usebenze kanzima uma ufuna ukuphumelela emsebenzini.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usebenzisa ilambu noma isiketekete kuyinhlanhla uma isibani sikhanya. Uzophumelela othandweni nasempilweni. Uma ilambu lingasebenzi kuzoba nezikhathi ezinzima ezizayo kuwe. Uma kunguwena olikhanyisayo kusho ukuthi uzothola isimanga empilweni yakho maduzane.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usebenzisa iketelo kuyinhlanhla uma lihlanzekile lisebenza kahle. Uma lingcolile noma amanzi ebila kunenkathazo ezayo kuwe.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usesihlalweni kusho ukuthi khona okuhle okuzayo. Uzothola izindaba ezimnandi noma uzophumelela emsebenzini.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usembhedeni ukuthi lokho kusho ukuthini kuya ngokuthi uwenzani. Uma uphupha nhe ngombhede ongenamuntu phakathi izinkinga zakho zizophela maduzane. Uma uwendlala umbhede uzothatha uhambo maduzane. Uma ulele embhedeni uzoshada maduzane mawungashadile.'
+    ],
+
+    [
+      'Lokhu kusho ulaka lwabaphansi (amadlozi), kukhona osuke ukwenzile noma kwenzekile emndenini  okungabajabulisi neze abaphansi. Ngakho kufanele uqaphele abantu abasuke bekulelo phupho kanye nokwenzeka kulo ukuze uzothola izimpendulo ezingakunikeza isixazululo ekulungiseni leyo nkinga. '
+    ],
+
+    [
+      'Amaphupho ngomoya ohamba endaweni eyodwa (isikhishikizane) ayinto engekho yinhle neze. Uma uphuphe isikhishikizane sikusibekela lokho kuchaza ukuza kwesikhathi esinzima esizohambisana nokukhathazeka okukhulu, okuzoba ukonakala kwalokho osuke uzama ukukufeza. Kanti uma uphuphe usibona nje kuphela lokho kuyibika lokuma ndawonye kokwenzayo, ukungabi nenqubekela phambili, okungaba ukuphinda isigaba uma ungumfundi, ukungakhuphuki ngokwesikhundla obusifisa uma usemsebenzini, ukungathuthuki emsebenzini webhizinisi uma kukhona onalo, ukuqhubeka kokuhamba kwesikhathi ungawutholi umsebenzi uma ungumuntu obewudinga kakhulu njalo njalo.'
+    ],
+
+    [
+      'Amaphupho ngesangqumba achaza izinto ezahlukahlukene kubantu abahlukahlukene, kodwa wonke achaza isiphetho esibi. Kumuntu ongumlimi iphupho ngesangqumba libikezela unyaka omubi ozoba nendlala ngokusweleka kwezimvula ngenxa yesomisa esingase sibe khona. Kumuntu oseyinsizwa noma intombi, ukuphupha ngesangqumba kuchaza ukungahambi kahle kwezinto kwezothando. '
+      'Kumuntu osebenzayo, ukuphupha  ngesangqumba kusho ukulahlekelwa okukhulu. Kwabanye abantu ukuphupha ngesangqumba kungaphinde kubikezele ukuthi abangani bakho basuke bezokhuluma into ezokwenza uphoxeke kakhulu Ukuphupha isangqumba kuyinkinga ngokuthi kungakunikeza izincazelo ezahlukahlukene kuwena uwedwa, lokho okungakwenza ungabe usazi ukuthi yikuphi okumele '
+      'ukulindele, okubikezelwa yiphuph lakho ngesangqumba.'
+    ],
+
+    [
+      'Ukuphupha ilanga liphume ngokugqamile Kusho ukuthi uyofunda okuthile okusha okuyoshintsha impilo yakho ibe ngcono. Ukuphupha ilanga libalele kakhulu Lokhu kusho ukuza kwesikhathi esinzima empilweni yakho kanye nezimo ezizokukhathaza kakhulu emphefumulweni.'
+    ],
+
+    [
+      'Uma uphupha ukuthi izinkanyezi ziyakhanya uyoba nothando oluningi empilweni yakho futhi uthole izindaba ezinhle zivela lapho ongalindele khona.'
+    ],
+
+    [
+      'Uma uphupha ubuka isibhakabhaka ngokujwayelekile kuwuphawu oluhle. Uma sicwathile futhi kunelanga uyoba nempilo enoxolo kanye nenjabulo. Uma sinamafu futhi simnyama kuyisixwayiso ukuthi kufanele uqaphele.'
+    ],
+
+    [
+      'Uma uphupha ukuthi kunelanga futhi kumnandi kusho ukuthi uyoba nenhlanhla. Uma usendaweni emnyama kodwa ukwazi ukubona ukukhanya ekudeni kusho ukuthi unenkinga empilweni yakho manje kodwa uzoyinqoba ngokushesha.'
+    ],
+
+    [
+      'Uma uphupha ukuthi intwasahlobo isifikile ngesikhathi kusengesinye isikhathi sonyaka kusho uthando nomshado ekusaseni lakho. Uma uphupha ihlobo ngesikhathi kusengesinye isikhathi sonyaka kusho inhlanhla kanye nenjabulo.'
+    ],
+
+    [
+      'Uma uphupha ubona uthingo lwenkosazana kusho izinto ezinhle empilweni yakho. Uyochuma ubenempilo futhi uphumelele.'
+    ],
+
+    [
+      'Uma uphupha uvaleleke enkungwini kuyishwa. Inhliziyo yakho izohlukunyezwa ngokushesha ngothile omethembayo.'
+    ],
+
+    [
+      'Uma uphupha ubona iqhwa incazelo iya ngokuthi wena ungubani. Kubalimi kusho ishwa kanye nezivuno ezingezinhle kodwa kwizithandani kusho umshado nenjabulo.'
+    ],
+
+    [
+      'Uma uphupha ukuthi kube nesichotho kusho izinto ezimbi ekusaseni lakho. Ungalahlekelwa umsebenzi kanye nabantu obanakekelayo uma ungaqaphile. Uma ugcine izimfihlo ziyokwambuleka.'
+    ],
+
+    [
+      'Uma uphupha ubona isithwathwa kusho ukuthi uzobhekana nesilingo kungekudala. Qaphela ukuhlala kokuyiqiniso kuwe okanye ubhekane nemiphumela.'
+    ],
+
+    [
+      'Uma uphupha ukuthi kade kunesikhukhula kusho ukuthi uyoba nenhlanhla futhi uphumelele empilweni yakho.'
+    ],
+
+    [
+      'Uma uphupha ubona amafu, incazelo iya ngokuthi awumbala onjani lawomafu kanye nanokuthi kwenzakalani ngalawomafu. Amafu amnyama nanesiphepho asho '
+      'ukungqubuzana okuza kuwena muntu ophuphayo. Amafu amhlophe asho ukuthi uzoba nenjabulo nempumelelo kumbe ukuvela kwemfihlakalo eveza ngokucacile '
+      'nokukhanya bha ukuma kwezinto empilweni yakho. Amafu amnyama sengathi lizokuna wona asho ukungalungi kwezinto. Amafu amnyama kodwa angamile ndawonye, '
+      'adlulayo, wona asho ukuthi kuzoba khona izikhathi zobunzima kodwa lobobunzima kuzohamba kuhambe buphele.'
+    ],
+
+    [
+      'Uma uphupha kunomoya incazelo iya ngokuthi unamandla kangakanani. Umoyana usho ukuthi izinto ezinhle zizokwenzeka kuwe futhi bonke bazokuthanda bakuhloniphe ngisho nezitha zakho. Uma umoya unamandla kusho ishwa nosizi. Uma kuyisivunguvungu kusho obukhulu ubunzima kanye neshwa ekusaseni lakho.'
+    ],
+
+    [
+      'Uma uphupha ubona inyanga kusho ukuthi uzophumelela ngesikhathi ungalindele, ikakhulukazi kwezothando. Uma inyanga iba mnyama kodwa uyohlupheka futhi ube mpofu. Inyanga egcwele isho ukuthi uyoshada masinya uma usemncane futhi ube nabantwana abahle uma umdadlana. Kuyishwa elibi ukubona izinyanga ezingaphezu kweyodwa esibhakabhakeni.'
+    ],
+
+    [
+      'Uma uphupha ukuthi kunesivunguvungu kuwuphawu lweshwa kuwe futhi kufanele uqaphele okwesikhashana. Uma kunokuduma nombani okuningi kusho ukuthi kuzoba noshintsho empilweni yakho - ungaphumelela emsebenzini kodwa futhi ungabhekana nemiphumela engalindelekile ezenzweni zakho. Ikakhulukazi kuyinhlanhla ukuphupha ngokuthi ushaywe umbani.'
+    ],
+
+    [
+      'Uma uphupha lina incazelo iya ngokuthi inamandla kangakanani futhi sekuyisikhathi esingakanani lina. Ukuphupha imvula ejwayelekile: Kusho ukuthi uzothola okuthile ngokushesha - kungaba isipho. Ukuphupha imvula enesivunguvungu: '
+      'Uma kuyisivunguvungu kunezikhathi ezinzima eziza kuwe. Kuyoba nenkohliso kanye nokungajabuli empilweni yakho kodwa uma wenza ngokuhlakanipha uyophumelela ekugcineni. Ukuphupha imvula isimile, enelanga: Uma uphupha ukuthi imvula '
+      'isimile futhi nelanga seliphumile kusho inhlanhla ekusaseni lakho. Ukuphupha unethwa imvula: Kusho inhlanhla enkulu, ukudlula kwakho ezimgqinambeni obubhekene nazo kanye nokuza kwezinhlanhla empilweni yakho.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ufunda iphepha elinezifiso zokugcina noma kukhona ifa olushiyelwe lona ngoseshonile kusho ukuthi uzolahlekelwa yinto ebalulekile kuwe.'
+    ],
+
+    [
+      'Uma uphupha ukuthi uthole isamanisi kusho ukuthi uzoba nempilo enokuthula futhi uzwane nawo wonke umuntu omaziyo.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ujeziselwa okuthile kusho ukuthi uzoba nenhlanhla maduzane.'
+    ],
+
+    [
+      'Amaphupha anezincazelo ezahlukene, kukhona lezo eziqondile kuphinde kubekhona nalezo ezifihlekile. Ukuphupha amaphoyisa kusho okungekuhle, okungabalwa phakathi kwakho izitha zakho, noma ke isifo esiza koseduze nawe. Uma uphupha ukuthi ubona amaphoyisa noma amasosha, kusho ukuthi kunento embi esazokwenzeka. Uma ulwa noma uxoshwa ngamaphoyisa lokho kusho ukuthi kunezitha ezikuthakathayo noma ezikugadla ngemithi.'
+    ],
+
+    [
+      'Uma uphupha ukuthi uthathe isifungo kusho ukuthi ubunzima obhekene nabo manje buzophela maduzane.'
+    ],
+
+    [
+      'Uma uphupha ukuthi uwine icala lomthetho kusho ukuthi uzonqoba izitha zakho uphumelele.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ukhuluma nommeli kusho ukuthi uzolwa nomuntu maduzane kodwa uzonqoba. Uma kunguwena ongummeli kuhle kakhulu. Uzohlonishwa ngezenzo zakho ezinhle.'
+    ],
+
+    [
+      'Uma uphupha ukuthi uvela phambi kwejaji kungenzeka ucelwe ukuthi uchaze ngezinto oke wazenza. Uma kuhamba kahle izinto ezinhle zizokwenzakalela – ikakhulukazi emsebenzini.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ufakwe ozankosi ungabhekana nesiyengo esizokufaka enkingeni enkulu uma ungaqapheli.'
+    ],
+
+    [
+      'Uma uphupha ukuthi ukhuluma nomseshi inkinga onayo izoxazululeka maduzane.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usenkantolo kusho ukuthi uzonqoba izitha zakho. Uma ukhona ngoba ungufakazi ecaleni kusho ukuthi uzobizwa ukuthi usize umuntu omaziyo maduzane.'
+    ],
+
+    [
+      'Uma uphupha ukuthi usejele lokho  kuyinto enhle. Kusho ukuthi uzoba nenhlanhla emsebenzini ube nodumo futhi uphumelele ezintweni ozenzayo. Uma weqa ejele kuhle kakhulu futhi kusho ukuthi uzonqoba izinkinga zakho. Uma usebenza njengojele kusho ukuthi abangani bakho bazophuma ezinkingeni maduzane.'
+    ],
+
+    [
+      'Uma uphupha indlovukazi (owesifazane ongumama walowo oyinkosi ebusayo), lokho kusho ukuthi kunabantu abakuthembile kakhulu ngenxa yezenzo zakho zokuba muhle phambi kwamehlo abo. Lelophupho liyizinkomba zokuthi usuke uzozuza injabulo nenqubekela phambili empilweni yakho.'
+    ],
+
+    [
+      'Leli yiphupho eliyisixwayiso ngomuntu osondelene kakhulu nawe ogaqele ukuba sezicathulweni zakho, lokho okungaba ngokwesikhundla, indima oyidlalayo emndenini noma izinga okulo kulokho okwenzayo empilweni. Kafushane nje, singasho sithi yiphupho elimayelana nembangi yakho eyimfihlo efuna ukufana nawe. Okubalulekile ngaleliphupho ukuthi kumele uqaphele ubulili balawo mawele osuke uwaphuphile ngoba nalowo muntu usuke engowobulili obufanayo nawo.'
+    ],
+
+    [
+      'Uma uphupha ubona abantu abasebasha kuyinhlanhla kakhulu ikakhulukazi uma besemzini wakho. Uzoba nenjabulo empilweni futhi izinkinga zakho zizophela.'
+    ],
+
+    [
+      'Uma uphupha ubona umfelokazi kusho ukuthi umuntu omthandayo uzodinga usizo lwakho maduzane.'
+    ],
+
+    [
+      'Uma uphupha ubona abantu ababi kuwuphawu oluhle futhi uzoba nenhlanhla kunoma yini oyenzayo.'
+    ],
+
+    [
+      'Uma uphupha ubona ikhehla noma isalukwazi kusho ukuthi kukhona ozokusiza uphume ezinkingeni zakho maduzane. Uma udinga imali ukhona ozokuboleka imali.'
+    ],
+
+    [
+      'Uma uphupha ubona umakhelwane kufanele ucele usizo noma iseluleko kwabanye abantu ngoba awuwedwa ezinkingeni zakho.'
+    ],
+
+    [
+      'Uma uphupha ubona abangane bakho kusho ukuthi bazokuphatha kahle babe ngabantu abathembekile. Uma ulwa nabo kusho ukuthi uzolwa nabo empilweni yangempela.'
+    ],
+
+    [
+      'Uma uphupha ubona isilima kuyinhlanhla enkulu ikakhulukazi uma unekhaya.'
+    ],
+
+    [
+      'Uma uphupha ubona isigilamkhuba kuzoba nezinkinga empilweni yakho maduzane.'
+    ],
+
+    [
+      'Uma uphupha ubona isithulu kusho ukuthi umuntu okuphathe kabi uzobuya ezocela ukuxolelwa.'
+    ],
+
+    [
+      'Uma uphupha ukuthi uphuza itiye kusho ukuthi izinto ezinhle ziyeza kuwe.'
+    ],
+
+    [
+      'Uma uphupha ukuthi uphuza ubisi kusho ukuthi uzoba nenhlanhla.'
+    ],
+
+    [
+      'Uma uphupha ukuthi uphuza ikhofi kusho ukuthi kuzokwenzeka izinto ezimbi maduzane. Kuphakathi kokuthi uzolwa noma umuntu omethembayo kuzotholakala ukuthi uyimbuka.'
+    ],
+
+    [
+      'Amaphupho ngotshwala besintu ayibika lokuthi idlozi lakho alijabulile. Lokho kusho ukuthi kukhona okuthile okumelwe ukulungise okuqondene nomsamo wakho, ngakho ke '
+      'kubalulekile ukuba uqaphele indawo okuyo nabantu abasuke bekhona kulelo phupho. Isibonelo nje: uma uphupha uphuza kuleyo ndawo kukhona nengane oyizalayo, lokho kungaba '
+      'yisixwayiso sokuthi kusamelwe uyenzele umcimbi wokuyibika emsamo ngendlela efanelekile leyongane, kungaphinda futhi kube ukukukhumbuza ukuthi kusamelwe uyenzele imbeleko '
+      'uma ubungakaze uyenzele ngaphambilini ikakhulukazi uma kuyingane yokuqala. Uma uphupha uphisa utshwala kusho ukuthi maduzane uzovakashelwa ngumuntu osuka kude. Uma uphupha '
+      'uphuza utshwala ebha noma endaweni yokuphuza lokho kusho ukuthi uzokwenza okuthile okuzokudalela isitha maduzane. Incazelo yaleliphupho lokuphisa utshwala liyaya futhi '
+      'ngokuthi ungubani wena ophisa lobotshwala ephusheni. Uma uphupha ukuthi uphisa utshwala ube uyindoda, lokho kungasho ukuthi maduzane nje uzovakashelwa ngumuntu okade wagcina '
+      'ukumbona. Uma ungowesifazane kungasho ukuthi uyivila futhi kufanele uzame empilweni ngaphezu kwalokhu okwenzayo manje.'
+    ],
+
+    [
+      ''
+    ],
+
+    [
+      ''
     ],
 
   ];

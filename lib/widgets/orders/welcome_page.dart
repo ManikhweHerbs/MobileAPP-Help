@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:manikhwe_herbs/widgets/entrance/login.dart';
-import 'package:manikhwe_herbs/widgets/page_navigation.dart';
 
+import 'package:manikhwe_herbs/widgets/first%20drawer/banking_details.dart';
+import 'package:manikhwe_herbs/widgets/page_navigation.dart';
+// twitter username +27672781430
 class WelcomeScreen extends StatelessWidget{
 
   final int languageIndex;
@@ -57,17 +58,18 @@ class WelcomeScreen extends StatelessWidget{
                     backgroundColor: Colors.blue,
                     foregroundColor: Colors.white,
                   ),
-                  label:const Text(
-                    "Logout", 
+                  label:Text(
+                    Languages.bankDetails[languageIndex], 
                     style: TextStyle(color: Colors.white),
                   ),
                   onPressed: (){
                     Navigator.of(context).pop();
-                    Navigator.of(context).push(
+                    /*Navigator.of(context).push(
                       CustomPageRoute(
                         child: Login(),
                       )
-                    );
+                    );*/
+                    Navigator.of(context).push(CustomPageRoute(child: BankingDetails()),);
                   },
                 )
               ],
@@ -86,7 +88,11 @@ class Languages{
     'Sekuphelile'
   ];
 
+  static const bankDetails = [
+    'Bank Details',
+  ];
+
   static const successReport = [
-    'Siyakubongela Silitholile I-Order Lakho, Sizobuyela Kuwe.',
+    'Siyakubongela Silitholile I-Order Lakho. Ciphaza I-Button Elingezansu Ubone Ukuthi Uzoyifaka Kweyiphi I-Account Imali. Uzothola Nenamba Yomnikazi Womsebenzi.',
   ];
 }

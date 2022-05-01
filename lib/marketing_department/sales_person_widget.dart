@@ -241,9 +241,9 @@ class SalesPersonState extends State<SalesPersonWidget>{
                     phoneNumber: phoneNumber,
                     southAfricanIDNumber: southAfricanIDNumber,
                     accountNumber: accountNumber,
-                    generatedRefId: _generateRefID(3),
+                    generatedRefId: _generateRefID(database,3),
                   );
-
+                  
                   try{
                     DatabaseReference promoterReference = promotersReference.push();
                     await promoterReference.set(salesPerson.toJson());
@@ -284,7 +284,8 @@ class SalesPersonState extends State<SalesPersonWidget>{
   the generated Ref ID, if yes generate another one,
   otherwise use the generated one.*/
   // Define a reusable function
-String _generateRefID(int length) {
+String _generateRefID(DatabaseReference database,int length) {
+
   final _random = Random();
   const _availableChars =
       'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -292,7 +293,36 @@ String _generateRefID(int length) {
           (index) => _availableChars[_random.nextInt(_availableChars.length)])
       .join();
 
+  /*database.onValue.listen((DatabaseEvent event) {
+  final data = event.snapshot.value; 
+            // You can update a value in a DB
+            dev.log(randomString + ' ' + data.toString());
+        });*/
+
   return randomString;
 }
+
+Future<String> _generateRefID2(DatabaseReference database,int length) async{
+
+  String randomString = 'AAA';
+  final snapshot = await database.child('promoters/generatedRefId/$randomString').get();
+  bool refIDExist = true;
+  do{
+    final _random = Random();
+    const _availableChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    randomString = List.generate(length,
+      (index) => _availableChars[_random.nextInt(_availableChars.length)])
+      .join();
+
+      // check whether the Ref ID is in the databse or not.
+      refIDExist = false;
+    
+  }while(refIDExist);
+
+
+
+  return randomString;
+}
+
 
 }

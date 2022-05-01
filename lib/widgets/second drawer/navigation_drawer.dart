@@ -21,7 +21,7 @@ class NavigationDrawerWidger extends StatelessWidget{
         child: ListView(
           padding: padding,
           children: [
-            const SizedBox(height: 8),
+            const SizedBox(height: 48),
             buildMenuItem(
               text: Languages.amaphupho[languageIndex],
               icon: FontAwesomeIcons.bed,
@@ -29,9 +29,9 @@ class NavigationDrawerWidger extends StatelessWidget{
             ),
             const SizedBox(height: 8),
             buildMenuItem(
-              text: 'Promotions',
+              text: Languages.promotion[languageIndex],
               icon: FontAwesomeIcons.bullhorn,
-              onClick: ()=>selectedItem(context, 2),
+              onClick: ()=>selectedItem(context, 1),
             ),
 
 

@@ -1,5 +1,7 @@
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:flutter/material.dart';
+import 'package:manikhwe_herbs/widgets/entrance/login.dart';
+import 'package:manikhwe_herbs/widgets/page_navigation.dart';
 
 class BankingDetails extends StatelessWidget{
   @override
@@ -49,6 +51,33 @@ class BankingDetails extends StatelessWidget{
               icon: Icons.facebook,
               
             ),
+
+            const SizedBox(
+                  height: 10,
+                ),
+                ActionChip(
+                  backgroundColor: Colors.blue,
+                  
+                  avatar: const CircleAvatar(
+
+                    child: Icon(Icons.logout,),
+                    backgroundColor: Colors.blue,
+                    foregroundColor: Colors.white,
+                  ),
+                  label:Text(
+                    "Logout", 
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  onPressed: (){
+                    Navigator.of(context).pop();
+                    Navigator.of(context).push(
+                      CustomPageRoute(
+                        child: Login(),
+                      )
+                    );
+                    
+                  },
+                )
             
           ],
         ),
