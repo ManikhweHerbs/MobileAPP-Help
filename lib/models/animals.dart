@@ -1660,3 +1660,109 @@ class Inkukhu extends Animal{
     names['Spanish'] = '';
   }
 }
+
+class Impala extends Animal{
+  Impala():super('Impala');
+
+  void addAnimalBehavior(){
+    animalBehavior.add('');
+    
+  }
+
+  void addAnimalNames(){
+    names['English'] = '';
+    names['Xhosa'] = '';
+    names['Tsonga'] = '';
+    names['Tswane'] = '';
+    names['Sotho'] = '';
+    names['Swati'] = '';
+    names['Venda'] = '';
+    names['French'] = '';
+    names['Spanish'] = '';
+  }
+}
+
+class Ijuba extends Animal{
+  Ijuba():super('Ijuba');
+
+  void addAnimalBehavior(){
+    animalBehavior.add('');
+    
+  }
+
+  void addAnimalNames(){
+    names['English'] = '';
+    names['Xhosa'] = '';
+    names['Tsonga'] = '';
+    names['Tswane'] = '';
+    names['Sotho'] = '';
+    names['Swati'] = '';
+    names['Venda'] = '';
+    names['French'] = '';
+    names['Spanish'] = '';
+  }
+}
+
+class Unwabu extends Animal{
+  Unwabu():super('Unwabu');
+
+  void addAnimalBehavior(){
+    animalBehavior.add('');
+    
+  }
+
+  void addAnimalNames(){
+    names['English'] = '';
+    names['Xhosa'] = '';
+    names['Tsonga'] = '';
+    names['Tswane'] = '';
+    names['Sotho'] = '';
+    names['Swati'] = '';
+    names['Venda'] = '';
+    names['French'] = '';
+    names['Spanish'] = '';
+  }
+}
+
+class Umzwili extends Animal{
+  Umzwili():super('Umzwili');
+
+  void addAnimalBehavior(){
+    animalBehavior.add('');
+    
+  }
+
+  void addAnimalNames(){
+    names['English'] = '';
+    names['Xhosa'] = '';
+    names['Tsonga'] = '';
+    names['Tswane'] = '';
+    names['Sotho'] = '';
+    names['Swati'] = '';
+    names['Venda'] = '';
+    names['French'] = '';
+    names['Spanish'] = '';
+  }
+}
+
+class Inkomo extends Animal{
+  Inkomo():super('Inkomo');
+
+  void addAnimalBehavior(){
+    animalBehavior.add('');
+    
+  }
+
+  void addAnimalNames(){
+    names['English'] = '';
+    names['Xhosa'] = '';
+    names['Tsonga'] = '';
+    names['Tswane'] = '';
+    names['Sotho'] = '';
+    names['Swati'] = '';
+    names['Venda'] = '';
+    names['French'] = '';
+    names['Spanish'] = '';
+  }
+}
+

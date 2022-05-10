@@ -2266,6 +2266,16 @@ class Languages{
       'Ukuthenga Ukudla'
     ],
 
+    ///////////////////////All Of The Above Are Sorted///////////
+    
+    [
+      'Ibhokisi lomncwabo'
+    ],
+
+    [
+      'Amawele'
+    ],
+
   ];
 
   static const iphuphoMeaning = 
@@ -4638,12 +4648,14 @@ class Languages{
       'ukumbona. Uma ungowesifazane kungasho ukuthi uyivila futhi kufanele uzame empilweni ngaphezu kwalokhu okwenzayo manje.'
     ],
 
+    ///////////////////////All Of The Above Are Sorted///////////
+
     [
-      ''
+      'Kusho izinto ezimbili okokuqala, mengabe ibhokisi livaliwe kusho ukuthi izinto zakho zivaliwe yisandla somthakathi. Okwesibili kusho ukuthi kunesifo esikhona noma esizovela maduze kuwena noma kumuntu oseduze kwakho.'
     ],
 
     [
-      ''
+      'Leli yiphupho eliyisixwayiso ngomuntu osondelene kakhulu nawe ogaqele ukuba sezicathulweni zakho, lokho okungaba ngokwesikhundla, indima oyidlalayo emndenini noma izinga okulo kulokho okwenzayo empilweni. Kafushane nje, singasho sithi yiphupho elimayelana nembangi yakho eyimfihlo efuna ukufana nawe. Okubalulekile ngaleliphupho ukuthi kumele uqaphele ubulili balawo mawele osuke uwaphuphile ngoba nalowo muntu usuke engowobulili obufanayo nawo.'
     ],
 
   ];

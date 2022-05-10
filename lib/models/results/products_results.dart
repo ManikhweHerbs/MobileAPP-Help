@@ -422,7 +422,7 @@ class ProductResultLanguage{
 
   static const imiphumelaMpilemnandi = 
   [
-    'Izinhlela Zakho Zibamhlaphe, Kuqaqeke Amafindo.',
+    'Izindlela Zakho Zibamhlophe, Kuqaqeke Amafindo.',
   ];
 
   static const imiphumelaBabambanokwezinja = 
@@ -652,5 +652,45 @@ class ProductResultLanguage{
   static const imiphumelaQedisayinasi = 
   [
     'Umangabe Unenkinga Yamakhala Ahlezi Evalekile Lomuthi Uzokusiza.',
+  ];
+
+  static const imiphumelaKhiphasnyama = 
+  [
+    'Lomuthi Ukhipha Isinyama, Kuvuleke Inhlanhla Yakho.',
+  ];
+
+  static const imiphumelaWonomkhuhlane = 
+  [
+    'Uphela Ngokushesha Umkhuhlane Ngalomuthi.',
+  ];
+
+  static const imiphumelaMvusankunzi = 
+  [
+    'Umangabe Induku Yakho Ayisavuki Ngesandla Somthakathi Lomuthi Uqondene Nawe.',
+  ];
+
+  static const imiphumelaDoublePay = 
+  [
+    'Uvula Inhlanhla Yemali Uthola Ngisho Umholo Ongaphezuku Kofuzengabe Uyawuthola.',
+  ];
+
+  static const imiphumelaHlezuqaphile = 
+  [
+    'Igazi Lakho Liyakutshela Mengabe Kukhona Into Embi Ezokwehlela. Uvele Uhambe Kuleyondawo, Nabakufunayo Ngeke Makuthole.',
+  ];
+
+  static const imiphumelaWenkanuko = 
+  [
+    'Wenza Owakwakho Abenenkanuko Yocansi.',
+  ];
+
+  static const imiphumelaHlambululidlozi = 
+  [
+    'Uhlambulula Idlozi.',
+  ];
+
+  static const imiphumelaVulezakho = 
+  [
+    'Uvula Izinto Zakho Ezivalekile.',
   ];
 }

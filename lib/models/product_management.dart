@@ -636,6 +636,9 @@ class Thandeka extends Umuthi{
   }
 }
 
+
+
+
 // Advertised By Screen Shot
 class Thandekile extends Umuthi{
 
@@ -1048,7 +1051,6 @@ class Mzimboshisayo extends Umuthi{
     owner = ntshangase;
     price = Platform.isAndroid?200:450;
     
-    iyachela = true;
     amakhubalo.add(Ilabatheka(true)); 
     amakhubalo.add(Inguduza()); 
     amakhubalo.add(Ixhaphosi()); 
@@ -6901,6 +6903,7 @@ class Zingaphakathi extends Umuthi{
     return HowToUseLanguage.howToUseZingaphakathi[languageIndex];
   }
   
+
 }
 
 class Shelenezizwe extends Umuthi{
@@ -7007,5 +7010,339 @@ class Qedisayinasi extends Umuthi{
   
 }
 
+/////////////////////////Add All Below Products////////////////////////
+
+class Wonomkhuhlane extends Umuthi{
+  
+  Wonomkhuhlane(int languageIndex, {forGoodUse =true}):
+  super('Wonomkhuhlane',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?120:150;
+
+    amakhubalo.add(Umhlonyane());
+    amakhubalo.add(Isbhaha());
+    amakhubalo.add(Ukalumuzi());
+
+    extras.add('Lamon');
+    extras.add('Ginger');
+    extras.add('Garlic');
+    
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaWonomkhuhlane[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.gqumaGezaPhalazaMuthiDirections[languageIndex];
+  }
+  
+}
+
+class Khiphasnyama extends Umuthi{
+  
+  Khiphasnyama(int languageIndex, {forGoodUse =true}):
+  super('Khiphasnyama',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?220:320;
+
+    Umathunzentaba umathunzentaba = Umathunzentaba();
+    umathunzentaba.description = 'Step 1 - Uqale Usebenzise Yona Kanye Nempindamshaye(3 days gquma, geza, phalaza)';
+    amakhubalo.add(umathunzentaba);
+    Impindamshaye impindamshaye = Impindamshaye();
+    impindamshaye.description = 'Step 1 - Uqale Usebenzise Yona Kanye Nomathunzentaba(3 days gquma, geza, phalaza)';
+    Inhlanhlemhlophe inhlanhlemhlophe = Inhlanhlemhlophe();
+    inhlanhlemhlophe.description = 'Step 2 - Usebenzisa Lomuthi, ubhubhubhu, ibuya, izimpande zogagane(5 days gquma, geza, phalaza)';
+    amakhubalo.add(inhlanhlemhlophe);
+    Ubhubhubhu ubhubhubhu = Ubhubhubhu();
+    ubhubhubhu.description = 'Step 2 - Usebenzisa Lomuthi, inhlanhlemhlophe, ibuya, izimpande zogagane(5 days gquma, geza, phalaza)';
+    amakhubalo.add(ubhubhubhu);
+    Ugagane ugagane = Ugagane();
+    ugagane.part = 'roots';
+    ugagane.description = 'Step 2 - Usebenzisa Lomuthi, inhlanhlemhlophe, ibuya, ubhubhubhu(5 days gquma, geza, phalaza)';
+    amakhubalo.add(ugagane);
+    Ibuya ibuya = Ibuya();
+    ibuya.description = 'Step 2 - Usebenzisa Lomuthi, inhlanhlemhlophe, izimpande zogagane, ubhubhubhu(5 days gquma, geza, phalaza)';
+    amakhubalo.add(ibuya);
+    
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaKhiphasnyama[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.gqumaGezaPhalazaMuthiDirections[languageIndex];
+  }
+  
+}
+
+class Gadamfazi extends Umuthi{
+  
+  Gadamfazi(int languageIndex, {forGoodUse =true}):
+  super('Gadamfazi',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?450:750;
+
+    amakhubalo.add(Umalala());
+    amakhubalo.add(Ikhathaza());
+    amakhubalo.add(Icishamlilo());
+    amakhubalo.add(Umsilawengwe());
+
+    extras.add('Inhlabathi Yemvukuzane');
+    
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaWonomkhuhlane[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.gqumaGezaPhalazaMuthiDirections[languageIndex];
+  }
+  
+}
+
+class Mvusankunzi extends Umuthi{
+  
+  Mvusankunzi(int languageIndex, {forGoodUse =true}):
+  super('Mvusankunzi',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?560:750;
+
+    amakhubalo.add(Uqonsi());
+    amakhubalo.add(Bangalala());
+    amakhubalo.add(Umfusamvu());
+    amakhubalo.add(Udlutshani());
+    Uphondolukabhejane uphondolukabhejane = Uphondolukabhejane();
+    uphondolukabhejane.description = 'Lona Oyikhubalo';
+    amakhubalo.add(uphondolukabhejane);
+    amakhubalo.add(Umayihlanganise());
+    amakhubalo.add(Uhlozafukwe());
+    amakhubalo.add(Umsilawengwe());
+
+    Inkomo inkomo = Inkomo();
+    inkomo.description = 'Inkonyane';
+    inkomo.part = 'Idolo Nomqathe';
+    animals.add(inkomo);
+
+    Imbabala imbabala = Imbabala();
+    imbabala.part = 'Ipipi';
+    animals.add(imbabala);
+
+    Impala impala = Impala();
+    impala.part ='Ipipi';
+    animals.add(impala);
+
+    
+    
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaMvusankunzi[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.phuzaChathaMuthiDirections[languageIndex];
+  }
+  
+}
+
+class DoublePay extends Umuthi{
+  
+  DoublePay(int languageIndex, {forGoodUse =true}):
+  super('DoublePay',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?450:750;
+
+    amakhubalo.add(Umathithibala());
+    amakhubalo.add(Umabopha());
+    amakhubalo.add(Ikhathaza());
+    amakhubalo.add(Nginakile());
+    amakhubalo.add(Inkomankoma());
+    amakhubalo.add(Ishoshozela());
+    amakhubalo.add(Undlelazimhlophe());
+    amakhubalo.add(Umlandeni());
+    amakhubalo.add(Inhlungunyembe());
+
+    extras.add('Umlotha We-Payslip Yakho Endala, Bhala Igama Lenkampane.');
+    
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaDoublePay[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.gqumaGezaPhalazaMuthiDirections[languageIndex];
+  }
+  
+}
 
 
+class Hleziqaphile extends Umuthi{
+  
+  Hleziqaphile(int languageIndex, {forGoodUse =true}):
+  super('Hleziqaphile',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?550:750;
+
+    amakhubalo.add(Uzifele());
+    amakhubalo.add(Uphunyukabemphethe());
+    amakhubalo.add(Isbhaha());
+    amakhubalo.add(Indabulaluvalo());
+
+    extras.add('Ukhamba Oluqhephukile');
+    
+    Ijuba ijuba = Ijuba();
+    ijuba.part = 'Iqanda';
+    animals.add(ijuba);
+
+    Umzwili umzwili = Umzwili();
+    umzwili.part = 'ikhanda';
+    animals.add(umzwili);
+
+    Unwabu unwabu = Unwabu();
+    unwabu.part = 'Amehlo';
+    animals.add(unwabu);
+
+    Ibhubesi ibhubesi = Ibhubesi();
+    ibhubesi.part = 'Oil';
+    animals.add(ibhubesi);
+    
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaHlezuqaphile[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.gqumaGezaPhalazaMuthiDirections[languageIndex];
+  }
+  
+
+}
+
+class Wenkanuko extends Umuthi{
+  
+  Wenkanuko(int languageIndex, {forGoodUse =true}):
+  super('Wenkanuko',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?350:450;
+
+    amakhubalo.add(Isnama());
+    amakhubalo.add(Unkanuko());
+
+    
+    Indlovu indlovu = Indlovu();
+    indlovu.part = 'Umsunu';
+    animals.add(indlovu);
+    
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaWenkanuko[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.howToUseWenkanuko[languageIndex];
+  }
+  
+
+}
+
+class Hlambululidlozi extends Umuthi{
+  
+  Hlambululidlozi(int languageIndex, {forGoodUse =true}):
+  super('Hlambululidlozi',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?350:450;
+
+    Umlahlankosi umphafa = Umlahlankosi();
+    umphafa.part = 'Roots';
+    amakhubalo.add(umphafa);
+    amakhubalo.add(Umganu());
+    
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaHlambululidlozi[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.gqumaGezaMuthiDirections[languageIndex];
+  }
+  
+
+}
+
+class Vulezakho extends Umuthi{
+  
+  Vulezakho(int languageIndex, {forGoodUse =true}):
+  super('Vulezakho',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?350:450;
+
+    Unukani unukani = Unukani(false);
+    unukani.description ='Akucaciswanga';
+    amakhubalo.add(unukani);
+    amakhubalo.add(Mavulakuvaliwe());
+    amakhubalo.add(Ifembo());
+    
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaVulezakho[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.gezaPhalazaMuthiDirections[languageIndex];
+  }
+  
+
+}

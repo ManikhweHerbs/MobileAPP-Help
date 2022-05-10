@@ -591,4 +591,8 @@ class HowToUseLanguage{
     'Ngaphakathi Ngomuthi Oku-20L Kusukela Emsamu Kuya Egcekeni. Yenza Okufanayo Nangalomuthi Oku-10L. '
     'Uyobe Usuwugezile Umsamu.',
   ];
+
+  static const howToUseWenkanuko =
+  ['Gcaba Inkaba Mengabe Uzoya Kowakwakho.',
+  ];
 }

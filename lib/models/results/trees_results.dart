@@ -1787,4 +1787,65 @@ class TreeResultLanguage{
     'Kwezokulahla Isilwane, Kwezokuqeda Idliso',
   ];
 
+  static const imiphumelaUmhlonyane = 
+  [
+    'Kwezokuqeda Umkhuhlane',
+  ];
+
+  static const imiphumelaIbuya = 
+  [
+    'Kwezokubuyisa',
+  ];
+
+  static const imiphumelaUmathunzentaba = 
+  [
+    'Kwezokuqeda Isinyama',
+  ];
+
+  static const imiphumelaUphondolukabhejane = 
+  [
+    'Kwezokubethela Umuzi Nezokuvusa Ipipi',
+  ];
+
+  static const imiphumelaUhlozafukwe = 
+  [
+    'Kwezokubethela Umuzi Nezokuvusa Ipipi',
+  ];
+
+  static const imiphumelaInkomankoma = 
+  [
+    'Kwezokuthola I-Double Payment',
+  ];
+
+  static const imiphumelaInhlungunyembe = 
+  [
+    'Kwezokuthola I-Double Payment',
+  ];
+
+  static const imiphumelaIshoshozela = 
+  [
+    'Kwezokuthola I-Double Payment',
+  ];
+
+
+  static const imiphumelaUmlandeni = 
+  [
+    'Kwezokuthola I-Double Payment',
+  ];
+
+  static const imiphumelaUnkanuko = 
+  [
+    'Kwezokuqhanyelwa',
+  ];
+
+  static const imiphumelaUmsilawengwe = 
+  [
+    'Kwezokuvusa Ipipi',
+  ];
+
+  static const imiphumelaIfembo = 
+  [
+    'Kwezoqaqa Izinto Zakho',
+  ];
+
 }

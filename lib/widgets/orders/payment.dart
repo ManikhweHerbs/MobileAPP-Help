@@ -69,8 +69,6 @@ class _PaymentScreenState extends State<PaymentScreen> {
     final ordersReference = database.child('/orders');
     final productsReference = database.child('/products');
 
-    bool _isLoading = false;
-
     return Scaffold(
       appBar: AppBar(
         title: Text('Collection Address'),
@@ -136,22 +134,6 @@ class _PaymentScreenState extends State<PaymentScreen> {
                           MaterialStateProperty.all<Color>(Colors.blue),
                     ),
                     onPressed: () async {
-                      setState((){
-                        _isLoading = true;
-                      });
-
-                      Future.delayed(Duration(seconds: 5),(){
-                        Navigator.of(context).pop();
-                        Navigator.of(context).push(
-                          CustomPageRoute(
-                            child: WelcomeScreen(
-                             
-                              languageIndex: widget.languageIndex,
-                            ),
-                          ),
-                        );
-
-                      });
                       
                       Customer customer =
                           Customer(widget.phoneNumber, widget.languageIndex);
@@ -182,15 +164,18 @@ class _PaymentScreenState extends State<PaymentScreen> {
                       } catch (error) {
                         log('Order Couldn\'t Be Saved. $error');
                       }
+
+                      Navigator.of(context).pop();
+                        Navigator.of(context).push(
+                          CustomPageRoute(
+                            child: WelcomeScreen(
+                             
+                              languageIndex: widget.languageIndex,
+                            ),
+                          ),
+                        );
                     },
-                    child: _isLoading?
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text('Saving Order...'),
-                        CircularProgressIndicator(color:Colors.white,)
-                      ],
-                    ):const Text('Request Delivery'),
+                    child: const Text('Request Delivery'),
                   ),
                 ],
               )),
