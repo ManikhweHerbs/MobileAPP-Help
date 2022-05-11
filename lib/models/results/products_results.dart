@@ -693,4 +693,19 @@ class ProductResultLanguage{
   [
     'Uvula Izinto Zakho Ezivalekile.',
   ];
+
+  static const imiphumelaMpumelelefihliwe = 
+  [
+    'Lamanzi Aveza Konke Okufihliwe Empilweni Yakho, Noma Ngabe Kukhona Izinto Ezagqitshwa '
+    'Ukuze Wena Ungaphumeleli, Noma Ngabe Kunamafindo Aboshwa Ngempilo Yakho Azoqaqeka '
+    'Ngalamanzi. Mengabe Usunawo Lamanzi Uqala Ngokokuwabika Edlozini Ngaphambi Kokuwasebenzisa. '
+    'Ushisa Impepho Uwabike Ngenkukhu Emhlophe Ozobe Uyipha Loyo Owayekuthanda Kakhulu Osewashona. '
+    'Uzofaka Inyongo Yenkukhu Phakathi Kulamanzi Usho Emsamu Ukuthi Iwona Ozowasebenzisa Ukuze Kuvele '
+    'Impumelelo Yakho Efihliwe. Ufaka Iconsi Emanzini Ogeza Ngawo, Ogquma Ngawo, Noma Ophalaza Ngawo. '
+    'Fanele Uzijwayeze Ukuthela Iconsi Esandleni Usule Ubuso Ngawo Kanye Nekhanda Ukuze Ehlezi Esebenza.'
+    'Njalo Mengabe Usebenzisa Lamanzi Uthi, "Impumelelo Yami Efihliwe Mayivele". Njalo Mengabe Ugquma Noma Uphalaza '
+    'Ufake Ama-CD Amabili Emanzini, Iconsi Lalamanzi, Ukhanyise Amakhandlela Amane(Blue, Yellow, Pink, White). '
+    'Lamakhandlela Uyawacisha Mengabe Usuqedile, Ayahlonishwa. Ama-CD Uwasebenzisa Izikhathi Ezintathu Bese Uyawalahla '
+    'Lawo Usebenzise Amanye Ongakaze Uwasebenzise. Lamanzi Awagcwaliswa, Mengabe Esephelile Aphelile.',
+  ];
 }

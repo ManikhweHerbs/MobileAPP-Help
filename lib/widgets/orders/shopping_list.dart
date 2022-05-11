@@ -278,6 +278,7 @@ class Language {
     Buyisokwebiwe buyisokwebiwe = Buyisokwebiwe(languageIndex);
     Motengantshontshwa motengantshontshwa = Motengantshontshwa(languageIndex);
     Tholokufunayo tholokufunayo = Tholokufunayo(languageIndex);
+    Mpumelelefihliwe mpumelelefihliwe = Mpumelelefihliwe(languageIndex);
 
     list.add(qalala); // Required
     list.add(sukakimi); // Required
@@ -301,6 +302,7 @@ class Language {
     list.add(buyisokwebiwe);
     list.add(motengantshontshwa);
     list.add(tholokufunayo);
+    list.add(mpumelelefihliwe);
 
     list.shuffle();
     return list;
@@ -410,6 +412,7 @@ class Language {
     Yekisiwunga yekisiwunga = Yekisiwunga(languageIndex);
     Gadamoto gadamoto = Gadamoto(languageIndex);
     Tholokufunayo tholokufunayo = Tholokufunayo(languageIndex);
+    Mpumelelefihliwe mpumelelefihliwe = Mpumelelefihliwe(languageIndex);
 
     list.add(qalala); // Required
     list.add(sukakimi); // Required
@@ -445,6 +448,7 @@ class Language {
     list.add(yekisiwunga);
     list.add(gadamoto);
     list.add(tholokufunayo);
+    list.add(mpumelelefihliwe);
 
     list.shuffle();
     return list;
@@ -813,6 +817,7 @@ class Language {
     Ngavalwa ngavalwa = Ngavalwa(languageIndex);
     Gadamoto gadamoto = Gadamoto(languageIndex);
     Tholokufunayo tholokufunayo = Tholokufunayo(languageIndex);
+    Mpumelelefihliwe mpumelelefihliwe = Mpumelelefihliwe(languageIndex);
 
     list.add(qalala); // Required
     list.add(sukakimi); // Required
@@ -842,6 +847,7 @@ class Language {
     list.add(ngavalwa);
     list.add(gadamoto);
     list.add(tholokufunayo);
+    list.add(mpumelelefihliwe);
 
     list.shuffle();
     return list;
@@ -1084,6 +1090,7 @@ class Language {
     IsibungeSomsebenzi isibungeSomsebenzi = IsibungeSomsebenzi(languageIndex);
     Mawuyitoho mawuyitoho = Mawuyitoho(languageIndex);
     Tholokufunayo tholokufunayo = Tholokufunayo(languageIndex);
+    Mpumelelefihliwe mpumelelefihliwe = Mpumelelefihliwe(languageIndex);
 
     list.add(qalala); // Required
     list.add(sukakimi); // Required
@@ -1116,6 +1123,7 @@ class Language {
     list.add(isibungeSomsebenzi);
     list.add(mawuyitoho);
     list.add(tholokufunayo);
+    list.add(mpumelelefihliwe);
 
     list.shuffle();
     return list;
@@ -1152,6 +1160,7 @@ class Language {
     Tholokufunayo tholokufunayo = Tholokufunayo(languageIndex);
     Zingaphakathi zingaphakathi = Zingaphakathi(languageIndex);
     Qedisayinasi qedisayinasi = Qedisayinasi(languageIndex);
+    Mpumelelefihliwe mpumelelefihliwe = Mpumelelefihliwe(languageIndex);
 
     list.add(qalala); // Required
     list.add(sukakimi); // Required
@@ -1181,6 +1190,7 @@ class Language {
     list.add(tholokufunayo);
     list.add(zingaphakathi);
     list.add(qedisayinasi);
+    list.add(mpumelelefihliwe);
 
     list.shuffle();
     return list;
@@ -1322,6 +1332,7 @@ class Language {
     Ungathakatheki ungathakatheki = Ungathakatheki(languageIndex);
     Bambiswane bambiswane = Bambiswane(languageIndex);
     Tholokufunayo tholokufunayo = Tholokufunayo(languageIndex);
+    Mpumelelefihliwe mpumelelefihliwe = Mpumelelefihliwe(languageIndex);
 
     list.add(Asisinde(languageIndex));
 
@@ -1354,6 +1365,7 @@ class Language {
     list.add(ungathakatheki);
     list.add(bambiswane);
     list.add(tholokufunayo);
+    list.add(mpumelelefihliwe);
 
     return list;
   }

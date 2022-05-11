@@ -83,9 +83,7 @@ abstract class Isiwasho extends Product{
 
 }
 
-// Advertised By Video
-// Advertised By Screen Shot
-// Bhula Sangoma
+
 class Asisinde extends Isiwasho{
 
   Asisinde(int languageIndex) : super('Asisinde',languageIndex,[
@@ -119,8 +117,6 @@ class Asisinde extends Isiwasho{
   }
 }
 
-// Advertised By Screen Shot
-// Impendulo
 class Asiphephe extends Isiwasho{
 
   Asiphephe(int languageIndex) : super('Asiphephe',languageIndex,[
@@ -156,8 +152,6 @@ class Asiphephe extends Isiwasho{
   }
 }
 
-// Advertised By Screen Shot
-// Umazibuthe
 class Mabeze extends Isiwasho{
 
   Mabeze(int languageIndex) : super('Mabeze',languageIndex,[
@@ -193,8 +187,6 @@ class Mabeze extends Isiwasho{
   }
 }
 
-// Advertised By Screen Shot
-// Nobuhle
 class Syamthanda extends Isiwasho{
 
   Syamthanda(int languageIndex) : super('Syamthanda',languageIndex,[
@@ -230,7 +222,6 @@ class Syamthanda extends Isiwasho{
   }
 }
 
-// Isimomondiya
 class MyNo1 extends Isiwasho{
 
   MyNo1(int languageIndex) : super('MyNo1',languageIndex,[
@@ -265,7 +256,6 @@ class MyNo1 extends Isiwasho{
   }
 }
 
-// Baganise
 class UmakotiLo extends Isiwasho{
 
   UmakotiLo(int languageIndex) : super('UmakotiLo',languageIndex,[
@@ -301,8 +291,6 @@ class UmakotiLo extends Isiwasho{
   }
 }
 
-// Advertised By Screen Shot
-// Yellow Bone
 class Mhloniphe extends Isiwasho{
 
   Mhloniphe(int languageIndex) : super('Mhloniphe',languageIndex,[
@@ -337,7 +325,6 @@ class Mhloniphe extends Isiwasho{
   }
 }
 
-// Advertised By Screen Shot
 // Fodo Finish
 class Siyakuvumela extends Isiwasho{
 
@@ -373,7 +360,6 @@ class Siyakuvumela extends Isiwasho{
   }
 }
 
-// Advertised By Screen Shot
 // Mpukane
 class Madida extends Isiwasho{
 
@@ -409,7 +395,6 @@ class Madida extends Isiwasho{
   }
 }
 
-// Advertised By Screen Shot
 class Esogazi extends Isiwasho{
 
   Esogazi(int languageIndex) : super('Esogazi',languageIndex, [
@@ -445,8 +430,6 @@ class Esogazi extends Isiwasho{
   }
 }
 
-
-// Advertised By Screen Shot
 class Sukadeda extends Isiwasho{
 
   Sukadeda(int languageIndex) : super('Sukadeda',languageIndex, [
@@ -485,7 +468,6 @@ class Sukadeda extends Isiwasho{
   }
 }
 
-// Advertised By Screen Shot
 class Uzozibonela extends Isiwasho{
 
   Uzozibonela(int languageIndex) : super('Uzozibonela',languageIndex, [
@@ -517,6 +499,33 @@ class Uzozibonela extends Isiwasho{
   String howToUse(){
     
     return HowToUseLanguage.gezaPhalazaMuthiDirections[languageIndex];
+  }
+}
+
+class Mpumelelefihliwe extends Isiwasho{
+
+  Mpumelelefihliwe(int languageIndex) : super('Mpumelelefihliwe',languageIndex, [
+    'Amanzi Esiphethu Abuya Entabeni', 
+    'Amakhandlela Amane(Blue, Yellow, White, Pink', 
+    'Ama-CD', 
+    ]){
+
+    iyachela = true;
+    Owner ganyile = Owner("Lwandile Ganyile", "Mayville Cato Crest 6257", true);
+    owner = ganyile;
+  }
+
+  @override 
+  List<String> findPurpose(){
+    
+    return [ProductResultLanguage.imiphumelaMpumelelefihliwe[languageIndex]];
+    
+  }
+
+  @override 
+  String howToUse(){
+    
+    return HowToUseLanguage.gqumaGezaPhalazaMuthiDirections[languageIndex];
   }
 }
 
@@ -604,7 +613,7 @@ abstract class Umuthi extends Product{
 }
 
 ///////////////////////////////////////////////////////////////////////////////////
-// Advertised By Screen Shot
+
 class Thandeka extends Umuthi{
 
   Thandeka(int languageIndex):super('Thandeka',languageIndex){
@@ -636,10 +645,40 @@ class Thandeka extends Umuthi{
   }
 }
 
+class ThandekaSiwasho extends Isiwasho{
 
+  late Thandeka thandeka;
 
+  ThandekaSiwasho(int languageIndex) : super('Thandeka',languageIndex,[
+    'Sea Salt', 
+    'camphor capsules', 
+    'Imvuthu ka Thandeka Umuthi, ', 
+    'Isiqhabo senhlanhla amafutha abovu',
+    'umlotha wamandiya omude', 
+    'Umkhando Pink']){
+    iyageza = true;
+    iyagquma = true;
+    iyaphalaza = true;
+    thandeka = Thandeka(languageIndex);
 
-// Advertised By Screen Shot
+    Owner ganyile = Owner("Lwandile Ganyile", "Mayville Cato Crest 6257", true);
+    owner = ganyile;
+  }
+
+  @override 
+  List<String> findPurpose(){
+    
+    return thandeka.findPurpose();
+     
+  }
+
+  @override 
+  String howToUse(){
+    
+    return HowToUseLanguage.isiwashoDirections[1][languageIndex];
+  }
+}
+
 class Thandekile extends Umuthi{
 
   Thandekile(int languageIndex):super('Thandekile',languageIndex){
@@ -678,7 +717,41 @@ class Thandekile extends Umuthi{
     return HowToUseLanguage.gqumaGezaPhalazaMuthiDirections[languageIndex];
   }
 }
-// Advertised By Screen Shot
+
+class ThandekileSiwasho extends Isiwasho{
+
+  late Thandekile thandekile;
+
+  ThandekileSiwasho(int languageIndex) : super('Thandekile',languageIndex,[
+    'Sea Salt', 
+    'camphor capsules', 
+    'Imvuthu ka Thandekile Umuthi, ', 
+    'Isiqhabo senhlanhla amafutha abovu',
+    'umlotha wamandiya omude', 
+    'Umkhando Ink']){
+    iyageza = true;
+    iyagquma = true;
+    iyaphalaza = true;
+    thandekile = Thandekile(languageIndex);
+
+    Owner ganyile = Owner("Lwandile Ganyile", "Mayville Cato Crest 6257", true);
+    owner = ganyile;
+  }
+
+  @override 
+  List<String> findPurpose(){
+    
+    return thandekile.findPurpose();
+     
+  }
+
+  @override 
+  String howToUse(){
+    
+    return HowToUseLanguage.isiwashoDirections[1][languageIndex];
+  }
+}
+
 class Mehlothando extends Umuthi{
 
   Mehlothando(int languageIndex):super('Mehlothando',languageIndex){
@@ -708,6 +781,41 @@ class Mehlothando extends Umuthi{
     return HowToUseLanguage.gqumaGezaPhalazaMuthiDirections[languageIndex] + ' 3 days.';
   }
 }
+
+class MehlothandoSiwasho extends Isiwasho{
+
+  late Mehlothando mehlothando;
+
+  MehlothandoSiwasho(int languageIndex) : super('Mehlothando',languageIndex,[
+    'Sea Salt', 
+    'camphor capsules', 
+    'Imvuthu ka Mehlothando Umuthi, ', 
+    'Isiqhabo senhlanhla amafutha abovu',
+    'umlotha wamandiya omude', 
+    'Umkhando blood red']){
+    iyageza = true;
+    iyagquma = true;
+    iyaphalaza = true;
+    mehlothando = Mehlothando(languageIndex);
+
+    Owner ganyile = Owner("Lwandile Ganyile", "Mayville Cato Crest 6257", true);
+    owner = ganyile;
+  }
+
+  @override 
+  List<String> findPurpose(){
+    
+    return mehlothando.findPurpose();
+     
+  }
+
+  @override 
+  String howToUse(){
+    
+    return HowToUseLanguage.isiwashoDirections[1][languageIndex];
+  }
+}
+
 
 class Thengani extends Umuthi{
 
@@ -739,7 +847,7 @@ class Thengani extends Umuthi{
     return 'Hlanganisa Lomuthi, Namanzi Owakhe Emfuleni Ohambayo, Chele Impahla Oyidayisayo, Usule Nobuso Ngawo Mawuqeda Ukuchela.';
   }
 }
-// Advertised By Screen Shot
+
 class Khanyisa extends Umuthi{
 
   Khanyisa(int languageIndex):super('Khanyisa',languageIndex){
@@ -772,7 +880,7 @@ class Khanyisa extends Umuthi{
     return HowToUseLanguage.phalazaUbandaMuthiDirections[languageIndex];
   }
 }
-// Advertised By Screen Shot
+
 class Belungubami extends Umuthi{
 
   Belungubami(int languageIndex):super('Belungubami',languageIndex){
@@ -866,7 +974,7 @@ class Usemndenini extends Umuthi{
     return HowToUseLanguage.gqumaGezaPhalazaMuthiDirections[languageIndex];
   }
 }
-// Advertised By Screen Shot
+
 class Sukakimi extends Umuthi{
 
   Sukakimi(int languageIndex):super('Sukakimi',languageIndex){
@@ -929,7 +1037,7 @@ class Qalala extends Umuthi{
   }
 }
 
-// Advertised By Screen Shot
+
 class Safisithosami extends Umuthi{
 
   Safisithosami(int languageIndex):super('Safisithosami',languageIndex){
@@ -1091,7 +1199,7 @@ class Mzimboshisayo extends Umuthi{
     return HowToUseLanguage.howToUseMzimboshisayo[languageIndex];
   }
 }
-// Advertised By Screen Shot
+
 class Mitha extends Umuthi{
 
   Mitha(int languageIndex):super('Mitha',languageIndex){
@@ -1132,7 +1240,7 @@ class Mitha extends Umuthi{
     return HowToUseLanguage.phuzaChathaMuthiDirections[languageIndex] + '. Uchatha Ngamanzi Afudumele.';
   }
 }
-// Advertised By Screen Shot
+
 class Nkomemnandi extends Umuthi{
 
   Nkomemnandi(int languageIndex):super('Nkomemnandi',languageIndex){
@@ -1167,8 +1275,6 @@ class Nkomemnandi extends Umuthi{
   }
 }
 
-// Advertised By Video
-// Advertised By Screen Shot
 class Labongidlozi extends Umuthi{
 
   Labongidlozi(int languageIndex):super('Labongidlozi',languageIndex){
@@ -1252,8 +1358,6 @@ class Skhundla extends Umuthi{
   }
 }
 
-// Advertised By Video
-// Advertised By Screen Shot
 class GezaUmsamo extends Umuthi{
 
   GezaUmsamo(int languageIndex):super('Gezumsamo',languageIndex){
@@ -1299,7 +1403,6 @@ class GezaUmsamo extends Umuthi{
   }
 }
 
-// Advertised By Screen Shot
 class Bhemuphuphe extends Umuthi{
 
   Bhemuphuphe(int languageIndex):super('Bhemuphuphe',languageIndex){
@@ -1446,7 +1549,6 @@ class Ngphuphe extends Umuthi{
   }
 }
 
-// Advertised By Screen Shot
 class Abakhokhe extends Umuthi{
 
   Abakhokhe(int languageIndex):super('Abakhokhe',languageIndex){
@@ -1583,7 +1685,6 @@ class Mdayisiwecala extends Umuthi{
   }
 }
 
-// Advertised By Screen Shot
 class Kuthole extends Umuthi{
   
   Kuthole (int languageIndex, {forGoodUse =true}):
@@ -1659,7 +1760,6 @@ class Wozanibathengi extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Bolisa extends Umuthi{
   
   Bolisa (int languageIndex, {forGoodUse =true}):
@@ -1721,8 +1821,6 @@ class Zaqaqeka extends Umuthi{
   
 }
 
-// Advertised By Video
-// Advertised By Screen Shot
 class Akabuye extends Umuthi{
   
   Akabuye (int languageIndex, {forGoodUse =true}):
@@ -1792,7 +1890,6 @@ class Akabuye extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Isigqabosothando extends Umuthi{
   
   Isigqabosothando (int languageIndex, {forGoodUse =true}):
@@ -1847,7 +1944,6 @@ class Isigqabosothando extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Ngthandeni extends Umuthi{
   
   Ngthandeni (int languageIndex, {forGoodUse =true}):
@@ -1889,7 +1985,6 @@ class Ngthandeni extends Umuthi{
   
 }
 
-// Advertised By Video
 class Akondle extends Umuthi{
   
   Akondle (int languageIndex, {forGoodUse =true}):
@@ -1899,7 +1994,7 @@ class Akondle extends Umuthi{
     Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
     owner = ntshangase;
      
-    price = Platform.isAndroid?350:550;
+    price = Platform.isAndroid?200:350;
 
     amakhubalo.add(Umnyamathi());
     amakhubalo.add(Sehlulamanye());
@@ -2014,7 +2109,6 @@ class Qinanduku extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Vikasbhamu extends Umuthi{
   
   Vikasbhamu (int languageIndex, {forGoodUse =true}):
@@ -2201,7 +2295,6 @@ class Mndenongaxabani extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Mndenozwanayo extends Umuthi{
   
   Mndenozwanayo (int languageIndex, {forGoodUse =true}):
@@ -2236,7 +2329,6 @@ class Mndenozwanayo extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Mpilemnandi extends Umuthi{
   
   Mpilemnandi (int languageIndex, {forGoodUse =true}):
@@ -2269,7 +2361,6 @@ class Mpilemnandi extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Hambamthakathi extends Umuthi{
   
   Hambamthakathi (int languageIndex, {forGoodUse =true}):
@@ -2380,8 +2471,7 @@ class Ubelethiswane extends Umuthi{
   }
   
 }
-// Advertised By Video
-// Advertised By Screen Shot
+
 class Donsamali extends Umuthi{
   
   Donsamali(int languageIndex, {forGoodUse =true}):
@@ -2422,8 +2512,6 @@ class Donsamali extends Umuthi{
   
 }
 
-// Advertised By Video
-// Advertised By Screen Shot
 class Malungabaleki extends Umuthi{
   
   Malungabaleki(int languageIndex, {forGoodUse =true}):
@@ -2455,7 +2543,6 @@ class Malungabaleki extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class SbambeleloXXX extends Umuthi{
   
   SbambeleloXXX(int languageIndex, {forGoodUse =true}):
@@ -2594,7 +2681,6 @@ class SbambeleloXYZ extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Qaqabethakathile extends Umuthi{
   
   Qaqabethakathile(int languageIndex, {forGoodUse =true}):
@@ -2629,7 +2715,6 @@ class Qaqabethakathile extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Gezamabhadi extends Umuthi{
   
   Gezamabhadi(int languageIndex, {forGoodUse =true}):
@@ -2681,7 +2766,7 @@ class Gezamabhadi extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class IsibungeXXX extends Umuthi{
   
   IsibungeXXX(int languageIndex, {forGoodUse =true}):
@@ -2769,8 +2854,6 @@ class IsibungeXXX extends Umuthi{
   
 }
 
-// Advertised By Video
-// Advertised By Screen Shot
 class Ozalwembethe extends Umuthi{
   
   Ozalwembethe(int languageIndex, {forGoodUse =true}):
@@ -2894,7 +2977,7 @@ class Kufogadlayo extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class VulidloziXXX extends Umuthi{
   
   VulidloziXXX(int languageIndex, {forGoodUse =true}):
@@ -2997,7 +3080,6 @@ class Vulidlozi extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Azwewenefonini extends Umuthi{
   
   Azwewenefonini(int languageIndex, {forGoodUse =true}):
@@ -3071,7 +3153,7 @@ class OwenhlanhlaXXX extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class LahlokubiXXX extends Umuthi{
   
   LahlokubiXXX(int languageIndex, {forGoodUse =true}):
@@ -3105,8 +3187,7 @@ class LahlokubiXXX extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
-// Lomuthi Uphindekule, Fanele Ngiwushintshe
+
 class Maqaqabebophile extends Umuthi{
   
   Maqaqabebophile(int languageIndex, {forGoodUse =true}):
@@ -3172,8 +3253,6 @@ class Bohlasisu extends Umuthi{
   
 }
 
-// Advertised By Video
-// Advertised By Screen Shot
 class Qedanduna extends Umuthi{
   
   Qedanduna(int languageIndex, {forGoodUse =true}):
@@ -3319,8 +3398,6 @@ class Babambanokwezinja extends Umuthi{
   
 }
 
-// Advertised By Video
-// Advertised By Screen Shot
 class Tholamawele extends Umuthi{
   
   Tholamawele(int languageIndex, {forGoodUse =true}):
@@ -3396,7 +3473,6 @@ class BohlasisuXXX extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class OshimileXXX extends Umuthi{
   
   OshimileXXX(int languageIndex, {forGoodUse =true}):
@@ -3474,7 +3550,7 @@ class SusaschithoXXX extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class ThandekaABC extends Umuthi{
   
   ThandekaABC(int languageIndex, {forGoodUse =true}):
@@ -3542,7 +3618,7 @@ class Phindisa extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class Amafuthebhanoyi extends Umuthi{
   
   Amafuthebhanoyi(int languageIndex, {forGoodUse =true}):
@@ -3902,8 +3978,6 @@ class QinaXXX extends Umuthi{
   
 }
 
-// Advertised By Video
-// Advertised By Screen Shot
 class Yakhumuzi extends Umuthi{
   
   Yakhumuzi(int languageIndex, {forGoodUse =true}):
@@ -3952,7 +4026,7 @@ class Yakhumuzi extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class Ngfunumsebenzi extends Umuthi{
   
   Ngfunumsebenzi(int languageIndex, {forGoodUse =true}):
@@ -3989,8 +4063,6 @@ class Ngfunumsebenzi extends Umuthi{
   
 }
 
-// Advertised By Video
-// Advertised By Screen Shot
 class Khulumisidlozi extends Umuthi{
   
   Khulumisidlozi(int languageIndex, {forGoodUse =true}):
@@ -4061,7 +4133,6 @@ class Hlola extends Umuthi{
   
 }
 
-// Advertised By Video
 class Donsabafazi extends Umuthi{
   
   Donsabafazi(int languageIndex, {forGoodUse =true}):
@@ -4198,7 +4269,7 @@ class IsikhafuloBMW extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class Angathinyaka extends Umuthi{
   
   Angathinyaka(int languageIndex, {forGoodUse =true}):
@@ -4242,7 +4313,6 @@ class Angathinyaka extends Umuthi{
   
 }
 
-// Advertised By Video
 class Intandoyasendlini extends Umuthi{
   
   Intandoyasendlini(int languageIndex, {forGoodUse =true}):
@@ -4276,7 +4346,7 @@ class Intandoyasendlini extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class Ngikufunala extends Umuthi{
   
   Ngikufunala(int languageIndex, {forGoodUse =true}):
@@ -4324,7 +4394,6 @@ class Ngikufunala extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
 
 // No Recipe, No How To Use Either
 class Owemfuyo extends Umuthi{
@@ -4418,8 +4487,6 @@ class Ukuzuqashwe extends Umuthi{
   
 }
 
-// Advertised By Video
-// Advertised By Screen Shot
 class Mubuyise extends Umuthi{
   
   Mubuyise(int languageIndex, {forGoodUse =true}):
@@ -4557,7 +4624,7 @@ class Mayibamanzintombi extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class Ngiseliwe extends Umuthi{
   
   Ngiseliwe(int languageIndex, {forGoodUse =true}):
@@ -4626,7 +4693,7 @@ class Mkhontowezitha extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class Sondezidlozi extends Umuthi{
   
   Sondezidlozi(int languageIndex, {forGoodUse =true}):
@@ -4803,7 +4870,7 @@ class Mfuyeningi extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class Skhafulo123 extends Umuthi{
   
   Skhafulo123(int languageIndex, {forGoodUse =true}):
@@ -4938,7 +5005,7 @@ class Umphuphutho extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class DonsuthandoXYZ extends Umuthi{
   
   DonsuthandoXYZ(int languageIndex, {forGoodUse =true}):
@@ -5006,7 +5073,7 @@ class Chathanje extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class Liyavukala extends Umuthi{
   
   Liyavukala(int languageIndex, {forGoodUse =true}):
@@ -5071,7 +5138,7 @@ class Ziphuzelenje extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class Gezelesgangeni extends Umuthi{
   
   Gezelesgangeni(int languageIndex, {forGoodUse =true}):
@@ -5114,7 +5181,7 @@ class Gezelesgangeni extends Umuthi{
   }
   
 }
-// Advertised By Screen Shot
+
 class Sesheli extends Umuthi{
   
   Sesheli(int languageIndex, {forGoodUse =true}):
@@ -5160,7 +5227,6 @@ class Sesheli extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Sokalamanyala extends Umuthi{
   
   Sokalamanyala(int languageIndex, {forGoodUse =true}):
@@ -5198,7 +5264,6 @@ class Sokalamanyala extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Mlandengesthombesakhe extends Umuthi{
   
   Mlandengesthombesakhe(int languageIndex, {forGoodUse =true}):
@@ -5229,7 +5294,6 @@ class Mlandengesthombesakhe extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Asizwisane extends Umuthi{
   
   Asizwisane(int languageIndex, {forGoodUse =true}):
@@ -5289,7 +5353,6 @@ class Asizwisane extends Umuthi{
   
 }
 
-// Advertised By Screen Shot
 class Owezishimane extends Umuthi{
   
   Owezishimane(int languageIndex, {forGoodUse =true}):
@@ -7203,7 +7266,6 @@ class DoublePay extends Umuthi{
   }
   
 }
-
 
 class Hleziqaphile extends Umuthi{
   
