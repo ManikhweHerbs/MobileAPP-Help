@@ -513,6 +513,7 @@ class Mpumelelefihliwe extends Isiwasho{
     iyachela = true;
     Owner ganyile = Owner("Lwandile Ganyile", "Mayville Cato Crest 6257", true);
     owner = ganyile;
+    price = 35;
   }
 
   @override 
