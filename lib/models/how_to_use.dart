@@ -230,7 +230,7 @@ class HowToUseLanguage{
 
   static const howToUseSbambeleloXXX = 
   [
-    'Gcoba Amashiya, Nezandla, Usingaqalake Ubathinte Abantu Besifazane.',
+    'Gcoba Amashiya, Nezandla, Usingaqalake Umthinte Omfunayo.',
   ];
 
   static const howToUseIsigqabosothando = 
@@ -594,5 +594,46 @@ class HowToUseLanguage{
 
   static const howToUseWenkanuko =
   ['Gcaba Inkaba Mengabe Uzoya Kowakwakho.',
+  ];
+
+  static const howToUseMafuthocansi =
+  [
+    'Gcoba Izandla Kanye Nesitho Sakho Sangasese Mengabe Uzoya Naye Ocansini.',
+  ];
+
+  static const howToUseAlisakhulumi =
+  [
+    'Gquma, Geza, Uphalaze Izinsuku Eziwu-5. Usungashisake Impepho Ulitshele Likhulume Lizokhuluma.',
+  ];
+
+  static const howToUseNgiyopha =
+  [
+    'Phuza U-Half Wenkomishi Ekuseni, Emini, Nasebusuku. Udlulise Izinsuku Ezintathu Uphinde Uphuze Kathathu Ngosuku, Njalo Njalo Ize Iphele.',
+  ];
+
+  static const howToUseMphephethe =
+  [
+    'Faka Esandleni, Phephetha Kubo Ubize Igama Nesibongosakhe.',
+  ];
+
+  static const howToUseQedukhuphe =
+  [
+    'Gquma Izinsuku Ezintathu.',
+  ];
+
+  static const howToUseHlulazitha =
+  [
+    'Geza, Gquma, Geza Izinsuku Eziyisikhombisa.',
+  ];
+
+  static const howToUseCuphangesbuko =
+  [
+    'igaye, uyisefe, yixube nezibizasegcekeni, nezendlela yakho, '
+    'thenga isibuko uzosifaka emgodini sibheke phezulu, thela '
+    'imithi esihlangene nezibi phezu kwesibuko, qaphela isithunzi '
+    'sakho singabi semgodini lapho kukhona isibuko, thela amalahle '
+    'avuthayo ngaphezulu kwemithi, ube ukhuluma “izitha zakho ozaziyo '
+    'nongazazi ezikufunayo zizokutholala” uphinde futhi uthele omunye '
+    'umuthi ugqibe uhambe ungabheki emuva.',
   ];
 }

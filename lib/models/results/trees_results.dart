@@ -1848,4 +1848,45 @@ class TreeResultLanguage{
     'Kwezoqaqa Izinto Zakho',
   ];
 
+  static const imiphumelaUmnungumabele = 
+  [
+    'Kwezokucacisa Amaphupho',
+  ];
+
+  static const imiphumelaUbulawu = 
+  [
+    'Kwezedlezi, Igwebu Labo Lihlambulula Isilwane Esizohlatshwa.',
+  ];
+
+  static const imiphumelaIntshungu = 
+  [
+    'Kwezokuqeda Ukopha',
+  ];
+
+  static const imiphumelaIngobamkhonto = 
+  [
+    'Kwezokunqoba Izitha',
+  ];
+
+  static const imiphumelaUdabulibhayi = 
+  [
+    'Kwezokucupha',
+  ];
+
+  static const imiphumelaIsehlangubo = 
+  [
+    'Kwezokucupha',
+  ];
+
+  static const imiphumelaUnguboziyeweni = 
+  [
+    'Kwezokucupha',
+  ];
+
+  static const imiphumelaIsehlangubo = 
+  [
+    'Kwezokucupha',
+  ];
+
+
 }

@@ -50,9 +50,9 @@ class ProductResultLanguage{
 
   // Siyakvumela/Fodo Finish
   static const imiphumelaSiyakuvumela = [
-    ['Senza Ulaleleke'],
-    ['Silanda Abathengi'],
-    ['Sigeza Idlozi'],
+    ['Bazwangawe Mengabe Ukhuluma'],
+    ['Uyalaleleka'],
+    ['Bavumela Okushoyo'],
   ];
 
   // Madida/Mpukane
@@ -68,7 +68,7 @@ class ProductResultLanguage{
     ['Ubanesicefe Esimnandi']
   ];
 
-  static const imiphumelaSukadeda = [
+  static const imiphumelaZashamthakathi = [
     ['Sixosha Zonke Izilwane Zomthakathi, Umkhovu, Isikhova, Kanye Nezinye.',],
     ['Siphuphisa Konke Okuyisandla Somthakathi Egcekeni, Umeqo,  Ischitho. ',],
     ['Okuthakathayo Uyaziveza Mengabe Eseduze Njengo Umakhelwane.',]
@@ -541,7 +541,7 @@ class ProductResultLanguage{
 
   static const imiphumelaSbambeleloXXX = 
   [
-    'Siletha Abantu Besifazane',
+    'Siletha Abantu Besifazane Ngokubathinta.',
   ];
 
   static const imiphumelaUbelethiswane = 
@@ -566,7 +566,7 @@ class ProductResultLanguage{
 
   static const imiphumelaNgavalwa = 
   [
-    'Owomuntu Owavalwa, Ngabe Isesigodlweni, Isebhisinisini, Isemalini, Noma Isemsebenzini.',
+    'Owomuntu Owavalwa, Ngabe Isesigodlweni, Isebhisinisini, Isemalini, Noma Isemsebenzini. Uyiswa Emfuleni Ohambayo Kwenziwe Yonke Into Khona.',
   ];
 
   static const imiphumelaNdukengami = 
@@ -708,4 +708,51 @@ class ProductResultLanguage{
     'Lamakhandlela Uyawacisha Mengabe Usuqedile, Ayahlonishwa. Ama-CD Uwasebenzisa Izikhathi Ezintathu Bese Uyawalahla '
     'Lawo Usebenzise Amanye Ongakaze Uwasebenzise. Lamanzi Awagcwaliswa, Mengabe Esephelile Aphelile.',
   ];
+
+  static const imiphumelaMafuthocansi = 
+  [
+    'Isibambelelo Esingena Ngocansi.',
+  ];
+
+  static const imiphumelaAyivuki1 = 
+  [
+    'Lizovuka Ipipi Lakho Kulenduku.',
+  ];
+
+  static const imiphumelaAlisakhulumi =
+  [
+    'Lomuthi Usiza Umangabe Idlozi Lakho Kade Likhuluma Kodwa Lingasakhulumi Nhlobo.',
+  ];
+
+  static const imiphumelaNgiyopha =
+  [
+    'Umangabe Ungowesifazane Uya Esikhathini Into Engapheli Noma Uvele Uye Esikhathini Mengabe Uzohlangana Nendoda Lomuthi Uzokuqeda Nya Konke Lokho.',
+  ];
+
+  static const imiphumelaQonyiwe =
+  [
+    'Umangabe Ungowesifazane Uya Esikhathini Into Engapheli Noma Uvele Uye Esikhathini Mengabe Uzohlangana Nendoda Lomuthi Uzokuqeda Nya Konke Lokho.',
+  ];
+
+  static const imiphumelaMphephethe = 
+  [
+    'Intombi Esihlule Ifuna Lesikhafulo Ukuze Uzoyithola.',
+  ];
+
+  static const imiphumelaQedukhuphe = 
+  [
+    'Umangabe Uzwa Sengathi Kunezinto Ezikuhambayo Esusweni Ikakhulukazi Okwenza Isidinga Ebantwini. Lokho Kuzophelanya Kubizwa Ngokhuphe.',
+  ];
+
+  static const imiphumelaHlulazitha = 
+  [
+    'Izitha Zakho Ziyahluleka Uwena.',
+  ];
+
+  static const imiphumelaCuphangesbuko = 
+  [
+    'Izitha Zakho Ozaziyo Nongazazi Ezikufunayo Zizokutholala '
+    'Kulomgodi Ozobe Ucuphe Kuwo. Abakwenzayo Ngeke Kufinyelele Kuwe.',
+  ];
+
 }
