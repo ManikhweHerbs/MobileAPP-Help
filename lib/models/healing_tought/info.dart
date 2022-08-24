@@ -17,7 +17,17 @@ class Info{
     'Inhliziyo yejuba ithanda ngalendlela, kodwa umfazi omdlise ngayo akawakhu umuzi kodwa uba nothando olukhulu.'
     'Ultramel, iskhuphasha seqanda, amakinati, umuthi ekuthiwa uqonsi, ubisi kuhlanganise uphuze kuvuke induku.'
     'Umasekukubi ngampela, vuka ngo 00:00 ebusuku uthandaze, nango 04:00 ekuseni ucele into eyodwa kuphela izinsuku ezintathu.' 
-  
+    'Kunomathithibala okwazi ukuvimba izulu, uwufaka phambili emnyango',
+    'Ukhamba lamashadi - kuthiwa Ukhamba lezizwe angulwazi',
+    'Ukhamba lethongo -  Kufuneka umuthi oqondene nalo ithongo nona omadlozana, ubani, umnungumabele, neminye…, okhambeni ufake nenyongo yeqhude lempangele. Lomuthi uzowufaka inyongo yalenkukhu, bese uphalaza ngawo njalo ekuseni 5 days noma uze ube weak. ',
+    'Ukhamba lamanono -  Kufuneka umuthi oqondene nama nono, okhambeni ufake nenyongo yeqhude elimhlophe. Lomuthi uzowufaka inyongo yalenkukhu, bese uphalaza ngawo njalo ekuseni 5 days noma uze ube weak. Uqondene nalaba abavela begqoke izinto ezimhlophe noma iminazaretha ephupheni.',
+    'Ukhamba lendiki -  Kufuneka izimpande zendiki, uzifaka okhambeni ufake nenyongo yeqhude elibovu. Lomuthi uzowufaka inyongo yalenkukhu, bese uphalaza ngawo njalo ekuseni 5 days noma uze ube weak. Uqondene namakhehla, ibhayi eliqhude ibhayi lengiki',
+    'Ukhamba lwesithunywa - amakhandlela 1 red, purple, blue, green, pink, 7 white, 7 yellow. Lamakhandlela uwabeka around Ukhamba lwakho elinomuthi noma isiwasho ozophalaza ngaso ube ubambe ibhande udle ngo12 mengabe uqeda ukuthandaza. Ukhamba lunamanzi empophomo, ulwandle, isiziba, umfula, imvula, isphethu, uzobe usufaka izinyongo zezinkukhu ezimbili ezimhlophe. Iqhude nesikhukhukazi. Uyophalaza njalo ekuseni uhlale endlini ungabi uvanzi. Amakhandlela amabili kulawa aw-7 uzoya nawo Emfuleni uhambayo uwakhanyise kube khona umuntu ozokukhulekela ube ubambe lamakhandlela ngapha nangapha ekhanya. Uzokufaka phakathi ngekhanda kaw-7. AMAKHANDLELA AZOCISHA LAPHO AZOPHINDE UWAKHANYESA MENGABE USUFIKE EKHAYA ESANGWENI UNGENE NAWEO EKHANYA. UZOBE USUKHANYISA NALAWA AMAKNDLELA AMANYE. MENGABE USUQEDILE NGALOLUKHAMBA FANELE UPHOTHULE NGOKUSEBENZISA INYONGO YEMBUZI MANZE NGALENDLELA OWENZE NGAYO. NKATHI WENZA NGEZINKUKHU',
+    '',
+    '',
+    '',
+    '',
+    '',
   
   ];
 }

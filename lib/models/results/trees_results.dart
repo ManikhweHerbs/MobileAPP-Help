@@ -1883,9 +1883,24 @@ class TreeResultLanguage{
     'Kwezokucupha',
   ];
 
-  static const imiphumelaIsehlangubo = 
+  static const imiphumelaUmhlonishwa = 
   [
-    'Kwezokucupha',
+    'Kwezesithunzi',
+  ];
+
+  static const imiphumelaUmkhaphalanga = 
+  [
+    'Kwezokubuyisa Isithandwa',
+  ];
+
+  static const imiphumelaIlathile = 
+  [
+    'Kwezokubuyisa Isithandwa',
+  ];
+
+  static const imiphumelaUbani = 
+  [
+    'Kwezokucacisa, Nakwezokuvika Izulu',
   ];
 
 

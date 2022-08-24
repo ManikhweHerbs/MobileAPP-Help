@@ -2060,7 +2060,9 @@ class Masendamakhulu extends Umuthi{
     amakhubalo.add(Inkomfe());
     amakhubalo.add(Umahlokoloza());
     amakhubalo.add(Ilabatheka(true));
-    amakhubalo.add(Intuma());
+    Intuma intuma = Intuma();
+    intuma.description = 'Enkulu';
+    amakhubalo.add(intuma);
     amakhubalo.add(Ubhoqo());
     amakhubalo.add(Ishongwe());
     
@@ -7740,6 +7742,295 @@ class Cuphangesbuko extends Umuthi{
   @override
   String howToUse() {
     return HowToUseLanguage.howToUseCuphangesbuko[languageIndex];
+  }
+  
+
+}
+
+class Syamdlisa1 extends Umuthi{
+  
+  Syamdlisa1(int languageIndex, {forGoodUse =true}):
+  super('Syamdlisa1',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?950:1210;
+    
+    amakhubalo.add(Isnama());
+    amakhubalo.add(Udelunina());
+    amakhubalo.add(Unhliziyonkulu());
+    amakhubalo.add(Umusa());
+    amakhubalo.add(Umathithibala());
+    amakhubalo.add(Umabopha());
+    amakhubalo.add(Indabulaluvalo());
+    amakhubalo.add(Umhlonishwa());
+    amakhubalo.add(Mlomomnandi());
+    amakhubalo.add(Isphahluka());
+    amakhubalo.add(Nginakile());
+
+    Ijuba ijuba = Ijuba();
+    ijuba.part = 'Heart';
+    animals.add(ijuba);
+  
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaSyamdlisa1[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.howToUseSyamdlisa1[languageIndex];
+  }
+  
+
+}
+
+class Syamdlisa2 extends Umuthi{
+  
+  Syamdlisa2(int languageIndex, {forGoodUse =true}):
+  super('Syamdlisa2',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?850:1110;
+    
+    amakhubalo.add(Isnama());
+    amakhubalo.add(Udelunina());
+    amakhubalo.add(Sondeza());
+    amakhubalo.add(Ibheka());
+    amakhubalo.add(Umunyu());
+    amakhubalo.add(Usgidi());
+    amakhubalo.add(Umathithibala());
+
+    extras.add('Umule Wakini');
+    extras.add('Inkwethu Yolwimi Lakho Negazi Legilo Lakho.');
+  
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaSyamdlisa2[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.howToUseSyamdlisa2[languageIndex];
+  }
+  
+
+}
+
+class Wamuhlebo extends Umuthi{
+  
+  Wamuhlebo(int languageIndex, {forGoodUse =true}):
+  super('Wamuhlebo',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?250:310;
+    
+    amakhubalo.add(Isbhaha());
+    amakhubalo.add(UvumaOmhlophe());
+    amakhubalo.add(Ubhubhubhu());
+  
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaWamuhlebo[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.phalazaMuthiDirections[languageIndex] + '3 Days.';
+  }
+  
+
+}
+
+class Ngiyamkhumbula extends Umuthi{
+  
+  Ngiyamkhumbula(int languageIndex, {forGoodUse =true}):
+  super('Ngiyamkhumbula',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?250:310;
+    
+    amakhubalo.add(Umthunyelelwa());
+    amakhubalo.add(Ibuya());
+    amakhubalo.add(Ugagane());
+
+    extras.add('Umchamo Wakho');
+  
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaNgiyamkhumbula[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.howToUseNgiyamkhumbula[languageIndex];
+  }
+  
+
+}
+
+class Yangaphambili extends Umuthi{
+  
+  Yangaphambili(int languageIndex, {forGoodUse =true}):
+  super('Yangaphambili',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?250:310;
+    
+    Unukani unukani = Unukani(true);
+    unukani.description = 'Akucaciswanga';
+    amakhubalo.add(unukani);
+    amakhubalo.add(Umalilisa());
+    amakhubalo.add(Impathampatha());
+    amakhubalo.add(Ibheka());
+    amakhubalo.add(Umondi());
+    amakhubalo.add(Usmayedwa());
+    amakhubalo.add(Umabopha());
+    amakhubalo.add(Mlomomnandi());
+    Isnama isnama1 = Isnama();
+    isnama1.description = 'Esaphansi';
+    amakhubalo.add(isnama1);
+    Isnama isnama2 = Isnama();
+    isnama2.description = 'Nesaphezulu';
+    amakhubalo.add(isnama2);
+    amakhubalo.add(Incamashela());
+
+    extras.add('Jamila Perfume');
+    extras.add('Ushukela Omhlophe');
+    extras.add('Vicks Kancane');
+
+    Inhlwathi inhlwathi = Inhlwathi();
+    inhlwathi.part = 'Amafutha';
+    animals.add(inhlwathi);
+
+    Imvubu imvubu = Imvubu();
+    imvubu.part = 'Oil';
+    animals.add(imvubu);
+  
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaYangaphambili[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.howToUseYangaphambili[languageIndex];
+  }
+  
+
+}
+
+class MbuyiseXXX extends Umuthi{
+  
+  MbuyiseXXX(int languageIndex, {forGoodUse =true}):
+  super('MbuyiseXXX',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?250:310;
+    
+    amakhubalo.add(Ubhubhubhu());
+    amakhubalo.add(Ilathile());
+    amakhubalo.add(Umwelela());
+    amakhubalo.add(Ungqangendlela());
+    amakhubalo.add(Umkhaphalanga());
+    amakhubalo.add(Umashwilishwili());
+
+    Isphahluka isphahluka = Isphahluka();
+    isphahluka.part = 'Induku Ozophehla Ngayo Ukhamba';
+
+    amakhubalo.add(isphahluka);
+
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaMbuyiseXXX[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.howToUseMbuyiseXXX[languageIndex];
+  }
+  
+
+}
+
+class HlisaBP extends Umuthi{
+  
+  HlisaBP(int languageIndex, {forGoodUse =true}):
+  super('HlisaBP',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?250:310;
+    
+    amakhubalo.add(Intwalubombo());
+    amakhubalo.add(Undiyaza());
+    amakhubalo.add(Inhlungunyembe());
+    amakhubalo.add(Intshungu());
+
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaHlisaBP1[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.phuzaOnlyMuthiDirections[languageIndex];
+  }
+  
+
+}
+
+class NqobaBP extends Umuthi{
+  
+  NqobaBP(int languageIndex, {forGoodUse =true}):
+  super('NqobaBP',
+  languageIndex){
+    Owner ntshangase = Owner("Mdu Ntshangase", "Mlazi DX1", true);
+    owner = ntshangase;
+    
+    price = Platform.isAndroid?250:310;
+    
+    Inhlaba inhlaba = Inhlaba();
+    inhlaba.description = 'Bilisa Isikhathi Eside';
+    
+    amakhubalo.add(inhlaba);
+
+  }
+
+  @override
+  List<String> findPurpose() {
+    return [ProductResultLanguage.imiphumelaHlisaBP2[languageIndex]];
+  }
+
+  @override
+  String howToUse() {
+    return HowToUseLanguage.phuzaOnlyMuthiDirections[languageIndex];
   }
   
 

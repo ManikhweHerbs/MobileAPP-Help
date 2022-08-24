@@ -636,4 +636,31 @@ class HowToUseLanguage{
     'nongazazi ezikufunayo zizokutholala” uphinde futhi uthele omunye '
     'umuthi ugqibe uhambe ungabheki emuva.',
   ];
+
+  static const howToUseSyamdlisa1 =
+  [
+    'Faka Entweni Azoyidla.',
+  ];
+
+  static const howToUseSyamdlisa2 =
+  [
+    'Faka Entweni Azoyidla.',
+  ];
+
+
+  static const howToUseNgiyamkhumbula = 
+  [
+    'Hlanganisa Lomuthi Nomchamo Wakho Wasekuseni Umkhafuleke Omthandayo.',
+  ];
+
+  static const howToUseYangaphambili =
+  [
+    'Gcoba Isitho Sakho Sangasese Mengabe Uzoya Ocansini Naye.',
+  ];
+
+  static const howToUseMbuyiseXXX =
+  [
+    'Uphahla Umuthi Ngenduku Ehambisana Nawo Umuthi.',
+  ];
+
 }
